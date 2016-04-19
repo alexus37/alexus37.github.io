@@ -141,7 +141,7 @@ info.update = function (props, updateType) {
     } else if(updateType === 'track') {
         this._div.innerHTML = '<h4>' + props.type  + '</h4>from: <b>' + props.from + '</b><br />to: <b>' + props.to + '</b>';
     } else {
-        this._div.innerHTML = 'Hover over a marker or a polyline';
+        this._div.innerHTML = 'Hover over an object or click on a marker.';
     }
 
 };
