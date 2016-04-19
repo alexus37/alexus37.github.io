@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Report</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="resources/diffWidget.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="resources/diffWidget.js"></script>
+<style type="text/css">
+<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico'/>
+html, body {
+		height: 100%;
+		margin: 0;
+	}
+	.navbar-shadow {
+	  background-color: #2c2c2c;
+	  background-image: linear-gradient(top, #333333, #222222);
+	  background-repeat: repeat-x;
+	  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+	}
+	#wrapper {
+                min-height: 100%;
+                height: auto !important;
+                height: 100%;
+                margin: 0 auto;
+                background: url("images/wallpaper.jpg") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+    }
+	.jumbotron {
+		box-shadow: 0px 10px 50px #000000;
+		background: rgba(208, 74, 2, 0.8);
+		margin-top: 50px;
+	}
+
+	.thumb {
+		list-style:none;
+	}
+
+	.imgContainer {
+		width: 100%;
+	}
+
+	#myCarousel {
+		width: 900px;
+		height: 500px;
+		margin-left: 60px;
+	}
+
+	#myimages {
+		margin-left: auto;
+		margin-right:auto;
+		width: 263px;
+		height: 340px;
+	}
+	#textureImages {
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	#textureImagesrow {
+		margin-right: 20px;
+		margin-left: -15px;
+		margin-top: 10; 
+  		margin-bottom: 10px; 
+
+	}
+
+	.text{
+		color: black;
+	}
+	.text1{
+		color: black;
+		margin-left: 30px;
+	  	font-size: 18px;
+	}
+	.text2{
+		color: black;
+		margin-left: 40px;
+	  	font-size: 18px;		
+	}
+	.verification {
+		margin-left: 30px;
+	}
+	.panel-title {
+	  font-size: 22px;
+	}
+
+</style>
+<script type="text/javascript">
+	$(document).ready(function(){
+           $('li img').on('click',function(){
+                var src = $(this).attr('src');
+                var img = '<img src="' + src + '" class="img-responsive"/>';
+                $('#myModal').modal();
+                $('#myModal').on('shown.bs.modal', function(){
+                    $('#myModal .modal-body').html(img);
+                });
+                $('#myModal').on('hidden.bs.modal', function(){
+                    $('#myModal .modal-body').html('');
+                });
+           });  
+        })
+</script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Final Project report Image Synthesis 2015 from Alexander Lelidis</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Motivation</a></li>
+            <li><a data-toggle="collapse" data-parent="#accordion" href="#simple">Simple features</a></li>
+            <li><a data-toggle="collapse" data-parent="#accordion" href="#medium">Moderate features</a></li>
+            <li><a data-toggle="collapse" data-parent="#accordion" href="#hard">Advanced features</a></li>
+            <li><a data-toggle="collapse" data-parent="#accordion" href="#other">Other features</a></li>
+            <li><a data-toggle="collapse" data-parent="#accordion" href="#final">Final image</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+</nav>
+<div id = "wrapper">
+	<div class="container">
+		<div class="jumbotron" >
+			<h2 class="text">Motivation</h2>
+			<p class="text">
+				The idea behind my proposal is to underline the lovely Swiss nature. 
+				I want to render a complicated forest scene in the morning. The scene 
+				should contain a rarely used train track on which you can see a very old 
+				Swiss made train approaching. The train will be a steam locomotive,
+				which emits a lot of dark steam. Because the scene takes place in the morning
+				it will be very foggy, so that you can see the sun rays passing through
+				the forest canopy. Since I was not able to find a photograph which exactly fits my
+				thoughts, I decided to take multiple photographs and combine their best elements. 
+				In the following part I will explain which features I want to implement to achieve
+				the effects.
+			</p>
+			<h3 class="text">Forest</h3>
+			<p class="text">
+				The following gallery shows a few photographs of forests in the morning and contains
+				the volumetric light rays from the sun passing through the fog.
+			</p>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  	<ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+			  	</ol>
+
+			  <!-- Wrapper for slides -->
+			  	<div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				        <img src="images/img1.jpg" alt="Chania" height="500" width="900">
+				    </div>
+
+				    <div class="item">
+				        <img src="images/img2.jpg" alt="Chania" height="500" width="900">
+				    </div>
+
+				    <div class="item">
+				        <img src="images/img3.jpg" alt="Flower" height="500" width="900">
+				    </div>
+			  	</div>
+
+			  <!-- Left and right controls -->
+			    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    	<span class="sr-only">Previous</span>
+			    </a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<br>
+			<div class="row imgContainer">
+				<div class="col-md-6">
+					<h3 class="text">Tracks</h3>
+					<p class="text">
+						For my final rendering I want to use the third forest image as a rough guide for the scene. 
+						I also want to add an old train track to the scene, which is covered by moss.
+						<div id="myimages">
+							<div class="thumbnail">
+								<ul class="row">
+									<li class="thumb">
+					         			<img src="images/tracks.jpg" height="320" width="206" class="img-responsive" alt="Responsive image">
+					         		</li>
+				      			</ul>
+				      		</div>
+						</div>				
+					</p>
+				</div>
+				<div class="col-md-6">
+					<h3 class="text">Train</h3>
+					<p class="text">
+						As mentioned before, I also want to render a steam locomotive. I chose that 
+						photography, because it is a really nice perspective and the steam looks really
+						impressive.
+						<div id="myimages">
+							<div class="thumbnail">
+								<ul class="row">
+									<li class="thumb">
+					         			<img src="images/train.jpg" height="325" width="185" class="img-responsive" alt="Responsive image">
+					         		</li>
+				      			</ul>
+				      		</div>
+						</div>
+					</p>
+				</div>
+			</div>
+			
+
+		    <div class="panel-group" id="accordion">
+		        <div class="panel panel-default">
+		            <div class="panel-heading">
+		                <h3 class="panel-title">
+		                    <a data-toggle="collapse" data-parent="#accordion" href="#simple">Simple features</a>
+		                </h3>
+		            </div>
+		            <div id="simple" class="panel-collapse collapse">
+		                <div class="panel-body">
+		                	<h3>Texturing (5 Points)</h3>
+		                	<p class="text1">
+		                		To achieve a realistic floor with grass and rocks, I want to implement texture mapping.
+		                		The UV coordinates should be stored in the obj file. Textures are implemented by loading exr files 
+		                		and applying them to the meshes. The pixel values from the image are bilinear interpolated.
+		                		<div class="col-md-6">
+									<h3 class="text">Ironman</h3>
+									<p class="text">
+										The image is rendered with direct emitter sampling and 512 spp.
+										<div id="textureImages">
+											<div class="thumbnail">
+												<ul id="textureImagesrow">
+													<li class="thumb">
+									         			<img src="images/Texture/textureIronman.jpg" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+								      			</ul>
+								      		</div>
+										</div>				
+									</p>
+								</div>
+								<div class="col-md-6">
+									<h3 class="text">Ants</h3>
+									<p class="text">
+										The image is rendered with direct emitter sampling and 512 spp.
+										<div id="textureImages">
+											<div class="thumbnail">
+												<ul id="textureImagesrow">
+													<li class="thumb">
+									         			<img src="images/Texture/textureFigure.jpg" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+								      			</ul>
+								      		</div>
+										</div>				
+									</p>
+								</div>
+
+		                		
+								
+		                	</p>
+		                	<div class="verification">
+	                			<h3>Validation</h3>
+	                			<p>
+	                				In this comparison I render a UV validation scene with direct emitter sampling with 512 spp and the same scene with 
+	                				photon mapping and 10.000.000 photons and a search radius of 0.5. As you can see, the photon mapping is a little 
+	                				bit brighter, because it takes the global illumination into account.
+	                				<div id="valTexture"></div>
+	                			</p>
+	                			<h3>Source code</h3>
+	                			<p>
+	                				include/texture.h <br>
+	                				Texture/imageTexture.cpp
+	                			</p>
+	                		</div>
+	                				                	
+		                	<h3>Normal Mapping (5 Points)</h3>
+
+		                	<p class="text1">
+		                		I implemented normal mapping to add small perturbations to the floor. The normal maps are saved as exr files. They are loaded and interpolated 
+		                		in a similar fashion as image textures. The RGB values represent the normal in tangent space, which needs to be
+		                		translated to world space using the surface normal, tangent and the bi tangent.
+
+		                	</p>
+		                	<div class="verification">
+		                		
+	                			<h3>Validation</h3>
+	                			<p>
+	                				To validate normal mapping I rendered the same image with normal map and without normal map.	                			
+	                				<div id="valNormalMapping"></div>
+	                			</p>
+	                			<h3>Source code</h3>
+	                			<p>
+	                				include/bumpTexture.h<br>
+	                				Texture/singleBumpTexture.cpp
+	                			</p>
+	                		</div>
+
+		                	<h3>Perlin Noise (5 Points)</h3>
+		                	<p class="text1">
+		                		With Perlin noise I want to mix different types of textures or BSDF's and create new types of textures. 
+		                		It is also possible to mix their normal maps. We can see that the more levels we use, the lower are the frequencies we get.	
+		                	</p>
+		                	<div class="verification">
+	                			<h3>Validation</h3>
+	                			<div class="col-md-4">
+									<h3 class="text">Brick wall and moss</h3>
+									<p class="text">
+										The image is rendered with direct emitter sampling and 512 spp. The Perlin noise map has size 128 x 128 and the threshold is 
+										0.3 and we used 4, 8, 32 levels
+										<div id="textureImages">
+											<div class="thumbnail">
+												<ul id="textureImagesrow">
+													<li class="thumb">
+									         			<img src="images/Texture/mixTexture_4_3.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+									         		<li class="thumb">
+									         			<img src="images/Texture/mixTexture_8_3.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+									         		<li class="thumb">
+									         			<img src="images/Texture/mixTexture_32_3.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+								      			</ul>
+								      		</div>
+										</div>				
+									</p>
+								</div>
+								<div class="col-md-4">
+									<h3 class="text">Brick wall and moss</h3>
+									<p class="text">
+										The image is rendered with direct emitter sampling and 512 spp. The Perlin noise map has size 128 x 128 and the threshold is 
+										0.6 and we used 4, 8, 32 levels.
+										<div id="textureImages">
+											<div class="thumbnail">
+												<ul id="textureImagesrow">
+													<li class="thumb">
+									         			<img src="images/Texture/mixTexture_4_6.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+									         		<li class="thumb">
+									         			<img src="images/Texture/mixTexture_8_6.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+									         		<li class="thumb">
+									         			<img src="images/Texture/mixTexture_32_6.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+								      			</ul>
+								      		</div>
+										</div>				
+									</p>
+								</div> 
+								<div class="col-md-4">
+									<h3 class="text">Brick wall and moss</h3>
+									<p class="text">
+										The image is rendered with direct emitter sampling and 512 spp. The Perlin noise map has size 128 x 128 and the threshold is 
+										0.9 and we used 4, 8, 32 levels
+										<div id="textureImages">
+											<div class="thumbnail">
+												<ul id="textureImagesrow">
+													<li class="thumb">
+									         			<img src="images/Texture/mixTexture_4_9.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+									         		<li class="thumb">
+									         			<img src="images/Texture/mixTexture_8_9.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+									         		<li class="thumb">
+									         			<img src="images/Texture/mixTexture_32_9.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+								      			</ul>
+								      		</div>
+										</div>				
+									</p>
+								</div> 
+								<h3>Source code</h3>
+	                			<p>	                				
+	                				Texture/mixBumpmap.cpp <br>
+	                				Texture/mixTexture.cpp <br>
+	                				Texture/perlinTexture.cpp
+	                			</p> 
+	                		</div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="panel panel-default">
+		            <div class="panel-heading">
+		                <h3 class="panel-title">
+		                    <a data-toggle="collapse" data-parent="#accordion" href="#medium">Moderate features</a>
+		                </h3>
+		            </div>
+		            <div id="medium" class="panel-collapse collapse">
+		                <div class="panel-body">
+		                	<h3>Environment map emitter with importance sampling (15 Points)</h3>
+		                	<p class="text1">
+		                		Lighting with captured real-world lighting conditions ("light probes") 
+		                		is a relatively cheap and simple way to add considerable realism to a rendering.
+		                		To reduce noise and converge faster to the right solution, the map needs to be importance
+		                		sampled.
+		                		The importance sampling is done by creating the CDF of the pixels radiance. We first 
+		                		sample a row using the discrete PDF of the row and after that, we use the radiance values 
+		                		in that row to sample a pixel. Due to the mapping from a rectangular image to an infinite
+		                		sphere, we get a much denser pixel distribution around the poles. This can be taken care 
+		                		of by multiplying the PDF of the pixel with sin(theta), where theta is the angle between the
+		                		normal and the sampled direction. 
+		                		<div class="col-md-6">
+									<h3 class="text">Perfect mirror </h3>
+									<p class="text">
+										The image is rendered with path tracing with multiple importance sampling using 512 spp. 
+										<div id="textureImages">
+											<div class="thumbnail">
+												<ul id="textureImagesrow">
+													<li class="thumb">
+									         			<img src="images/envmap/lightprobe1Mirror.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+								      			</ul>
+								      		</div>
+										</div>				
+									</p>
+								</div>
+								<div class="col-md-6">
+									<h3 class="text">Glossy Mircofacet</h3>
+									<p class="text">
+										The image is rendered with path tracing with multiple importance sampling using 512 spp. 
+										<div id="textureImages">
+											<div class="thumbnail">
+												<ul id="textureImagesrow">
+													<li class="thumb">
+									         			<img src="images/envmap/lightprobe1MF.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+									         		</li>
+								      			</ul>
+								      		</div>
+										</div>				
+									</p>
+								</div>
+								<div class="col-md-6">
+									<div id="textureImages">
+										<div class="thumbnail">
+											<ul id="textureImagesrow">
+												<li class="thumb">
+								         			<img src="images/envmap/lightprobe2Mirror.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+								         		</li>
+							      			</ul>
+							      		</div>
+									</div>				
+									
+								</div>
+								<div class="col-md-6">
+									<div id="textureImages">
+										<div class="thumbnail">
+											<ul id="textureImagesrow">
+												<li class="thumb">
+								         			<img src="images/envmap/lightprobe2MF.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+								         		</li>
+							      			</ul>
+							      		</div>
+									</div>				
+								</div>
+		                	</p>
+		                	<div class="verification">
+	                			<h3>Validation</h3>
+	                			<p class="text2">
+	                				<h3>At the Window (Wells, UK)</h3>
+	                				<div id="valEnvMap1"></div>
+	                				<h3>Overcast day at Techgate Donaucity</h3>
+	                				<div id="valEnvMap2"></div>
+									<h3 class="text">Sampling and integrated density histograms</h3>
+	                				<div class="col-md-12">
+                						<div class="thumbnail">
+											<ul class="row">
+												<li class="thumb">
+								         			<img src="images/envmap/compareL2.png" height="275" width="793" class="img-responsive" alt="Responsive image">
+								         		</li>
+							      			</ul>
+							      		</div>
+									</div>
+	                			</p>
+	                			<h3>Source code</h3>
+	                			<p>	                				
+	                				Emitter/envMapEmitter.cpp<br>
+	                				Warp/HSWrapper.cpp <br>
+	                				Warp/warp.cpp <br>
+	                				Warp/warptest.cpp
+	                			</p> 
+	                		</div>		                	
+		                </div>
+		            </div>
+		        </div>
+		        <div class="panel panel-default">
+		            <div class="panel-heading">
+		                <h3 class="panel-title">
+		                    <a data-toggle="collapse" data-parent="#accordion" href="#hard">Advanced features</a>
+		                </h3>
+		            </div>
+		            <div id="hard" class="panel-collapse collapse">
+		                <div class="panel-body">
+		                	<h3>Volumetric Photon mapping with beam radiance estimate (30 Points)</h3>
+		                	<p class="text1">
+		                		I implemented volumetric photon mapping with homogeneous media using the 
+		                		Henyey Greenstein and Schlick phase function with importance sampling. The first step
+		                		is to store the photons not only on the surfaces, but also change the photon shooting, to be able 
+		                		to store photons also in volumes. After the photon shooting is done, we need to assign
+		                		a radius to each photon, depending on the distance to the k nearest neighbor. K is depending 
+		                		on the number of shot photons and the scene size. The next step is to create a bounding box hierarchy using the 
+		                		kd - tree and the photon radius. To be able to render volumes it is also necessary to implement
+		                		a ray BBH intersection, which returns all photons where the ray intersects the attached sphere.
+		                	</p>
+		                	<div class="verification">
+	                			<h3>Validation</h3>
+	                			<h3>Phase functions</h3>
+	                			<p class="text2">
+	                				The following images show the Henyey Greenstein and Schlick phase function for forward, backward and isotropic
+	                				scattering. I implemented a warpping test for both phase functions and both passed the chi square test. 
+	                				For Henyey Greenstein parameter g I used -0.9, 0.0 and 0.9 and for the Schlicks parameter K used the same values. If
+	                				the phase function should match exactly k is defined as k = = 1.55 * g - 0.55 * g * g * g.
+	                			</p>
+	                			<div class="col-md-4">
+									<h3 class="text">Backward</h3>
+									<div id="backward"></div>										
+								</div>
+								<div class="col-md-4">
+									<h3 class="text">Isotropic</h3>	
+									<div id="iso"></div>																				
+								</div>
+								<div class="col-md-4">
+									<h3 class="text">Forward</h3>												
+									<div id="forward"></div>
+								</div>
+								<!-- CHISQUARED-->
+								<div class="col-md-12">
+									<h3 class="text">Backward</h3>
+									<div id="backwardTest"></div>											
+								</div>
+								<div class="col-md-12">
+									<h3 class="text">Isotropic</h3>												
+									<div id="isoTest"></div>	
+								</div>
+								<div class="col-md-12">
+									<h3 class="text">Forward</h3>
+									<div id="forwardTest"></div>	
+								</div>
+								<h3>Validation with basic volumetric path tracing</h3>
+								<p>
+									I also implemented basic volumetric path tracing to be able to validate my implementation.
+									Therefor I created a very simple scene, containing only 1 light and 1 isotropic medium. 												
+								</p>
+								<h4>Equal render time ~8.5 seconds</h4>
+								<p>
+									In this image I rendered the scene with the same rendering time for both integrator.
+									For path tracing I used 46 spp and for photon mapping I used 10.000 photons with 
+									k equal to 100. We can clearly see that photon mapping has less noise, but we can also 
+									see the bias introduced by blurring.
+									<div id="brePTEqTime"></div>
+
+								</p>
+								<h4>Equal quality</h4>
+								<p>
+									In this image I tried to  get the same quality with photon mapping and path tracing.
+									I used 1.000.000 photons and for path tracing 1512 spp. In path tracing we can still see 
+									some noise. But the overall appearance between both is similar.
+									<div id="brePTEqQual"></div>
+								</p>
+								<h3>Validation with spot lights</h3>
+								<p>
+									The following validation scene compares the classical Cornell box with a spot light
+									rendered with volumetric photon mapping with ray marching and with beam radiance estimate. 
+									It is clearly visible that ray marching with a fixed radius blurs the image and the beam 
+									radiance can preserve the sharp cone of the spot light.
+									<div id="breSpot"></div>	
+								</p>
+								<h3>Validation of the homogeneous media</h3>
+								<p>
+									To validate the transmittance and the scattering behavior I implemented a small program in C++ with libigl, which takes
+									the positions of the photons as an OFF file, their volume bounding box and visualizes them. In 
+									next comparison I put an area light inside a medium and changed the phase function to be forward
+									and backward scattering. We can clearly see the position of the area light and also that there are much more photons
+									stored behind the area light, if the medium is backward scattering.
+									<div id="libigl"></div>	
+								</p>
+								<h3>Source code</h3>
+	                			<p>	                				
+	                				Integrators/beamRadianceEstimate.cpp<br>
+	                				Volumes/homogeneousVolumeDensity.cpp <br>
+	                				include/nori/phaseFunction.h<br>
+	                				include/nori/kdtree.h<br>
+	                				include/nori/photon.h<br>
+	                				include/nori/volume.h<br>
+	                				Warp/warptest.cpp <br>
+	                				Warp/HenyeyGreenstein.cpp <br>
+	                				Warp/Schlick.cpp <br>
+	                				Warp/warp.cpp <br>
+	                			</p> 
+	                		</div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="panel panel-default">
+		            <div class="panel-heading">
+		                <h3 class="panel-title">
+		                    <a data-toggle="collapse" data-parent="#accordion" href="#other">Other features</a>
+		                </h3>
+		            </div>
+		            <div id="other" class="panel-collapse collapse">
+		                <div class="panel-body">
+		                	<h3>Basic volumetric path tracing</h3>
+		                	<h3>Source code</h3>
+	                			<p>	                				
+	                				Integrators/basicVolumentricPathTracer.cpp<br>	                				
+	                			</p> 
+		                	<h3>Volumetric photon mapping with ray marching</h3>
+		                	<h3>Source code</h3>
+	                			<p>	                				
+	                				Integrators/volumetricPhotonmapper.cpp<br>	                				
+	                			</p>
+		                	<h3>spot lights</h3>
+		                	<h3>Source code</h3>
+	                			<p>	                				
+	                				Emitters/spotLight.cpp<br>	                				
+	                			</p>
+		                	<h3>Directional Area Lights</h3>
+		                	<p>
+		                		To be able to create sharp light paths I implemented directional area lights. The only difference 
+		                		is that they can only shoot photons in the direction of their normal. This comparison shows the same
+		                		scene with a normal area light and a directional area light.		                		
+		                		<div id="directional"></div>
+		                	</p>
+		                	<h3>Source code</h3>
+	                			<p>	                				
+	                				Emitters/arealight.cpp<br>	                				
+	                				include/nori/arealight.h
+	                			</p>
+		                	<h3>Textured Area Lights</h3>
+		                	<p>
+		                		Another very nice feature is textured emitters, which is basically a mesh with a texture assigned to it.
+		                		If we want to importance sample the light we use the same method as in the environment map, otherwise we just 
+		                		look up the radiance in the image. If you combine
+		                		the feature with homogeneous media you can get very nice effects like this one.
+		                		<div class="col-md-12">
+            						<div class="thumbnail">
+										<ul class="row">
+											<li class="thumb">
+							         			<img src="images/other/directEMSTextEmitVol.png" height="600" width="800" class="img-responsive" alt="Responsive image">
+							         		</li>
+						      			</ul>
+						      		</div>
+								</div>
+		                	</p>
+		                	<h3>Source code</h3>
+	                			<p>	                				
+	                				Emitters/textureEmitter.cpp<br>	                					                				
+	                			</p>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="panel panel-default">
+		            <div class="panel-heading">
+		                <h3 class="panel-title">
+		                    <a data-toggle="collapse" data-parent="#accordion" href="#final">Final image</a>
+		                </h3>
+		            </div>
+		            <div id="final" class="panel-collapse collapse">
+		                <div class="panel-body">
+			                <h3>Modeling</h3>
+			                <p>
+			                	I modeled my scene completely in Blender, all meshes were available for free and some
+			                	parts I modeled myself.
+			                	<div class="col-md-6">
+									<div id="textureImages">
+										<div class="thumbnail">
+											<ul id="textureImagesrow">
+												<li class="thumb">
+								         			<img src="images/final/modeling1.png" height="434" width="596" class="img-responsive" alt="Responsive image">
+								         		</li>
+							      			</ul>
+							      		</div>
+									</div>													
+								</div>
+								<div class="col-md-6">
+									<div id="textureImages">
+										<div class="thumbnail">
+											<ul id="textureImagesrow">
+												<li class="thumb">
+								         			<img src="images/final/modeling2.png" height="434" width="596" class="img-responsive" alt="Responsive image">
+								         		</li>
+							      			</ul>
+							      		</div>
+									</div>													
+								</div>
+								<div class="col-md-6">
+									<div id="textureImages">
+										<div class="thumbnail">
+											<ul id="textureImagesrow">
+												<li class="thumb">
+								         			<img src="images/final/modeling3.png" height="434" width="596" class="img-responsive" alt="Responsive image">
+								         		</li>
+							      			</ul>
+							      		</div>
+									</div>													
+								</div>
+								<div class="col-md-6">
+									<div id="textureImages">
+										<div class="thumbnail">
+											<ul id="textureImagesrow">
+												<li class="thumb">
+								         			<img src="images/final/modeling4.png" height="434" width="596" class="img-responsive" alt="Responsive image">
+								         		</li>
+							      			</ul>
+							      		</div>
+									</div>													
+								</div>
+		                	</p>
+			                </p>
+			                <h3>My final image</h3>
+			                <p>
+			                	My final image is a forest scene very early in the morning, in which a train is passing through.
+			                	It is very close to my motivational images, expect the heterogeneous smoke, which
+			                	was not possible for me to model. 
+			                </p>
+		                	<div class="col-md-12">
+        						<div class="thumbnail">
+									<ul class="row">
+										<li class="thumb">
+						         			<img src="images/final/final.png" height="791" width="1390" class="img-responsive" alt="Responsive image">
+						         		</li>
+					      			</ul>
+					      		</div>
+							</div>
+			                
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		    <h2 class="text">Acknowledgments</h2>
+		    <ul>
+		    	<li>
+		    		<p class="text">
+		    			The background image is from <a href="http://warnerboutique.com/golden-light-in-the-winter-forest-wallpaper/">Warner Boutique</a>
+		    		</p>
+		    	</li>
+		    	<li>
+		    		<p class="text">
+		    			The first forest image is from <a href="http://dianavvolf.deviantart.com/">Diviant art</a>
+		    		</p>
+		    	</li>
+		    	<li>
+		    		<p class="text">
+		    			The second forest image is from <a href="http://www.outdoor-photos.com/keywords/beams?skip=35">Land scapes</a>
+		    		</p>
+		    	</li>
+		    	<li>
+		    		<p class="text">
+		    			The third image is from <a href="http://www.youwall.com/index.php?wp=OTcyMA==">YouWall</a>
+		    		</p>
+		    	</li>
+		    	<li>
+		    		<p class="text">
+		    			The image  of the train tracks is from <a href="http://www.bia2online.ir/%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1-%D8%AC%D8%A7%D9%84%D8%A8-%D9%88-%D8%AF%DB%8C%D8%AF%D9%86%DB%8C-%D8%A7%D8%B2-%D8%B7%D8%A8%DB%8C%D8%B9%D8%AA.html">bia2online</a>
+		    		</p>
+		    	</li>
+		    	<li>
+		    		<p class="text">
+		    			The train image is from <a href="https://www.pinterest.com/pin/79798224622572673/">pinterest</a>
+		    		</p>
+		    	</li>
+		    	<li>
+		    		<p class="text">
+		    			The light probes are from <a href="http://dativ.at/lightprobes/x">Berhard Vogl</a>
+		    		</p>
+		    	</li>
+		    </ul>
+		    
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">         
+      <div class="modal-body">                
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</body>
+<script>
+	$(function () {
+		    $('#accordion').on('shown.bs.collapse', function (e) {
+		        var offset = $('.panel.panel-default > .panel-collapse.in').offset();
+		        if(offset) {
+		            $('html,body').animate({
+		                scrollTop: $('.panel-title a').offset().top -20
+		            }, 500); 
+		        }
+		    }); 
+		});
+    $(document).ready(function(){
+    	
+
+      $('#valNormalMapping').diffWidget(
+      {
+        'width': '800',
+        'height': '600px',
+        'top': 'images/BumpMap/texture_without_bump.jpg',
+        'bottom': 'images/BumpMap/texture_with_bump.jpg',
+        'position': '50%'
+      })
+      $('#valTexture').diffWidget(
+      {
+        'width': '800',
+        'height': '600px',
+        'top': 'images/Texture/textureUV.jpg',
+        'bottom': 'images/Texture/textureUVPhoton.jpg',
+        'position': '50%'
+      })
+      $('#valEnvMap1').diffWidget(
+      {
+        'width': '800px',
+        'height': '400px',
+        'top': 'images/envmap/lightprobePoints.png',
+        'bottom': 'images/envmap/lightprobe.png',
+        'position': '50%'
+      })
+      $('#valEnvMap2').diffWidget(
+      {
+        'width': '800px',
+        'height': '400px',
+        'top': 'images/envmap/lightprobePoints2.png',
+        'bottom': 'images/envmap/lightprobe2.png',
+        'position': '50%'
+      })
+      $('#forward').diffWidget(
+      {
+        'width': '291px',
+        'height': '196px',
+        'top': 'images/volumes/HGForward.png',
+        'bottom': 'images/volumes/SchlickForward.png',
+        'position': '50%'
+      })
+      $('#iso').diffWidget(
+      {
+        'width': '291px',
+        'height': '196px',
+        'top': 'images/volumes/HGIso.png',
+        'bottom': 'images/volumes/SchlickIso.png',
+        'position': '50%'
+      })
+      $('#backward').diffWidget(
+      {
+        'width': '291px',
+        'height': '196px',
+        'top': 'images/volumes/HGBackward.png',
+        'bottom': 'images/volumes/SchlickBackward.png',
+        'position': '50%'
+      })
+      $('#forwardTest').diffWidget(
+      {
+        'width': '833px',
+        'height': '329px',
+        'top': 'images/volumes/test/HGForwardTest.png',
+        'bottom': 'images/volumes/test/SchlickForwardTest.png',
+        'position': '50%'
+      })
+      $('#isoTest').diffWidget(
+      {
+        'width': '833px',
+        'height': '329px',
+        'top': 'images/volumes/test/HGIsoTest.png',
+        'bottom': 'images/volumes/test/SchlickIsoTest.png',
+        'position': '50%'
+      })
+      $('#backwardTest').diffWidget(
+      {
+        'width': '833px',
+        'height': '329px',     
+        'top': 'images/volumes/test/HGBackwardTest.png',
+        'bottom': 'images/volumes/test/SchlickBackwardTest.png',
+        'position': '50%'
+      })
+      $('#breSpot').diffWidget(
+      {
+        'width': '800',
+        'height': '600px',   
+        'top': 'images/volumes/vPMBeamVolspot.png',
+        'bottom': 'images/volumes/vPMVolspot.png',
+        'position': '50%'
+      })
+      $('#brePTEqTime').diffWidget(
+      {
+        'width': '800',
+        'height': '600px',   
+        'top': 'images/volumes/basicVolume.png',
+        'bottom': 'images/volumes/basicVolumeBeam.png',
+        'position': '50%'
+      })
+      $('#brePTEqQual').diffWidget(
+      {
+        'width': '800',
+        'height': '600px',   
+        'top': 'images/volumes/basicVolumeHigh.png',
+        'bottom': 'images/volumes/basicVolumeBeamHigh.png',
+        'position': '50%'
+      })
+      $('#libigl').diffWidget(
+      {
+        'width': '600',
+        'height': '600px',   
+        'top': 'images/volumes/test/forward.png',
+        'bottom': 'images/volumes/test/backward.png',
+        'position': '50%'
+      })
+      $('#directional').diffWidget(
+      {
+        'width': '800',
+        'height': '600px',   
+        'top': 'images/other/directLight.png',
+        'bottom': 'images/other/cosLight.png',
+        'position': '50%'
+      })
+
+    })    
+  </script>
+</html>                                		                                		

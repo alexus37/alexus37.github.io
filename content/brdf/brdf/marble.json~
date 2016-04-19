@@ -1,0 +1,77 @@
+[
+	{
+		"label": "diffuse reflection constant",
+		"uniform": "diffuseReflectionConst",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.01,
+		"default": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0 , 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+    {
+		"label": "specular reflection constant",
+		"uniform": "specularReflectionConst",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.01,
+		"default": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+    {
+		"label": "shininess",
+		"uniform": "shininess",
+		"min": 16,
+		"max": 500,
+		"step": 1,
+		"default": [32, 32, 32, 32, 32, 77, 13, 26, 77, 77, 13, 51, 83, 10, 51, 90, 77]
+	},
+    {
+		"label": "MARBLE1",
+		"uniform": "MARBLE1",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.001,
+		"default": [0.5, 32, 32, 32, 32, 77, 13, 26, 77, 77, 13, 51, 83, 10, 51, 90, 77]
+	},
+    {
+		"label": "MARBLE2",
+		"uniform": "MARBLE2",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.001,
+		"default": [1.0, 32, 32, 32, 32, 77, 13, 26, 77, 77, 13, 51, 83, 10, 51, 90, 77]
+	},
+    {
+		"label": "MARBLE3",
+		"uniform": "MARBLE3",
+		"min": 0.0,
+		"max": 25.0,
+		"step": 0.1,
+		"default": [10.0, 32, 32, 32, 32, 77, 13, 26, 77, 77, 13, 51, 83, 10, 51, 90, 77]
+	},
+    {
+		"label": "MARBLE4",
+		"uniform": "MARBLE4",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.001,
+		"default": [0.5, 32, 32, 32, 32, 77, 13, 26, 77, 77, 13, 51, 83, 10, 51, 90, 77]
+	},
+    {
+		"label": "MARBLE5",
+		"uniform": "MARBLE5",
+		"min": 0.0,
+		"max": 25.0,
+		"step": 0.1,
+		"default": [5.0, 32, 32, 32, 32, 77, 13, 26, 77, 77, 13, 51, 83, 10, 51, 90, 77]
+	},
+    {
+		"label": "MARBLE6",
+		"uniform": "MARBLE6",
+		"min": 0.0,
+		"max": 5.0,
+		"step": 0.1,
+		"default": [1.0, 32, 32, 32, 32, 77, 13, 26, 77, 77, 13, 51, 83, 10, 51, 90, 77]
+	}
+    
+    
+]
+

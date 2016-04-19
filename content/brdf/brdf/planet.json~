@@ -1,0 +1,124 @@
+[
+	{
+		"label": "diffuse reflection constant",
+		"uniform": "diffuseReflectionConst",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.01,
+		"default": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0 , 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+    {
+		"label": "specular reflection constant",
+		"uniform": "specularReflectionConst",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.01,
+		"default": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+    {
+		"label": "shininess",
+		"uniform": "shininess",
+		"min": 16,
+		"max": 500,
+		"step": 1,
+		"default": [32, 32, 32, 32, 32, 77, 13, 26, 77, 77, 13, 51, 83, 10, 51, 90, 77]
+	},
+    {
+		"label": "Persitance",
+		"uniform": "PERSITANCE",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.0001,
+		"default": [0.62, 0.45, 0.45, 0.45, 0.45, 0.45 , 0.45, 0.45, 0.45, 0.45, 0.45, 0.45, 0.45, 0.45, 0.45, 0.45, 0.45]
+	},
+	{
+		"label": "Cloudcover",
+		"uniform": "CLOUDCOVER",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.0001,
+		"default": [0.01, 0.01, 0.01, 0.01, 0.01, 0.01 , 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+	},
+	{
+		"label": "Cloudsharpness",
+		"uniform": "CLOUDSHARPNESS",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.0001,
+		"default": [0.01, 0.25, 0.25, 0.25, 0.25, 0.25 , 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+	},
+	{
+		"label": "NOISEFREQUENCY",
+		"uniform": "NOISEFREQUENCY",
+		"min": 0.0,
+		"max": 10.0,
+		"step": 0.0001,
+		"default": [0.9, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+	{
+		"label": "NOISEAMPLITUDE",
+		"uniform": "NOISEAMPLITUDE",
+		"min": 0.0,
+		"max": 10.0,
+		"step": 0.0001,
+		"default": [0.85, 0.25, 0.25, 0.25, 0.25, 0.25 , 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+	},
+	{
+		"label": "WATERFREQUENCY",
+		"uniform": "WATERFREQUENCY",
+		"min": 0.0,
+		"max": 10.0,
+		"step": 0.0001,
+		"default": [1.275, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+	{
+		"label": "WATERAMPLITUDE",
+		"uniform": "WATERAMPLITUDE",
+		"min": 0.0,
+		"max": 10.0,
+		"step": 0.0001,
+		"default": [0.9, 0.25, 0.25, 0.25, 0.25, 0.25 , 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+	},
+	{
+		"label": "CLOUDSCALE",
+		"uniform": "CLOUDSCALE",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.01,
+		"default": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+	{
+		"label": "WATERSCALE",
+		"uniform": "WATERSCALE",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.01,
+		"default": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+	{
+		"label": "NORMALFACTOR",
+		"uniform": "NORMALFACTOR",
+		"min": 0.0,
+		"max": 10.0,
+		"step": 0.0001,
+		"default": [5.0, 0.25, 0.25, 0.25, 0.25, 0.25 , 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+	},
+	{
+		"label": "BUMPMAPPING",
+		"uniform": "BUMPMAPPING",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 1.0,
+		"default": [0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+	{
+		"label": "OFFSET",
+		"uniform": "OFFSET",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.01,
+		"default": [0.1, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	}
+    
+]
+

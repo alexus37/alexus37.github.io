@@ -1,0 +1,22 @@
+Create project images for :
+-> images synthesis
+-> shape modelling
+-> 3D Photography
+-> city guesser
+-> nori webinterface
+
+Create project page for:
+-> 3D Photography
+-> shape modelling
+
+Set up project pages for:
+-> shape modelling
+-> 3D Photography
+-> city guesser
+-> nori webinterface
+
+Travel
+-> add all images
+
+
+

@@ -1,0 +1,59 @@
+Computer Graphics Exercise 4: Appearance Modeling
+
+Open brdf.html in your web browser--preferrably Firefox--and explorer the UI to
+get used to it. The code template should run on both Firefox and Chrome, but
+Chrome will complain when you open it locally.
+
+The first shader is the ambient shader, it computes only the ambient light term.
+
+The second shader is the lambert shader, it computes the ambient light term
+and add a diffuse term. The term depends on every lightsource (added up) and the 
+surface normal.
+
+The third shader is the phong shader, it computes only the ambient light term, 
+add a diffuse term and a specular term. The diffuse term depends on every lightsource (added up) and the 
+surface normal. The specular term depends on the viewer and the refected light.
+
+The foured shader is the blinn-phong shader, the only difference to the phongshader is, 
+that this shader uses the halfvector (vector between viewer and and light) for the 
+specular computation.
+
+The next shader is the ward shader, it uses 3 user-controllable parameters alphaX and alphaY to control the anisotropy. 
+If the two parameters are equal, then an isotropic highlight results. The third parameter defines whitch bases vector
+the algorithm uses for the tangent space computation.
+
+The next shader is the Cook Torrance shader. The shader uses for the specular term 3 main components.
+First the Beckmann distribution (A physically based model of microfacet distribution).
+Second the geometric attenuation term (Describtion of the selfshadowing of the microfacets).
+Thrid the Fresnel term with schlicks approximation (A model for the light reflaction). 
+The algorithm uses 6 tuneable parameters.
+1. diffuse reflection constant, who much of the diffuse term is in the end result.
+	-> the specular constant is 1.0 - diffuse reflection constant
+2. roughness, who rought is the current surface.
+	-> used for the Beckmann distribution
+3. Refractive index outside material, the index of refraction of the matrial outside of the surface.
+	-> used for the fresnel term
+4/ 5/ 6. the Refractive index for the rgb values of the material.
+	-> used for the fresnel term. Summed up and weighted by the lightcolor.
+
+
+The last shader is a combination of the Cook Torrance shader and perlin 2D simplex noise.
+The shader used the 2d noise implementation from https://github.com/ashima/webgl-noise and creates a rusty surface.
+The algorithm uses 5 tuneable parameters.
+1-4. The paramaters for the Cook Torrance shader (RGB - lightcolor independed)
+5. Methode for noise computation, which method is used for the noise computation with 8 octaves.
+	-> abs(f(snoise(f(textCoord))))
+	-> f(snoise(f(textCoord)))
+	-> f() * abs(snoise(f(textCoord))))
+	-> sin(textcoordiante.x + abs(f()) * snoise(f(textCoord))))
+	-> 1.0 / ( abs(f()) * snoise(f(textCoord)))))
+	where f is a function that creates the frequencies.
+	f(0) -> 1.
+	f(1) -> 1./2.
+	f(2) -> 1./4.
+	f(3) -> 1./8.
+	...
+The next shader is a Wood shader using 3dperlin noise and bumpmapping.
+The next shader is a marble shader using 3dperlin noise.
+The next shader is landscape shader using 3d perlin noise and the current time to animate cloud and using bumpmapping
+

@@ -1,0 +1,45 @@
+[
+	{
+		"label": "diffuse reflection constant",
+		"uniform": "diffuseReflectionConst",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.01,
+		"default": [0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3]
+	},
+    {
+		"label": "specular reflection constant",
+		"uniform": "specularReflectionConst",
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.01,
+		"default": [0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8]
+	},
+	{
+		"label": "standard deviation x",
+		"uniform": "alphaX",
+		"min": 0.0001,
+		"max": 1.0,
+		"step": 0.0001,
+		"default": [0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2]
+	},
+	{
+		"label": "standard deviation y",
+		"uniform": "alphaY",
+		"min": 0.0001,
+		"max": 1.0,
+		"step": 0.0001,
+		"default": [0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6]
+	},
+	{
+		"label": "Which base use for tagentspace",
+		"uniform": "base",
+		"min": 1,
+		"max": 3,
+		"step": 1,
+		"default": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+	}
+
+
+]
+

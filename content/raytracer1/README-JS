@@ -1,0 +1,32 @@
+  A small code base has already been written for you. In particular, we
+  provide you with the interface, as well as a basic vector library.
+  
+  The "data" folder and the files "read_obj.js" and "read_tga.js" are only used in Exercise 2, so don't worry about them for Exercise 1.
+  
+  To run the framework, you need to start raytracer.html in your browser (recent versions of Firefox and Chrome are supported, don't use IE)
+  
+  We recommend you to take a look at the code and read through the comments. You can start coding in "src/raytracer.js"
+
+  To export your rendered images as PNG, just click Export. It will download the image.
+
+
+
+  This module encapsulates some basic features of a ray tracer. The current scene is a big red sphere and a small blue sphere.
+  To run the different moduls, send the ID as a GET parameter (An example execution to run module B2: raytracer.html?B2)
+
+	A1: Basic features
+		-> Ray casting
+		-> Ray-object intersection
+		-> Shadows
+		-> Phong lighting model
+	B1: Specular reflection and specular refraction
+	B2: Anti-aliasing
+		-> random sampling 
+		-> 16 samples per pixel
+	B3: Quadrics
+		-> scene is a big ellipic cylinder and a small blue ellipsoid
+		-> Ray-object intersection
+		-> Shadows
+		-> Phong lighting model
+	B4: Stereoscopic rendering
+	B5: Depth of Field
