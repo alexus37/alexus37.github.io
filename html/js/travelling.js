@@ -24,27 +24,29 @@ function addImages(path) {
 
                 image.onload = function() {
                     EXIF.getData(image, function() {
-                        var latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
-                        
-                        var previewIcon = L.icon({
-                            iconUrl: path.slice(0, -4) + '_thumb.jpg',
-                            iconSize:     [48, 36] // size of the icon                    
-                        });
+                        if(this.exifdata.GPSLatitude !== undefined) {
 
-                        var marker = L.marker(latlng, {icon: previewIcon});
-                        marker.orig = path;
-                        marker.on('click', function(event) {
-                            $.fancybox({
-                                href: event.target.orig,                                
-                                preload: true
-                            });
+                            var latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
                             
-                        });
-                        marker.addTo(myGlobalMap);
+                            var previewIcon = L.icon({
+                                iconUrl: path.slice(0, -4) + '_thumb.jpg',
+                                iconSize:     [48, 36] // size of the icon                    
+                            });
 
-                        // add to current images
-                        currentImages.push(marker);                        
-                        
+                            var marker = L.marker(latlng, {icon: previewIcon});
+                            marker.orig = path;
+                            marker.on('click', function(event) {
+                                $.fancybox({
+                                    href: event.target.orig,                                
+                                    preload: true
+                                });
+                                
+                            });
+                            marker.addTo(myGlobalMap);
+
+                            // add to current images
+                            currentImages.push(marker);                        
+                        }
                     });
                 };
                 image.src = URL.createObjectURL(http.response);
@@ -57,10 +59,19 @@ function loadImages(city) {
     // remove the current Images
     removeImages();
 
+    if(city.images.length === 0) {
+        $.growl.notice({ message: "No images for this place jet. Check later!" });
+        return;
+    }
+
+    progressJs().start().autoIncrease(20, 500).end();
+
+
     //load the new images
     for (var i = 0; i < city.images.length; i++) {
         addImages(city.images[i]);
     }
+    progressJs().end();
 };
 
 function addCities(cities) {
@@ -83,25 +94,31 @@ function addCities(cities) {
             });
     }
 }
+
+function getLinecolor(lType) {
+    if(lType === 'bus') return 'green';
+    if(lType === 'car') return 'orange';
+    if(lType === 'train') return 'red';
+    if(lType === 'motorbike') return 'black';
+    if(lType === 'flight') return 'blue';
+    
+    return 'white'
+}
+
 function addTracks(tracks) {
     for (var i = 0; i < tracks.length; i++) {
         var line;
-        var color = 'red';
-        if(tracks[i].type === 'flight') {
-            color = 'blue';
+        if(tracks[i].type === 'flight') {            
             line = L.Polyline.Arc(tracks[i].fromLatLng, tracks[i].toLatLng, {
-                color: color,
+                color: getLinecolor(tracks[i].type),
                 vertices: 200
             })
 
         } else {
-            if(tracks[i].type === 'bus') {
-                color = 'green';
-            }
             
             line = L.polyline(tracks[i].coordinates,
                 {   
-                    color: color,
+                    color: getLinecolor(tracks[i].type),
                     weight: 4,
                     opacity: .7,
                     dashArray: '10.2',
