@@ -45,7 +45,9 @@ function addImages(path) {
                             marker.addTo(myGlobalMap);
 
                             // add to current images
-                            currentImages.push(marker);                        
+                            currentImages.push(marker);
+
+
                         }
                     });
                 };
@@ -60,18 +62,13 @@ function loadImages(city) {
     removeImages();
 
     if(city.images.length === 0) {
-        $.growl.notice({ message: "No images for this place jet. Check later!" });
+        $.growl.notice({ message: "No images for this place yet. Check later!" });
         return;
     }
-
-    progressJs().start().autoIncrease(20, 500).end();
-
-
     //load the new images
     for (var i = 0; i < city.images.length; i++) {
         addImages(city.images[i]);
     }
-    progressJs().end();
 };
 
 function addCities(cities) {
