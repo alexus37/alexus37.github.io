@@ -1,6 +1,7 @@
 Travel
--> add all images
--> add colors for different types of travelling
--> add loading bar
+-> add images from mumbai
+-> add images from udaipur
+-> add proper loading bar
+-> in full screen add go back button
 
 

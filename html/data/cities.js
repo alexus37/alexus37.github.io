@@ -5,6 +5,28 @@ var cities = [
         "id": "mumbai",
         "country": "india",
         "images": [
+            "images/mumbai/Foto_02.04.16_20_50_51.jpg",
+            "images/mumbai/Foto_02.04.16_21_01_44.jpg",
+            "images/mumbai/Foto_03.04.16_15_25_43.jpg",
+            "images/mumbai/Foto_03.04.16_16_11_32.jpg",
+            "images/mumbai/Foto_03.04.16_16_24_01.jpg",
+            "images/mumbai/Foto_03.04.16_18_02_41.jpg",
+            "images/mumbai/Foto_03.04.16_18_22_24.jpg",
+            "images/mumbai/Foto_03.04.16_21_06_31.jpg",
+            "images/mumbai/Foto_03.04.16_21_13_02.jpg",
+            "images/mumbai/Foto_04.04.16_11_54_46.jpg",
+            "images/mumbai/Foto_04.04.16_12_08_07.jpg",
+            "images/mumbai/Foto_04.04.16_13_07_50.jpg",
+            "images/mumbai/Foto_04.04.16_14_05_15.jpg",
+            "images/mumbai/Foto_04.04.16_16_43_46.jpg",
+            "images/mumbai/Foto_04.04.16_16_50_43.jpg",
+            "images/mumbai/Foto_04.04.16_16_51_55.jpg",
+            "images/mumbai/Foto_04.04.16_17_28_05.jpg",
+            "images/mumbai/Foto_04.04.16_17_33_02.jpg",
+            "images/mumbai/Foto_04.04.16_17_37_31.jpg",
+            "images/mumbai/Foto_04.04.16_18_30_03.jpg",
+            "images/mumbai/Foto_05.04.16_16_14_03.jpg",
+            "images/mumbai/Foto_05.04.16_16_15_41.jpg"
         ]
     },
     {
@@ -13,6 +35,16 @@ var cities = [
         "id": "udaipur",
         "country": "india",
         "images": [
+            "images/udaipur/Foto_06.04.16_13_41_33.jpg",
+            "images/udaipur/Foto_06.04.16_15_08_29.jpg",
+            "images/udaipur/Foto_06.04.16_15_10_59.jpg",
+            "images/udaipur/Foto_06.04.16_17_19_56.jpg",
+            "images/udaipur/Foto_06.04.16_18_23_39.jpg",
+            "images/udaipur/Foto_06.04.16_18_52_34.jpg",
+            "images/udaipur/Foto_06.04.16_18_56_30.jpg",
+            "images/udaipur/Foto_07.04.16_12_30_52.jpg",
+            "images/udaipur/Foto_07.04.16_12_33_09.jpg",
+            "images/udaipur/Foto_07.04.16_12_37_12.jpg"
         ]
     },
     {
@@ -113,6 +145,13 @@ var cities = [
         "name": "Rishikesh",
         "latlng": [30.08695, 78.26761],
         "id": "rishikesh",
+        "country": "india",
+        "images": []
+    },
+    {
+        "name": "Mussoorie",
+        "latlng": [30.46006, 78.06645],
+        "id": "mussoorie",
         "country": "india",
         "images": []
     }
