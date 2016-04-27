@@ -16,7 +16,7 @@ function deg2dec(gps) {
 
 function addImages(path) {
     var http = new XMLHttpRequest();
-        http.open("GET", path, true);
+        http.open("GET", path.slice(0, -4) + '_thumb.jpg', true);
         http.responseType = "blob";
         http.onload = function(e) {
             if (this.status === 200) {
