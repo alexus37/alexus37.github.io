@@ -1,4 +1,6 @@
 var currentImages = [];
+var gallery  = [];
+
 
 function removeImages() {
     for (var i = 0; i < currentImages.length; i++) {
@@ -36,11 +38,21 @@ function addImages(path) {
                             var marker = L.marker(latlng, {icon: previewIcon});
                             marker.orig = path;
                             marker.on('click', function(event) {
-                                $.fancybox({
+                                var fancyContent = [{
                                     href: event.target.orig,                                
                                     preload: true
-                                });
-                                
+                                }];
+                                for (var i = 0; i < gallery.length; i++) {
+                                    if(event.target.orig != gallery[i]) {
+                                        fancyContent.push({
+                                            href: gallery[i],                                
+                                            preload: true
+                                        });
+                                    }
+                                    
+                                }
+
+                                $.fancybox(fancyContent);                                                                
                             });
                             marker.addTo(myGlobalMap);
 
@@ -60,6 +72,7 @@ function addImages(path) {
 function loadImages(city) {
     // remove the current Images
     removeImages();
+    gallery = [];
 
     if(city.images.length === 0) {
         $.growl.notice({ message: "No images for this place yet. Check later!" });
@@ -67,6 +80,7 @@ function loadImages(city) {
     }
     //load the new images
     for (var i = 0; i < city.images.length; i++) {
+        gallery.push(city.images[i]);
         addImages(city.images[i]);
     }
 };
