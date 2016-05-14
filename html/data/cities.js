@@ -139,21 +139,271 @@ var cities = [
         "latlng": [29.94582, 78.1643],
         "id": "haridwar",
         "country": "india",
-        "images": []
+        "images": [
+            "images/haridwar/Foto_21.04.16_17_05_45.jpg",
+            "images/haridwar/Foto_21.04.16_17_06_28.jpg",
+            "images/haridwar/Foto_21.04.16_17_07_29.jpg",
+            "images/haridwar/Foto_21.04.16_17_09_51.jpg",
+            "images/haridwar/Foto_21.04.16_17_10_40.jpg",
+            "images/haridwar/Foto_21.04.16_17_34_30.jpg",
+            "images/haridwar/Foto_21.04.16_18_07_36.jpg",
+            "images/haridwar/Foto_21.04.16_18_13_49.jpg",
+            "images/haridwar/Foto_21.04.16_18_16_09.jpg",
+            "images/haridwar/Foto_21.04.16_19_12_10.jpg",
+            "images/haridwar/Foto_21.04.16_19_14_51.jpg",
+            "images/haridwar/Foto_21.04.16_19_14_57.jpg",
+            "images/haridwar/Foto_21.04.16_19_28_53.jpg",
+            "images/haridwar/Foto_21.04.16_19_40_32.jpg",
+            "images/haridwar/Foto_21.04.16_19_51_39.jpg",
+            "images/haridwar/Foto_21.04.16_22_13_53.jpg",
+            "images/haridwar/Foto_21.04.16_22_13_56.jpg",
+            "images/haridwar/Foto_22.04.16_10_53_01.jpg",
+            "images/haridwar/Foto_22.04.16_11_07_09.jpg",
+            "images/haridwar/Foto_22.04.16_13_03_05.jpg"
+        ]
     },
     {
         "name": "Rishikesh",
         "latlng": [30.08695, 78.26761],
         "id": "rishikesh",
         "country": "india",
-        "images": []
+        "images": [
+            "images/rishikesh/Foto_21.04.16_14_08_08.jpg",
+            "images/rishikesh/Foto_21.04.16_14_08_12.jpg",
+            "images/rishikesh/Foto_21.04.16_17_03_44.jpg",
+            "images/rishikesh/Foto_22.04.16_14_09_00.jpg",
+            "images/rishikesh/Foto_22.04.16_15_19_34.jpg",
+            "images/rishikesh/Foto_22.04.16_15_56_44.jpg",
+            "images/rishikesh/Foto_23.04.16_12_17_39.jpg",
+            "images/rishikesh/Foto_23.04.16_18_32_12.jpg",
+            "images/rishikesh/Foto_25.04.16_13_49_29.jpg",
+            "images/rishikesh/Foto_25.04.16_14_52_33.jpg",
+            "images/rishikesh/Foto_26.04.16_18_19_19.jpg",
+            "images/rishikesh/Foto_26.04.16_19_10_35.jpg"
+        ]
     },
     {
         "name": "Mussoorie",
         "latlng": [30.46006, 78.06645],
         "id": "mussoorie",
         "country": "india",
+        "images": [
+            "images/mussoorie/Foto_28.04.16_14_41_35.jpg",
+            "images/mussoorie/Foto_28.04.16_14_41_41.jpg",
+            "images/mussoorie/Foto_28.04.16_15_56_17.jpg",
+            "images/mussoorie/Foto_28.04.16_15_58_45.jpg",
+            "images/mussoorie/Foto_28.04.16_16_25_22.jpg",
+            "images/mussoorie/Foto_28.04.16_17_51_33.jpg",
+            "images/mussoorie/Foto_29.04.16_16_21_21.jpg",
+            "images/mussoorie/Foto_29.04.16_16_22_39.jpg"
+        ]
+    },
+    {
+        "name": "Shimla",
+        "latlng": [31.10359, 77.17291],
+        "id": "shimla",
+        "country": "india",
+        "images": [
+            "images/shimla/Foto_01.05.16_11_26_28.jpg",
+            "images/shimla/Foto_01.05.16_11_33_14.jpg",
+            "images/shimla/Foto_01.05.16_11_54_32.jpg",
+            "images/shimla/Foto_30.04.16_13_13_23.jpg",
+            "images/shimla/Foto_30.04.16_13_24_07.jpg",
+            "images/shimla/Foto_30.04.16_13_24_13.jpg",
+            "images/shimla/Foto_30.04.16_13_39_15.jpg",
+            "images/shimla/Foto_30.04.16_15_24_29.jpg",
+            "images/shimla/Foto_30.04.16_18_22_35.jpg",
+            "images/shimla/Foto_30.04.16_19_28_34.jpg"
+        ]
+    },
+    {
+        "name": "Sarahan",
+        "latlng": [31.51763, 77.79496],
+        "id": "sarahan",
+        "country": "india",
+        "images": [
+            "images/sarahan/Foto_02.05.16_09_20_11.jpg",
+            "images/sarahan/Foto_02.05.16_12_30_19.jpg",
+            "images/sarahan/Foto_02.05.16_17_23_19.jpg",
+            "images/sarahan/Foto_02.05.16_17_23_31.jpg",
+            "images/sarahan/Foto_02.05.16_18_37_48.jpg",
+            "images/sarahan/Foto_02.05.16_18_45_53.jpg",
+            "images/sarahan/Foto_03.05.16_09_04_59.jpg",
+            "images/sarahan/Foto_03.05.16_09_31_28.jpg"
+        ]
+    },
+    {
+        "name": "Sangla",
+        "latlng": [31.42549, 78.265],
+        "id": "sangla",
+        "country": "india",
+        "images": [
+            "images/sangla/Foto_03.05.16_09_38_48.jpg",
+            "images/sangla/Foto_03.05.16_12_06_46.jpg",
+            "images/sangla/Foto_03.05.16_12_10_06.jpg",
+            "images/sangla/Foto_03.05.16_12_26_39.jpg"
+        ]
+    },
+    {
+        "name": "Chitkul",
+        "latlng": [31.35075, 78.43669],
+        "id": "chitkul",
+        "country": "india",
+        "images": [
+            "images/chitkul/Foto_03.05.16_13_39_36.jpg",
+            "images/chitkul/Foto_03.05.16_13_43_11.jpg",
+            "images/chitkul/Foto_03.05.16_13_43_31.jpg",
+            "images/chitkul/Foto_03.05.16_13_49_22.jpg",
+            "images/chitkul/Foto_03.05.16_13_51_15.jpg",
+            "images/chitkul/Foto_03.05.16_13_52_54.jpg"
+        ]
+    },
+    {
+        "name": "Rekong Peo",
+        "latlng": [31.53903, 78.26751],
+        "id": "rekongPeo",
+        "country": "india",
+        "images": [
+            "images/rekongPeo/Foto_04.05.16_09_26_16.jpg",
+            "images/rekongPeo/Foto_04.05.16_10_18_49.jpg",
+            "images/rekongPeo/Foto_05.05.16_11_18_04.jpg",
+            "images/rekongPeo/Foto_07.05.16_18_00_11.jpg",
+            "images/rekongPeo/Foto_08.05.16_06_06_40.jpg"
+        ]
+    },
+    {
+        "name": "Kalpa",
+        "latlng": [31.53949, 78.25153],
+        "id": "kalpa",
+        "country": "india",
+        "images": [
+            "images/kalpa/Foto_04.05.16_11_43_33.jpg",
+            "images/kalpa/Foto_04.05.16_11_45_43.jpg",
+            "images/kalpa/Foto_04.05.16_11_45_50.jpg",
+            "images/kalpa/Foto_04.05.16_11_51_37.jpg",
+            "images/kalpa/Foto_04.05.16_11_56_55.jpg",
+            "images/kalpa/Foto_04.05.16_12_00_56.jpg"
+        ]
+    },
+    {
+        "name": "Pooh",
+        "latlng": [31.7642, 78.59237],
+        "id": "pooh",
+        "country": "india",
+        "images": [
+            "images/pooh/Foto_04.05.16_14_14_37.jpg",
+            "images/pooh/Foto_04.05.16_14_14_49.jpg",
+            "images/pooh/Foto_04.05.16_14_15_10.jpg",
+            "images/pooh/Foto_04.05.16_15_06_12.jpg",
+            "images/pooh/Foto_04.05.16_15_36_43.jpg"
+        ]
+    },
+    {
+        "name": "Nako",
+        "latlng": [31.88183, 78.62789],
+        "id": "nako",
+        "country": "india",
+        "images": [
+            "images/nako/Foto_05.05.16_09_34_51.jpg",
+            "images/nako/Foto_05.05.16_11_04_58.jpg",
+            "images/nako/Foto_05.05.16_11_09_23.jpg",
+            "images/nako/Foto_05.05.16_11_18_04.jpg"
+        ]
+    },
+    {
+        "name": "Tabo",
+        "latlng": [32.09325, 78.38564],
+        "id": "tabo",
+        "country": "india",
+        "images": [
+            "images/tabo/Foto_05.05.16_13_58_28.jpg",
+            "images/tabo/Foto_05.05.16_14_29_35.jpg",
+            "images/tabo/Foto_05.05.16_14_30_00.jpg",
+            "images/tabo/Foto_05.05.16_15_17_57.jpg",
+            "images/tabo/Foto_05.05.16_15_36_11.jpg"
+        ]
+    },
+    {
+        "name": "Dhankhar",
+        "latlng": [32.08930, 78.21557],
+        "id": "dhankhar",
+        "country": "india",
+        "images": [
+            "images/dhankhar/Foto_05.05.16_16_20_15.jpg",
+            "images/dhankhar/Foto_05.05.16_17_00_10.jpg",
+            "images/dhankhar/Foto_05.05.16_17_12_23.jpg",
+            "images/dhankhar/Foto_05.05.16_17_22_17.jpg"
+        ]
+    },
+    {
+        "name": "Kaza",
+        "latlng": [32.22568, 78.07051],
+        "id": "kaza",
+        "country": "india",
+        "images": [
+            "images/kaza/Foto_11.05.16_21_05_41.jpg",
+            "images/kaza/Foto_11.05.16_21_06_11.jpg",
+            "images/kaza/Foto_11.05.16_21_06_54.jpg",
+            "images/kaza/Foto_11.05.16_21_07_15.jpg"
+        ]
+    },
+    {
+        "name": "Kee",
+        "latlng": [32.30034, 78.01221],
+        "id": "kee",
+        "country": "india",
+        "images": [
+            "images/kee/Foto_06.05.16_13_01_57.jpg",
+            "images/kee/Foto_06.05.16_13_04_47.jpg",
+            "images/kee/Foto_06.05.16_13_05_37.jpg",
+            "images/kee/Foto_06.05.16_13_13_02.jpg",
+            "images/kee/Foto_06.05.16_13_16_36.jpg",
+            "images/kee/Foto_06.05.16_13_19_29.jpg",
+            "images/kee/Foto_06.05.16_13_19_54.jpg"
+        ]
+    },
+    {
+        "name": "Kibber",
+        "latlng": [32.33266, 78.01026],
+        "id": "kibber",
+        "country": "india",
+        "images": [
+            "images/kibber/Foto_06.05.16_13_47_39.jpg"
+        ]
+    },
+    {
+        "name": "Comic",
+        "latlng": [32.234394, 78.109303],
+        "id": "comic",
+        "country": "india",
+        "images": [
+            "images/comic/Foto_06.05.16_17_27_22.jpg",
+            "images/comic/Foto_06.05.16_17_27_50.jpg",
+            "images/comic/Foto_06.05.16_17_39_56.jpg",
+            "images/comic/Foto_06.05.16_17_40_02.jpg"
+        ]
+    },
+    {
+        "name": "Chango",
+        "latlng": [31.97804, 78.59519],
+        "id": "chango",
+        "country": "india",
+        "images": [
+            "images/chango/Foto_07.05.16_12_53_10.jpg"
+        ]
+    },
+    {
+        "name": "Manali",
+        "latlng": [32.23969, 77.18851],
+        "id": "manali",
+        "country": "india",
+        "images": []
+    },
+    {
+        "name": "Vashisht",
+        "latlng": [32.25885, 77.19002],
+        "id": "vashisht",
+        "country": "india",
         "images": []
     }
-
 ];
