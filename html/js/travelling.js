@@ -32,7 +32,7 @@ function addImages(path) {
                         if(this.exifdata.GPSLatitude !== undefined) {
                             latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
                         } else {
-                            var key = path..split("/").pop();
+                            var key = path.split("/").pop();
                             latlng = latlngDic[key];                            
                         }
                         if(latlng !== undefined) {
