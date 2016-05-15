@@ -26,44 +26,49 @@ function addImages(path) {
             var image = new Image();
 
             image.onload = function() {
-                alert("image.onload");
-                EXIF.getData(image, function() {
-                    if(this.exifdata.GPSLatitude !== undefined) {
-                        alert("this.exifdata.GPSLatitude");
-                        var latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
-                        
-                        var previewIcon = L.icon({
-                            iconUrl: path.slice(0, -4) + '_thumb.jpg',
-                            iconSize:     [48, 36] // size of the icon                    
-                        });
+                try {
+                    EXIF.getData(image, function() {
+                        if(this.exifdata.GPSLatitude !== undefined) {
+                            var latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
+                            
+                            var previewIcon = L.icon({
+                                iconUrl: path.slice(0, -4) + '_thumb.jpg',
+                                iconSize:     [48, 36] // size of the icon                    
+                            });
 
-                        var marker = L.marker(latlng, {icon: previewIcon});
-                        marker.orig = path;
-                        marker.on('click', function(event) {
-                            var fancyContent = [{
-                                href: event.target.orig,                                
-                                preload: true
-                            }];
-                            for (var i = 0; i < gallery.length; i++) {
-                                if(event.target.orig != gallery[i]) {
-                                    fancyContent.push({
-                                        href: gallery[i],                                
-                                        preload: true
-                                    });
+                            var marker = L.marker(latlng, {icon: previewIcon});
+                            marker.orig = path;
+                            marker.on('click', function(event) {
+                                var fancyContent = [{
+                                    href: event.target.orig,                                
+                                    preload: true
+                                }];
+                                for (var i = 0; i < gallery.length; i++) {
+                                    if(event.target.orig != gallery[i]) {
+                                        fancyContent.push({
+                                            href: gallery[i],                                
+                                            preload: true
+                                        });
+                                    }
+                                    
                                 }
-                                
-                            }
 
-                            $.fancybox(fancyContent);                                                                
-                        });
-                        marker.addTo(myGlobalMap);
+                                $.fancybox(fancyContent);                                                                
+                            });
+                            marker.addTo(myGlobalMap);
 
-                        // add to current images
-                        currentImages.push(marker);
+                            // add to current images
+                            currentImages.push(marker);
 
 
-                    }
-                });
+                        } else {
+                            alert("No GPS data");
+                        }
+                    });
+                }
+                catch(err) {
+                    alert(err.message);
+                }
             };
             image.src = URL.createObjectURL(http.response);
         }
