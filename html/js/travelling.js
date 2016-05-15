@@ -27,7 +27,7 @@ function addImages(path) {
 
             image.onload = function() {
                 try {
-                    EXIF.getData(image, function() {
+                    EXIF.getData(image, function() {                        
                         if(this.exifdata.GPSLatitude !== undefined) {
                             var latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
                             
@@ -62,7 +62,7 @@ function addImages(path) {
 
 
                         } else {
-                            alert("No GPS data");
+                            alert(this.exifdata);
                         }
                     });
                 }
