@@ -62,7 +62,7 @@ function addImages(path) {
 
 
                         } else {
-                            alert(this.exifdata);
+                            alert(JSON.stringify(this.exifdata));
                         }
                     });
                 }
