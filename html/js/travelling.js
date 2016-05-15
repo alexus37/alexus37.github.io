@@ -28,9 +28,14 @@ function addImages(path) {
             image.onload = function() {
                 try {
                     EXIF.getData(image, function() {                        
+                        var latlng = undefined;
                         if(this.exifdata.GPSLatitude !== undefined) {
-                            var latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
-                            
+                            latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
+                        } else {
+                            var key = path..split("/").pop();
+                            latlng = latlngDic[key];                            
+                        }
+                        if(latlng !== undefined) {
                             var previewIcon = L.icon({
                                 iconUrl: path.slice(0, -4) + '_thumb.jpg',
                                 iconSize:     [48, 36] // size of the icon                    
@@ -59,9 +64,7 @@ function addImages(path) {
 
                             // add to current images
                             currentImages.push(marker);
-
-
-                        }
+                        }                        
                     });
                 }
                 catch(err) {
