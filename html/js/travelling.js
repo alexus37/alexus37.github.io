@@ -61,8 +61,6 @@ function addImages(path) {
                             currentImages.push(marker);
 
 
-                        } else {
-                            alert(JSON.stringify(this.exifdata));
                         }
                     });
                 }
