@@ -18,20 +18,18 @@ function deg2dec(gps) {
 
 function addImages(path) {
     var http = new XMLHttpRequest();
-    if(http === undefined) {
-        alert("undefined");
-    }
+
     http.open("GET", path.slice(0, -4) + '_thumb.jpg', true);
     http.responseType = "blob";
-    http.onload = function(e) {
-        alert("Worked with code " + this.status);
+    http.onload = function(e) {        
         if (this.status === 200) {
             var image = new Image();
 
             image.onload = function() {
+                alert("image.onload");
                 EXIF.getData(image, function() {
                     if(this.exifdata.GPSLatitude !== undefined) {
-
+                        alert("this.exifdata.GPSLatitude");
                         var latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
                         
                         var previewIcon = L.icon({
