@@ -18,55 +18,59 @@ function deg2dec(gps) {
 
 function addImages(path) {
     var http = new XMLHttpRequest();
-        http.open("GET", path.slice(0, -4) + '_thumb.jpg', true);
-        http.responseType = "blob";
-        http.onload = function(e) {
-            if (this.status === 200) {
-                var image = new Image();
+    if(http === undefined) {
+        alert("undefined");
+    }
+    http.open("GET", path.slice(0, -4) + '_thumb.jpg', true);
+    http.responseType = "blob";
+    http.onload = function(e) {
+        alert("Worked with code " + this.status);
+        if (this.status === 200) {
+            var image = new Image();
 
-                image.onload = function() {
-                    EXIF.getData(image, function() {
-                        if(this.exifdata.GPSLatitude !== undefined) {
+            image.onload = function() {
+                EXIF.getData(image, function() {
+                    if(this.exifdata.GPSLatitude !== undefined) {
 
-                            var latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
-                            
-                            var previewIcon = L.icon({
-                                iconUrl: path.slice(0, -4) + '_thumb.jpg',
-                                iconSize:     [48, 36] // size of the icon                    
-                            });
+                        var latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
+                        
+                        var previewIcon = L.icon({
+                            iconUrl: path.slice(0, -4) + '_thumb.jpg',
+                            iconSize:     [48, 36] // size of the icon                    
+                        });
 
-                            var marker = L.marker(latlng, {icon: previewIcon});
-                            marker.orig = path;
-                            marker.on('click', function(event) {
-                                var fancyContent = [{
-                                    href: event.target.orig,                                
-                                    preload: true
-                                }];
-                                for (var i = 0; i < gallery.length; i++) {
-                                    if(event.target.orig != gallery[i]) {
-                                        fancyContent.push({
-                                            href: gallery[i],                                
-                                            preload: true
-                                        });
-                                    }
-                                    
+                        var marker = L.marker(latlng, {icon: previewIcon});
+                        marker.orig = path;
+                        marker.on('click', function(event) {
+                            var fancyContent = [{
+                                href: event.target.orig,                                
+                                preload: true
+                            }];
+                            for (var i = 0; i < gallery.length; i++) {
+                                if(event.target.orig != gallery[i]) {
+                                    fancyContent.push({
+                                        href: gallery[i],                                
+                                        preload: true
+                                    });
                                 }
+                                
+                            }
 
-                                $.fancybox(fancyContent);                                                                
-                            });
-                            marker.addTo(myGlobalMap);
+                            $.fancybox(fancyContent);                                                                
+                        });
+                        marker.addTo(myGlobalMap);
 
-                            // add to current images
-                            currentImages.push(marker);
+                        // add to current images
+                        currentImages.push(marker);
 
 
-                        }
-                    });
-                };
-                image.src = URL.createObjectURL(http.response);
-            }
-        };
-        http.send();  
+                    }
+                });
+            };
+            image.src = URL.createObjectURL(http.response);
+        }
+    };
+    http.send();  
 };
 
 function loadImages(city) {
