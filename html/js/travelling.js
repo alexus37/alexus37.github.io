@@ -29,7 +29,7 @@ function addImages(path) {
                 try {
                     EXIF.getData(image, function() {                        
                         var latlng = undefined;
-                        if(this.exifdata.GPSLatitude !== undefined) {
+                        if(this.exifdata.GPSLatitude !== undefined && false) {
                             latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
                         } else {
                             var key = path.split("/").pop();
