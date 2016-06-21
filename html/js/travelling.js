@@ -16,6 +16,26 @@ function deg2dec(gps) {
     return Math.sign(d) * (Math.abs(d) + (m / 60.0) + (s / 3600.0));
 };
 
+
+// UNTESTED //
+function addFancyContent(path) {
+    var fancyContent = [{
+        href: path,                                
+        preload: true
+    }];
+    for (var i = 0; i < gallery.length; i++) {
+        if(path != gallery[i]) {
+            fancyContent.push({
+                href: gallery[i],                                
+                preload: true
+            });
+        }
+        
+    }
+
+    $.fancybox(fancyContent);
+}
+
 function addImages(path) {
     var http = new XMLHttpRequest();
 
@@ -29,7 +49,7 @@ function addImages(path) {
                 try {
                     EXIF.getData(image, function() {                        
                         var latlng = undefined;
-                        if(this.exifdata.GPSLatitude !== undefined && false) {
+                        if(this.exifdata.GPSLatitude !== undefined) {
                             latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
                         } else {
                             var key = path.split("/").pop();
@@ -44,21 +64,7 @@ function addImages(path) {
                             var marker = L.marker(latlng, {icon: previewIcon});
                             marker.orig = path;
                             marker.on('click', function(event) {
-                                var fancyContent = [{
-                                    href: event.target.orig,                                
-                                    preload: true
-                                }];
-                                for (var i = 0; i < gallery.length; i++) {
-                                    if(event.target.orig != gallery[i]) {
-                                        fancyContent.push({
-                                            href: gallery[i],                                
-                                            preload: true
-                                        });
-                                    }
-                                    
-                                }
-
-                                $.fancybox(fancyContent);                                                                
+                                addFancyContent(event.target.orig);                                
                             });
                             marker.addTo(myGlobalMap);
 
@@ -89,7 +95,13 @@ function loadImages(city) {
     //load the new images
     for (var i = 0; i < city.images.length; i++) {
         gallery.push(city.images[i]);
-        addImages(city.images[i]);
+        if(city.geotagged === 1) { // the city has geotagged images
+            addImages(city.images[i]);
+        }
+    }
+    // no geotagged images -> show gallery directly
+    if(city.geotagged === 0 && city.images.length > 0) { // the city has geotagged images
+        addFancyContent(city.images[0]);
     }
 };
 
