@@ -27,7 +27,8 @@ var cities = [
             "images/mumbai/Foto_04.04.16_18_30_03.jpg",
             "images/mumbai/Foto_05.04.16_16_14_03.jpg",
             "images/mumbai/Foto_05.04.16_16_15_41.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Udaipur",
@@ -45,7 +46,8 @@ var cities = [
             "images/udaipur/Foto_07.04.16_12_30_52.jpg",
             "images/udaipur/Foto_07.04.16_12_33_09.jpg",
             "images/udaipur/Foto_07.04.16_12_37_12.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Jaisalmer",
@@ -61,7 +63,8 @@ var cities = [
             "images/jaisalmer/Foto_11.04.16_16_04_13.jpg",
             "images/jaisalmer/Foto_12.04.16_08_05_51.jpg",
             "images/jaisalmer/Foto_12.04.16_17_04_33.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Jodhpur",
@@ -82,7 +85,8 @@ var cities = [
             "images/jodhpur/Foto_14.04.16_16_06_35.jpg",
             "images/jodhpur/Foto_14.04.16_16_29_39.jpg",
             "images/jodhpur/Foto_14.04.16_16_39_26.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Pushkar",
@@ -97,7 +101,8 @@ var cities = [
             "images/pushkar/Foto_17.04.16_18_51_02.jpg",
             "images/pushkar/Foto_17.04.16_18_51_48.jpg",
             "images/pushkar/Foto_18.04.16_16_09_19.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Agra",
@@ -124,7 +129,8 @@ var cities = [
             "images/agra/Foto_20.04.16_06_30_03.jpg",
             "images/agra/Foto_20.04.16_06_38_56.jpg",
             "images/agra/Foto_20.04.16_06_46_38.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Delhi",
@@ -132,7 +138,8 @@ var cities = [
         "id": "delhi",
         "country": "india",
         "images": [
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Haridwar",
@@ -160,7 +167,8 @@ var cities = [
             "images/haridwar/Foto_22.04.16_10_53_01.jpg",
             "images/haridwar/Foto_22.04.16_11_07_09.jpg",
             "images/haridwar/Foto_22.04.16_13_03_05.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Rishikesh",
@@ -180,7 +188,8 @@ var cities = [
             "images/rishikesh/Foto_25.04.16_14_52_33.jpg",
             "images/rishikesh/Foto_26.04.16_18_19_19.jpg",
             "images/rishikesh/Foto_26.04.16_19_10_35.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Mussoorie",
@@ -196,7 +205,8 @@ var cities = [
             "images/mussoorie/Foto_28.04.16_17_51_33.jpg",
             "images/mussoorie/Foto_29.04.16_16_21_21.jpg",
             "images/mussoorie/Foto_29.04.16_16_22_39.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Shimla",
@@ -214,7 +224,8 @@ var cities = [
             "images/shimla/Foto_30.04.16_15_24_29.jpg",
             "images/shimla/Foto_30.04.16_18_22_35.jpg",
             "images/shimla/Foto_30.04.16_19_28_34.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Sarahan",
@@ -230,7 +241,8 @@ var cities = [
             "images/sarahan/Foto_02.05.16_18_45_53.jpg",
             "images/sarahan/Foto_03.05.16_09_04_59.jpg",
             "images/sarahan/Foto_03.05.16_09_31_28.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Sangla",
@@ -242,7 +254,8 @@ var cities = [
             "images/sangla/Foto_03.05.16_12_06_46.jpg",
             "images/sangla/Foto_03.05.16_12_10_06.jpg",
             "images/sangla/Foto_03.05.16_12_26_39.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Chitkul",
@@ -256,7 +269,8 @@ var cities = [
             "images/chitkul/Foto_03.05.16_13_49_22.jpg",
             "images/chitkul/Foto_03.05.16_13_51_15.jpg",
             "images/chitkul/Foto_03.05.16_13_52_54.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Rekong Peo",
@@ -269,7 +283,8 @@ var cities = [
             "images/rekongPeo/Foto_05.05.16_11_18_04.jpg",
             "images/rekongPeo/Foto_07.05.16_18_00_11.jpg",
             "images/rekongPeo/Foto_08.05.16_06_06_40.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Kalpa",
@@ -283,7 +298,8 @@ var cities = [
             "images/kalpa/Foto_04.05.16_11_51_37.jpg",
             "images/kalpa/Foto_04.05.16_11_56_55.jpg",
             "images/kalpa/Foto_04.05.16_12_00_56.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Pooh",
@@ -296,7 +312,8 @@ var cities = [
             "images/pooh/Foto_04.05.16_14_15_10.jpg",
             "images/pooh/Foto_04.05.16_15_06_12.jpg",
             "images/pooh/Foto_04.05.16_15_36_43.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Nako",
@@ -308,7 +325,8 @@ var cities = [
             "images/nako/Foto_05.05.16_11_04_58.jpg",
             "images/nako/Foto_05.05.16_11_09_23.jpg",
             "images/nako/Foto_05.05.16_11_18_04.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Tabo",
@@ -321,7 +339,8 @@ var cities = [
             "images/tabo/Foto_05.05.16_14_30_00.jpg",
             "images/tabo/Foto_05.05.16_15_17_57.jpg",
             "images/tabo/Foto_05.05.16_15_36_11.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Dhankhar",
@@ -333,7 +352,8 @@ var cities = [
             "images/dhankhar/Foto_05.05.16_17_00_10.jpg",
             "images/dhankhar/Foto_05.05.16_17_12_23.jpg",
             "images/dhankhar/Foto_05.05.16_17_22_17.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Kaza",
@@ -345,7 +365,8 @@ var cities = [
             "images/kaza/Foto_11.05.16_21_06_11.jpg",
             "images/kaza/Foto_11.05.16_21_06_54.jpg",
             "images/kaza/Foto_11.05.16_21_07_15.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Kee",
@@ -360,7 +381,8 @@ var cities = [
             "images/kee/Foto_06.05.16_13_16_36.jpg",
             "images/kee/Foto_06.05.16_13_19_29.jpg",
             "images/kee/Foto_06.05.16_13_19_54.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Kibber",
@@ -369,7 +391,8 @@ var cities = [
         "country": "india",
         "images": [
             "images/kibber/Foto_06.05.16_13_47_39.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Comic",
@@ -381,7 +404,8 @@ var cities = [
             "images/comic/Foto_06.05.16_17_27_50.jpg",
             "images/comic/Foto_06.05.16_17_39_56.jpg",
             "images/comic/Foto_06.05.16_17_40_02.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Chango",
@@ -390,20 +414,143 @@ var cities = [
         "country": "india",
         "images": [
             "images/chango/Foto_07.05.16_12_53_10.jpg"
-        ]
+        ],
+        "geotagged": 1
     },
     {
         "name": "Manali",
         "latlng": [32.23969, 77.18851],
         "id": "manali",
         "country": "india",
-        "images": []
+        "images": [
+            "images/manali/Foto_13.05.16_12_23_19.jpg",
+            "images/manali/Foto_17.05.16_17_30_32.jpg",
+            "images/manali/Foto_17.05.16_17_55_04.jpg"
+        ],
+        "geotagged": 1
     },
     {
         "name": "Vashisht",
         "latlng": [32.25885, 77.19002],
         "id": "vashisht",
         "country": "india",
-        "images": []
+        "images": [
+            "images/vashisht/Foto_16.05.16_13_52_55.jpg",
+            "images/vashisht/Foto_16.05.16_18_25_24.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kasol",
+        "latlng": [32.01019, 77.31496],
+        "id": "kasol",
+        "country": "india",
+        "images": [
+            "images/kasol/Foto_19.05.16_18_46_44.jpg",
+            "images/kasol/Foto_20.05.16_17_38_02.jpg",
+            "images/kasol/Foto_20.05.16_18_21_49.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Khirganga",
+        "latlng": [31.997565, 77.504367],
+        "id": "khirganga",
+        "country": "india",
+        "images": [
+            "images/khirganga/Foto_26.05.16_15_48_07.jpg",
+            "images/khirganga/Foto_26.05.16_15_48_36.jpg",
+            "images/khirganga/Foto_26.05.16_15_48_55.jpg",
+            "images/khirganga/Foto_26.05.16_16_46_12.jpg",
+            "images/khirganga/Foto_29.05.16_09_27_52.jpg",
+            "images/khirganga/Foto_29.05.16_09_54_24.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Dharmshala",
+        "latlng": [32.21885, 76.32339],
+        "id": "dharmshala",
+        "country": "india",
+        "images": [
+            "images/dharmshala/Foto_01.06.16_18_33_30.jpg",
+            "images/dharmshala/Foto_03.06.16_16_16_28.jpg",
+            "images/dharmshala/Foto_03.06.16_18_11_52.jpg",
+            "images/dharmshala/Foto_04.06.16_12_40_46.jpg",
+            "images/dharmshala/Foto_04.06.16_12_41_22.jpg",
+            "images/dharmshala/Foto_05.06.16_13_27_22.jpg",
+            "images/dharmshala/Foto_05.06.16_15_30_26.jpg",
+            "images/dharmshala/Foto_30.05.16_16_00_57.jpg",
+            "images/dharmshala/Foto_31.05.16_11_40_00.jpg",
+            "images/dharmshala/Foto_31.05.16_12_02_31.jpg",
+            "images/dharmshala/Foto_31.05.16_12_32_36.jpg",
+            "images/dharmshala/Foto_31.05.16_12_42_58.jpg",
+            "images/dharmshala/Foto_31.05.16_18_58_28.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Amritsar",
+        "latlng": [31.634, 74.87227],
+        "id": "amritsar",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Jammu",
+        "latlng": [32.718576, 74.858081],
+        "id": "jammu",
+        "country": "india",
+        "images": [],
+        "geotagged": 0
+    },
+    {
+        "name": "Srinagar",
+        "latlng": [34.074758, 74.820444],
+        "id": "srinagar",
+        "country": "india",
+        "images": [],
+        "geotagged": 0
+    },
+    {
+        "name": "Naranag",
+        "latlng": [34.350229, 74.972119],
+        "id": "naranag",
+        "country": "india",
+        "images": [],
+        "geotagged": 0
+    },
+    {
+        "name": "Sonamarg",
+        "latlng": [34.302386, 75.296556],
+        "id": "sonamarg",
+        "country": "india",
+        "images": [],
+        "geotagged": 0
+    },
+    {
+        "name": "Drass",
+        "latlng": [34.42927, 75.750761],
+        "id": "drass",
+        "country": "india",
+        "images": [],
+        "geotagged": 0
+    },
+    {
+        "name": "Kargil",
+        "latlng": [34.559432, 76.125586],
+        "id": "kargil",
+        "country": "india",
+        "images": [],
+        "geotagged": 0
+    },
+    {
+        "name": "Lamayuru",
+        "latlng": [34.282706, 76.77396],
+        "id": "lamayuru",
+        "country": "india",
+        "images": [],
+        "geotagged": 0
     }
 ];
