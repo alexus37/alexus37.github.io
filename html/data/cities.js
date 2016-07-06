@@ -494,7 +494,29 @@ var cities = [
         "latlng": [31.634, 74.87227],
         "id": "amritsar",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/amritsar/Foto_10.06.16_14_54_09.jpg",
+            "images/amritsar/Foto_10.06.16_14_55_23.jpg",
+            "images/amritsar/Foto_10.06.16_15_07_10.jpg",
+            "images/amritsar/Foto_10.06.16_15_23_36.jpg",
+            "images/amritsar/Foto_10.06.16_15_39_19.jpg",
+            "images/amritsar/Foto_10.06.16_15_41_05.jpg",
+            "images/amritsar/Foto_10.06.16_15_43_28.jpg",
+            "images/amritsar/Foto_10.06.16_15_43_33.jpg",
+            "images/amritsar/Foto_10.06.16_16_04_30.jpg",
+            "images/amritsar/Foto_10.06.16_16_09_39.jpg",
+            "images/amritsar/Foto_10.06.16_16_20_06.jpg",
+            "images/amritsar/Foto_10.06.16_16_52_59.jpg",
+            "images/amritsar/Foto_10.06.16_17_26_00.jpg",
+            "images/amritsar/Foto_10.06.16_17_26_47.jpg",
+            "images/amritsar/Foto_11.06.16_13_17_29.jpg",
+            "images/amritsar/Foto_11.06.16_16_43_01.jpg",
+            "images/amritsar/Foto_11.06.16_16_43_10.jpg",
+            "images/amritsar/Foto_11.06.16_18_03_01.jpg",
+            "images/amritsar/Foto_11.06.16_18_05_55.jpg",
+            "images/amritsar/Foto_11.06.16_18_15_42.jpg",
+            "images/amritsar/Foto_11.06.16_18_21_31.jpg"
+        ],
         "geotagged": 1
     },
     {
@@ -502,7 +524,17 @@ var cities = [
         "latlng": [32.718576, 74.858081],
         "id": "jammu",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/jammu/Foto_12.06.16_10_48_04.jpg",
+            "images/jammu/Foto_12.06.16_15_47_40.jpg",
+            "images/jammu/Foto_12.06.16_15_50_08.jpg",
+            "images/jammu/Foto_12.06.16_16_15_18.jpg",
+            "images/jammu/Foto_12.06.16_16_26_43.jpg",
+            "images/jammu/Foto_12.06.16_16_31_06.jpg",
+            "images/jammu/Foto_12.06.16_16_34_07.jpg",
+            "images/jammu/Foto_12.06.16_16_36_23.jpg",
+            "images/jammu/Foto_12.06.16_16_42_26.jpg"
+        ],
         "geotagged": 0
     },
     {
@@ -510,7 +542,31 @@ var cities = [
         "latlng": [34.074758, 74.820444],
         "id": "srinagar",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/srinagar/Foto_13.06.16_16_34_23.jpg",
+            "images/srinagar/Foto_13.06.16_16_36_45.jpg",
+            "images/srinagar/Foto_13.06.16_16_51_43.jpg",
+            "images/srinagar/Foto_13.06.16_18_55_05.jpg",
+            "images/srinagar/Foto_13.06.16_19_10_15.jpg",
+            "images/srinagar/Foto_13.06.16_19_34_06.jpg",
+            "images/srinagar/Foto_13.06.16_19_34_15.jpg",
+            "images/srinagar/Foto_13.06.16_19_35_19.jpg",
+            "images/srinagar/Foto_13.06.16_20_14_43.jpg",
+            "images/srinagar/Foto_14.06.16_16_27_20.jpg",
+            "images/srinagar/Foto_14.06.16_17_40_11.jpg",
+            "images/srinagar/Foto_18.06.16_11_54_17.jpg",
+            "images/srinagar/Foto_18.06.16_12_04_55.jpg",
+            "images/srinagar/Foto_18.06.16_12_06_43.jpg",
+            "images/srinagar/Foto_18.06.16_12_06_53.jpg",
+            "images/srinagar/Foto_19.06.16_13_30_35.jpg",
+            "images/srinagar/Foto_19.06.16_13_34_26.jpg",
+            "images/srinagar/Foto_19.06.16_14_21_52.jpg",
+            "images/srinagar/Foto_19.06.16_14_32_00.jpg",
+            "images/srinagar/Foto_19.06.16_15_30_28.jpg",
+            "images/srinagar/Foto_20.06.16_12_38_24.jpg",
+            "images/srinagar/Foto_20.06.16_12_39_16.jpg",
+            "images/srinagar/Foto_20.06.16_13_54_37.jpg"
+        ],
         "geotagged": 0
     },
     {
@@ -518,7 +574,17 @@ var cities = [
         "latlng": [34.350229, 74.972119],
         "id": "naranag",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/narannag/Foto_15.06.16_12_17_13.jpg",
+            "images/narannag/Foto_15.06.16_12_55_56.jpg",
+            "images/narannag/Foto_15.06.16_13_43_12.jpg",
+            "images/narannag/Foto_15.06.16_16_01_38.jpg",
+            "images/narannag/Foto_15.06.16_18_33_59.jpg",
+            "images/narannag/Foto_16.06.16_12_39_27.jpg",
+            "images/narannag/Foto_16.06.16_13_33_57.jpg",
+            "images/narannag/Foto_16.06.16_15_09_54.jpg",
+            "images/narannag/Foto_17.06.16_12_15_52.jpg"
+        ],
         "geotagged": 0
     },
     {
@@ -526,7 +592,9 @@ var cities = [
         "latlng": [34.302386, 75.296556],
         "id": "sonamarg",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/sonamarg/Foto_21.06.16_08_15_32.jpg"
+        ],
         "geotagged": 0
     },
     {
@@ -534,7 +602,11 @@ var cities = [
         "latlng": [34.42927, 75.750761],
         "id": "drass",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/drass/Foto_21.06.16_09_22_33.jpg",
+            "images/drass/Foto_21.06.16_10_10_21.jpg",
+            "images/drass/Foto_21.06.16_11_46_50.jpg"
+        ],
         "geotagged": 0
     },
     {
@@ -542,7 +614,15 @@ var cities = [
         "latlng": [34.559432, 76.125586],
         "id": "kargil",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/kargil/Foto_21.06.16_13_15_30.jpg",
+            "images/kargil/Foto_21.06.16_13_17_38.jpg",
+            "images/kargil/Foto_21.06.16_13_45_01.jpg",
+            "images/kargil/Foto_21.06.16_13_48_15.jpg",
+            "images/kargil/Foto_21.06.16_14_38_29.jpg",
+            "images/kargil/Foto_21.06.16_15_13_43.jpg",
+            "images/kargil/Foto_21.06.16_15_34_57.jpg"
+        ],
         "geotagged": 0
     },
     {
@@ -550,7 +630,148 @@ var cities = [
         "latlng": [34.282706, 76.77396],
         "id": "lamayuru",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/lamayuru/Foto_21.06.16_16_47_04.jpg",
+            "images/lamayuru/Foto_21.06.16_16_50_46.jpg",
+            "images/lamayuru/Foto_21.06.16_16_51_17.jpg",
+            "images/lamayuru/Foto_21.06.16_17_11_35.jpg",
+            "images/lamayuru/Foto_21.06.16_18_15_03.jpg",
+            "images/lamayuru/Foto_21.06.16_18_21_22.jpg",
+            "images/lamayuru/Foto_21.06.16_18_23_22.jpg",
+            "images/lamayuru/Foto_21.06.16_18_38_30.jpg",
+            "images/lamayuru/Foto_21.06.16_18_41_00.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Wangla",
+        "latlng": [34.248667, 76.828870],
+        "id": "wangla",
+        "country": "india",
+        "images": [
+            "images/wangla/Foto_22.06.16_08_19_54.jpg",
+            "images/wangla/Foto_22.06.16_08_20_52.jpg",
+            "images/wangla/Foto_22.06.16_10_01_10.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Honupatta",
+        "latlng": [34.159365, 76.841385],
+        "id": "honupatta",
+        "country": "india",
+        "images": [
+            "images/honupatta/Foto_22.06.16_07_14_54.jpg",
+            "images/honupatta/Foto_22.06.16_07_37_51.jpg",
+            "images/honupatta/Foto_22.06.16_07_59_46.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Alchi",
+        "latlng": [34.222558, 77.161859],
+        "id": "alchi",
+        "country": "india",
+        "images": [
+            "images/alchi/Foto_22.06.16_10_33_39.jpg",
+            "images/alchi/Foto_22.06.16_10_35_26.jpg",
+            "images/alchi/Foto_22.06.16_11_02_31.jpg",
+            "images/alchi/Foto_22.06.16_13_11_02.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Leh",
+        "latlng": [34.15259, 77.57706],
+        "id": "leh",
+        "country": "india",
+        "images": [
+            "images/leh/Foto_01.07.16_14_12_54.jpg",
+            "images/leh/Foto_01.07.16_14_13_06.jpg",
+            "images/leh/Foto_03.07.16_20_34_07.jpg",
+            "images/leh/Foto_22.06.16_14_17_36.jpg",
+            "images/leh/Foto_28.06.16_10_20_09.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Diskit",
+        "latlng": [34.54775, 77.55561],
+        "id": "diskit",
+        "country": "india",
+        "images": [
+            "images/diskit/Foto_27.06.16_13_44_30.jpg",
+            "images/diskit/Foto_27.06.16_13_44_54.jpg",
+            "images/diskit/Foto_27.06.16_13_45_52.jpg",
+            "images/diskit/Foto_27.06.16_16_02_44.jpg",
+            "images/diskit/Foto_27.06.16_16_42_35.jpg",
+            "images/diskit/Foto_27.06.16_17_08_07.jpg",
+            "images/diskit/Foto_28.06.16_09_29_14.jpg",
+            "images/diskit/Foto_28.06.16_09_29_24.jpg",
+            "images/diskit/Foto_28.06.16_09_36_36.jpg",
+            "images/diskit/Foto_28.06.16_09_37_02.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Turtuk",
+        "latlng": [34.84745, 76.82737],
+        "id": "turtuk",
+        "country": "india",
+        "images": [
+            "images/turtuk/Foto_27.06.16_13_45_52.jpg",
+            "images/turtuk/Foto_28.06.16_09_36_36.jpg",
+            "images/turtuk/Foto_28.06.16_10_03_51.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Spangmtk",
+        "latlng": [33.90783, 78.45959],
+        "id": "spangmtk",
+        "country": "india",
+        "images": [
+            "images/spangmtk/Foto_28.06.16_17_43_26.jpg",
+            "images/spangmtk/Foto_29.06.16_11_48_11.jpg",
+            "images/spangmtk/Foto_29.06.16_12_00_36.jpg",
+            "images/spangmtk/Foto_29.06.16_17_14_57.jpg",
+            "images/spangmtk/Foto_29.06.16_19_22_33.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Chemre",
+        "latlng": [33.94768, 77.78186],
+        "id": "chemre",
+        "country": "india",
+        "images": [
+            "images/chemre/Foto_30.06.16_09_48_04.jpg",
+            "images/chemre/Foto_30.06.16_11_00_40.jpg",
+            "images/chemre/Foto_30.06.16_11_20_46.jpg",
+            "images/chemre/Foto_30.06.16_11_21_41.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Thiske",
+        "latlng": [34.038292, 77.671092],
+        "id": "thiske",
+        "country": "india",
+        "images": [
+            "images/thikse/Foto_30.06.16_12_09_00.jpg",
+            "images/thikse/Foto_30.06.16_13_13_53.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Chilling",
+        "latlng": [34.282706, 76.77396],
+        "id": "chilling",
+        "country": "india",
+        "images": [
+            "images/chilling/Foto_25.06.16_19_06_44.jpg",
+            "images/chilling/Foto_25.06.16_19_26_04.jpg"
+        ],
         "geotagged": 0
     }
 ];
