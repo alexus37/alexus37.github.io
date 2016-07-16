@@ -138,6 +138,13 @@ var cities = [
         "id": "delhi",
         "country": "india",
         "images": [
+            "images/delhi/Foto_08.07.16_13_41_45.jpg",
+            "images/delhi/Foto_08.07.16_14_17_33.jpg",
+            "images/delhi/Foto_08.07.16_14_20_10.jpg",
+            "images/delhi/Foto_08.07.16_14_37_54.jpg",
+            "images/delhi/Foto_08.07.16_15_17_00.jpg",
+            "images/delhi/Foto_08.07.16_17_32_52.jpg",
+            "images/delhi/Foto_20.04.16_13_46_52.jpg"
         ],
         "geotagged": 1
     },
@@ -773,5 +780,44 @@ var cities = [
             "images/chilling/Foto_25.06.16_19_26_04.jpg"
         ],
         "geotagged": 0
+    },
+    {
+        "name": "Varansi",
+        "latlng": [25.335632, 83.00762],
+        "id": "varansi",
+        "country": "india",
+        "images": [
+            "images/varanasi/Foto_09.07.16_10_17_26.jpg",
+            "images/varanasi/Foto_09.07.16_10_36_15.jpg",
+            "images/varanasi/Foto_09.07.16_10_36_21.jpg",
+            "images/varanasi/Foto_09.07.16_10_39_06.jpg",
+            "images/varanasi/Foto_09.07.16_16_21_01.jpg",
+            "images/varanasi/Foto_09.07.16_16_43_42.jpg",
+            "images/varanasi/Foto_09.07.16_16_43_47.jpg",
+            "images/varanasi/Foto_09.07.16_17_14_43.jpg",
+            "images/varanasi/Foto_09.07.16_18_31_23.jpg",
+            "images/varanasi/Foto_09.07.16_18_32_54.jpg",
+            "images/varanasi/Foto_10.07.16_16_02_46.jpg",
+            "images/varanasi/Foto_10.07.16_16_42_33.jpg",
+            "images/varanasi/Foto_10.07.16_16_52_58.jpg",
+            "images/varanasi/Foto_10.07.16_17_22_13.jpg",
+            "images/varanasi/Foto_10.07.16_17_27_06.jpg",
+            "images/varanasi/Foto_10.07.16_18_39_22.jpg",
+            "images/varanasi/Foto_10.07.16_22_43_34.jpg",
+            "images/varanasi/Foto_11.07.16_15_48_52.jpg",
+            "images/varanasi/Foto_11.07.16_17_07_09.jpg",
+            "images/varanasi/Foto_11.07.16_17_07_38.jpg",
+            "images/varanasi/Foto_12.07.16_14_28_41.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Colombo",
+        "latlng": [6.935012, 79.853857],
+        "id": "comlobo",
+        "country": "srilanka",
+        "images": [            
+        ],
+        "geotagged": 1
     }
 ];
