@@ -816,7 +816,25 @@ var cities = [
         "latlng": [6.935012, 79.853857],
         "id": "comlobo",
         "country": "srilanka",
-        "images": [            
+        "images": [
+            "images/colombo/Foto_16.07.16_12_48_42.jpg",
+            "images/colombo/Foto_16.07.16_12_50_38.jpg",
+            "images/colombo/Foto_16.07.16_12_56_56.jpg",
+            "images/colombo/Foto_16.07.16_12_59_07.jpg",
+            "images/colombo/Foto_16.07.16_13_03_13.jpg",
+            "images/colombo/Foto_16.07.16_13_04_13.jpg",
+            "images/colombo/Foto_16.07.16_13_06_33.jpg",
+            "images/colombo/Foto_16.07.16_13_45_33.jpg",
+            "images/colombo/Foto_16.07.16_13_46_36.jpg",
+            "images/colombo/Foto_16.07.16_13_49_09.jpg",
+            "images/colombo/Foto_16.07.16_13_50_36.jpg",
+            "images/colombo/Foto_17.07.16_13_43_55.jpg",
+            "images/colombo/Foto_17.07.16_15_18_26.jpg",
+            "images/colombo/Foto_17.07.16_15_22_09.jpg",
+            "images/colombo/Foto_17.07.16_15_28_57.jpg",
+            "images/colombo/Foto_17.07.16_15_30_06.jpg",
+            "images/colombo/Foto_17.07.16_15_43_02.jpg",
+            "images/colombo/Foto_17.07.16_18_31_33.jpg"            
         ],
         "geotagged": 1
     }
