@@ -837,5 +837,52 @@ var cities = [
             "images/colombo/Foto_17.07.16_18_31_33.jpg"            
         ],
         "geotagged": 1
+    },
+    {
+        "name": "hikkaduw",
+        "latlng": [6.13186, 80.1149],
+        "id": "hikkaduw",
+        "country": "srilanka",
+        "images": [
+            "images/hikkaduw/Foto_18.07.16_12_54_11.jpg",
+            "images/hikkaduw/Foto_18.07.16_12_54_23.jpg",
+            "images/hikkaduw/Foto_18.07.16_12_54_56.jpg",
+            "images/hikkaduw/Foto_18.07.16_12_58_11.jpg",
+            "images/hikkaduw/Foto_18.07.16_12_59_56.jpg",
+            "images/hikkaduw/Foto_18.07.16_13_01_59.jpg",
+            "images/hikkaduw/Foto_18.07.16_13_02_04.jpg",
+            "images/hikkaduw/Foto_18.07.16_13_06_30.jpg",
+            "images/hikkaduw/Foto_18.07.16_13_10_12.jpg",
+            "images/hikkaduw/Foto_18.07.16_13_16_21.jpg",
+            "images/hikkaduw/Foto_18.07.16_13_17_29.jpg",
+            "images/hikkaduw/Foto_18.07.16_14_01_29.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "galle",
+        "latlng": [6.05365, 80.22122],
+        "id": "galle",
+        "country": "srilanka",
+        "images": [
+            "images/galle/Foto_18.07.16_17_41_00.jpg",
+            "images/galle/Foto_18.07.16_17_42_59.jpg",
+            "images/galle/Foto_18.07.16_18_10_39.jpg",
+            "images/galle/Foto_18.07.16_18_11_22.jpg",
+            "images/galle/Foto_18.07.16_18_23_58.jpg",
+            "images/galle/Foto_19.07.16_11_56_04.jpg",
+            "images/galle/Foto_19.07.16_17_30_52.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Mirissa",
+        "latlng": [5.94884, 80.47139],
+        "id": "mirissa",
+        "country": "srilanka",
+        "images": [
+            
+        ],
+        "geotagged": 1
     }
 ];
