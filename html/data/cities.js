@@ -881,6 +881,113 @@ var cities = [
         "id": "mirissa",
         "country": "srilanka",
         "images": [
+            "images/mirissa/Foto_20.07.16_12_41_17.jpg",
+            "images/mirissa/Foto_20.07.16_13_18_25.jpg",
+            "images/mirissa/Foto_20.07.16_15_41_45.jpg",
+            "images/mirissa/Foto_21.07.16_09_17_00.jpg"            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Tangalle",
+        "latlng": [6.02447, 80.79414],
+        "id": "tangalle",
+        "country": "srilanka",
+        "images": [
+            "images/tangalle/Foto_21.07.16_17_15_54.jpg",
+            "images/tangalle/Foto_21.07.16_17_38_12.jpg",
+            "images/tangalle/Foto_21.07.16_17_38_39.jpg",
+            "images/tangalle/Foto_21.07.16_17_40_08.jpg",
+            "images/tangalle/Foto_21.07.16_17_42_37.jpg",
+            "images/tangalle/Foto_22.07.16_15_25_27.jpg",
+            "images/tangalle/Foto_22.07.16_15_28_49.jpg",
+            "images/tangalle/Foto_22.07.16_15_39_13.jpg",
+            "images/tangalle/Foto_22.07.16_15_45_00.jpg",
+            "images/tangalle/Foto_22.07.16_15_46_36.jpg",
+            "images/tangalle/Foto_22.07.16_15_59_29.jpg",
+            "images/tangalle/Foto_22.07.16_15_59_51.jpg",
+            "images/tangalle/Foto_22.07.16_17_31_44.jpg",
+            "images/tangalle/Foto_22.07.16_17_34_16.jpg",
+            "images/tangalle/Foto_22.07.16_18_34_05.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Arugam",
+        "latlng": [6.83745, 81.82487],
+        "id": "arugam",
+        "country": "srilanka",
+        "images": [
+            "images/arugam/Foto_02.08.16_18_18_47.jpg",
+            "images/arugam/Foto_02.08.16_22_17_13.jpg",
+            "images/arugam/Foto_04.08.16_11_08_42.jpg",
+            "images/arugam/Foto_08.08.16_10_25_56.jpg",
+            "images/arugam/Foto_08.08.16_14_09_37.jpg",
+            "images/arugam/Foto_08.08.16_14_10_02.jpg",
+            "images/arugam/Foto_08.08.16_16_03_24.jpg",
+            "images/arugam/Foto_08.08.16_21_50_47.jpg",
+            "images/arugam/Foto_09.08.16_10_08_42.jpg",
+            "images/arugam/Foto_24.07.16_13_48_39.jpg",
+            "images/arugam/Foto_25.07.16_09_19_02.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ella",
+        "latlng": [6.86753, 81.04696],
+        "id": "ella",
+        "country": "srilanka",
+        "images": [
+            "images/ella/Foto_27.07.16_12_28_15.jpg",
+            "images/ella/Foto_27.07.16_16_37_08.jpg",
+            "images/ella/Foto_27.07.16_17_40_06.jpg",
+            "images/ella/Foto_27.07.16_18_15_52.jpg",
+            "images/ella/Foto_27.07.16_18_20_23.jpg",
+            "images/ella/Foto_27.07.16_18_28_21.jpg",
+            "images/ella/Foto_28.07.16_10_42_04.jpg",
+            "images/ella/Foto_28.07.16_12_01_28.jpg",
+            "images/ella/Foto_28.07.16_13_14_18.jpg",
+            "images/ella/Foto_28.07.16_13_31_00.jpg",
+            "images/ella/Foto_28.07.16_13_38_00.jpg",
+            "images/ella/Foto_28.07.16_13_38_18.jpg",
+            "images/ella/Foto_28.07.16_13_40_31.jpg",
+            "images/ella/Foto_28.07.16_15_14_21.jpg",
+            "images/ella/Foto_28.07.16_16_34_41.jpg",
+            "images/ella/Foto_29.07.16_10_26_59.jpg",
+            "images/ella/Foto_29.07.16_10_39_21.jpg",
+            "images/ella/Foto_29.07.16_11_42_50.jpg",
+            "images/ella/Foto_29.07.16_11_47_12.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Negombo",
+        "latlng": [7.20039, 79.8737],
+        "id": "negombo",
+        "country": "srilanka",
+        "images": [
+            "images/negombo/Foto_10.08.16_06_43_49.jpg",
+            "images/negombo/Foto_10.08.16_06_51_53.jpg",
+            "images/negombo/Foto_10.08.16_07_03_36.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kuala Lumpur",
+        "latlng": [3.137646, 101.685613],
+        "id": "kualaLumpur",
+        "country": "Malaysia",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Yangon",
+        "latlng": [16.997581, 96.174601],
+        "id": "yangon",
+        "country": "myanmar",
+        "images": [
             
         ],
         "geotagged": 1
