@@ -17,17 +17,33 @@ function deg2dec(gps) {
 };
 
 
-// UNTESTED //
+
 function addFancyContent(path) {
     var fancyContent = [{
         href: path,                                
-        preload: true
+        preload: true,
+        afterLoad: function () {
+            this.title = '<a href="' + this.href + '" download>Download</a>' + this.title;
+        },
+        helpers: {
+            title : {
+                type: 'inside'
+            }
+        }
     }];
     for (var i = 0; i < gallery.length; i++) {
         if(path != gallery[i]) {
             fancyContent.push({
                 href: gallery[i],                                
-                preload: true
+                preload: true,
+                afterLoad: function () {
+                    this.title = '<a href="' + this.href + '" download>Download</a>' + this.title;
+                },
+                helpers: {
+                    title : {
+                        type: 'inside'
+                    }
+                }
             });
         }
         
@@ -199,5 +215,5 @@ info.addTo(myGlobalMap);
 // add cities
 addCities(cities);
 
-// add Path TODO
+// add Path 
 addTracks(tracks);

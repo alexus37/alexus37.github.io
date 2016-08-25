@@ -991,5 +991,75 @@ var cities = [
             
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Bago",
+        "latlng": [17.336651, 96.479735],
+        "id": "bago",
+        "country": "myanmar",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kalaw",
+        "latlng": [20.636187, 96.565639],
+        "id": "kalaw",
+        "country": "myanmar",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Nyaung Shwe",
+        "latlng": [20.657117, 96.930656],
+        "id": "NyaungShwe",
+        "country": "myanmar",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Nyaung U",
+        "latlng": [21.199961, 94.907168],
+        "id": "NyaungU",
+        "country": "myanmar",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Hsipaw",
+        "latlng": [22.62368, 97.29978],
+        "id": "hsipaw",
+        "country": "myanmar",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Mandalay",
+        "latlng": [21.96057, 96.08912],
+        "id": "mandalay",
+        "country": "myanmar",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Phuket",
+        "latlng": [7.88823, 98.391485],
+        "id": "phuket",
+        "country": "thailand",
+        "images": [
+            
+        ],
+        "geotagged": 1
     }
 ];
