@@ -1,7 +1,0 @@
-Travel
--> add images from mumbai
--> add images from udaipur
--> add proper loading bar
--> in full screen add go back button
-
-
