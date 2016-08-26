@@ -978,7 +978,19 @@ var cities = [
         "id": "kualaLumpur",
         "country": "Malaysia",
         "images": [
-            
+            "images/kualaLumpur/Foto_11.08.16,_06_25_28.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_07_19_47.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_07_32_23.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_07_44_52.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_07_57_31.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_08_05_31.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_08_15_39.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_08_16_19.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_09_32_03.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_09_35_51.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_11_02_34.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_11_30_56.jpg",
+            "images/kualaLumpur/Foto_11.08.16,_11_36_21.jpg"
         ],
         "geotagged": 1
     },
@@ -988,7 +1000,18 @@ var cities = [
         "id": "yangon",
         "country": "myanmar",
         "images": [
-            
+            "images/yangon/Foto_12.08.16,_09_57_01.jpg",
+            "images/yangon/Foto_12.08.16,_10_12_54.jpg",
+            "images/yangon/Photo_12-08-16_07_45_30.jpg",
+            "images/yangon/Photo_12-08-16_10_04_12.jpg",
+            "images/yangon/Photo_12-08-16_10_12_54.jpg",
+            "images/yangon/Photo_12-08-16_10_13_02.jpg",
+            "images/yangon/Photo_12-08-16_11_00_02.jpg",
+            "images/yangon/Photo_12-08-16_11_08_43.jpg",
+            "images/yangon/Photo_12-08-16_11_10_32.jpg",
+            "images/yangon/Photo_12-08-16_11_10_41.jpg",
+            "images/yangon/Photo_12-08-16_11_26_33.jpg",
+            "images/yangon/Photo_12-08-16_14_20_20.jpg"
         ],
         "geotagged": 1
     },
@@ -998,7 +1021,13 @@ var cities = [
         "id": "bago",
         "country": "myanmar",
         "images": [
-            
+            "images/bago/Photo_12-08-16_17_50_23.jpg",
+            "images/bago/Photo_12-08-16_17_54_20.jpg",
+            "images/bago/Photo_12-08-16_17_56_45.jpg",
+            "images/bago/Photo_12-08-16_17_57_06.jpg",
+            "images/bago/Photo_12-08-16_18_03_27.jpg",
+            "images/bago/Photo_12-08-16_18_07_59.jpg",
+            "images/bago/Photo_12-08-16_18_26_45.jpg"
         ],
         "geotagged": 1
     },
@@ -1008,7 +1037,11 @@ var cities = [
         "id": "kalaw",
         "country": "myanmar",
         "images": [
-            
+            "images/kalaw/Photo_14-08-16_12_51_10.jpg",
+            "images/kalaw/Photo_14-08-16_13_24_39.jpg",
+            "images/kalaw/Photo_14-08-16_14_00_17.jpg",
+            "images/kalaw/Photo_14-08-16_15_14_53.jpg",
+            "images/kalaw/Photo_15-08-16_12_42_38.jpg"
         ],
         "geotagged": 1
     },
@@ -1018,7 +1051,26 @@ var cities = [
         "id": "NyaungShwe",
         "country": "myanmar",
         "images": [
-            
+            "images/nyaungShwe/Photo_15-08-16_18_40_27.jpg",
+            "images/nyaungShwe/Photo_16-08-16_15_32_16.jpg",
+            "images/nyaungShwe/Photo_16-08-16_15_33_32.jpg",
+            "images/nyaungShwe/Photo_16-08-16_15_41_22.jpg",
+            "images/nyaungShwe/Photo_16-08-16_15_41_31.jpg",
+            "images/nyaungShwe/Photo_16-08-16_15_43_57.jpg",
+            "images/nyaungShwe/Photo_16-08-16_16_10_59.jpg",
+            "images/nyaungShwe/Photo_17-08-16_10_45_03.jpg",
+            "images/nyaungShwe/Photo_17-08-16_11_37_53.jpg",
+            "images/nyaungShwe/Photo_17-08-16_11_43_38.jpg",
+            "images/nyaungShwe/Photo_17-08-16_12_28_55.jpg",
+            "images/nyaungShwe/Photo_17-08-16_14_04_34.jpg",
+            "images/nyaungShwe/Photo_17-08-16_14_21_42.jpg",
+            "images/nyaungShwe/Photo_17-08-16_14_25_54.jpg",
+            "images/nyaungShwe/Photo_17-08-16_14_40_47.jpg",
+            "images/nyaungShwe/Photo_17-08-16_15_34_32.jpg",
+            "images/nyaungShwe/Photo_17-08-16_15_34_38.jpg",
+            "images/nyaungShwe/Photo_17-08-16_15_45_50.jpg",
+            "images/nyaungShwe/Photo_17-08-16_15_54_23.jpg",
+            "images/nyaungShwe/Photo_17-08-16_17_53_37.jpg"
         ],
         "geotagged": 1
     },
@@ -1028,7 +1080,26 @@ var cities = [
         "id": "NyaungU",
         "country": "myanmar",
         "images": [
-            
+            "images/nyaungU/Photo_19-08-16_14_00_33.jpg",
+            "images/nyaungU/Photo_19-08-16_14_02_35.jpg",
+            "images/nyaungU/Photo_19-08-16_14_16_28.jpg",
+            "images/nyaungU/Photo_19-08-16_14_19_50.jpg",
+            "images/nyaungU/Photo_19-08-16_15_52_32.jpg",
+            "images/nyaungU/Photo_19-08-16_15_55_43.jpg",
+            "images/nyaungU/Photo_19-08-16_16_07_00.jpg",
+            "images/nyaungU/Photo_19-08-16_16_26_34.jpg",
+            "images/nyaungU/Photo_19-08-16_17_12_37.jpg",
+            "images/nyaungU/Photo_19-08-16_17_15_09.jpg",
+            "images/nyaungU/Photo_19-08-16_18_08_33.jpg",
+            "images/nyaungU/Photo_19-08-16_18_09_41.jpg",
+            "images/nyaungU/Photo_19-08-16_18_11_29.jpg",
+            "images/nyaungU/Photo_19-08-16_18_11_37.jpg",
+            "images/nyaungU/Photo_19-08-16_18_12_00.jpg",
+            "images/nyaungU/Photo_19-08-16_18_22_24.jpg",
+            "images/nyaungU/Photo_19-08-16_18_23_09.jpg",
+            "images/nyaungU/Photo_19-08-16_18_23_34.jpg",
+            "images/nyaungU/Photo_19-08-16_18_23_42.jpg",
+            "images/nyaungU/Photo_19-08-16_18_35_15.jpg"
         ],
         "geotagged": 1
     },
@@ -1038,7 +1109,12 @@ var cities = [
         "id": "hsipaw",
         "country": "myanmar",
         "images": [
-            
+            "images/hsipaw/Photo_22-08-16_14_00_09.jpg",
+            "images/hsipaw/Photo_22-08-16_18_29_02.jpg",
+            "images/hsipaw/Photo_23-08-16_17_48_15.jpg",
+            "images/hsipaw/Photo_24-08-16_11_44_40.jpg",
+            "images/hsipaw/Photo_24-08-16_13_17_28.jpg",
+            "images/hsipaw/Photo_24-08-16_13_20_41.jpg"
         ],
         "geotagged": 1
     },
@@ -1048,7 +1124,10 @@ var cities = [
         "id": "mandalay",
         "country": "myanmar",
         "images": [
-            
+            "images/mandalay/Photo_25-08-16_13_15_32.jpg",
+            "images/mandalay/Photo_25-08-16_14_02_51.jpg",
+            "images/mandalay/Photo_25-08-16_14_22_08.jpg",
+            "images/mandalay/Photo_25-08-16_15_47_14.jpg"
         ],
         "geotagged": 1
     },
