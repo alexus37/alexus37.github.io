@@ -148,6 +148,7 @@ function getLinecolor(lType) {
     if(lType === 'train') return 'red';
     if(lType === 'motorbike') return 'black';
     if(lType === 'flight') return 'blue';
+    if(lType === 'boat') return 'white';
     
     return 'white'
 }
