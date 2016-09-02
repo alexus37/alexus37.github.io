@@ -1140,5 +1140,55 @@ var cities = [
             
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Phuket",
+        "latlng": [7.88823, 98.391485],
+        "id": "phuket",
+        "country": "thailand",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ko Phi Phi",
+        "latlng": [7.737362, 98.770415],
+        "id": "kophiphi",
+        "country": "thailand",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ranong",
+        "latlng": [9.960081, 98.623872],
+        "id": "ranong",
+        "country": "thailand",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ko Phayam",
+        "latlng": [9.74047, 98.42311],
+        "id": "kophayam",
+        "country": "thailand",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Bangkok",
+        "latlng": [13.75633, 100.50176],
+        "id": "bangkok",
+        "country": "thailand",
+        "images": [
+            
+        ],
+        "geotagged": 1
     }
 ];
