@@ -1137,17 +1137,8 @@ var cities = [
         "id": "phuket",
         "country": "thailand",
         "images": [
-            
-        ],
-        "geotagged": 1
-    },
-    {
-        "name": "Phuket",
-        "latlng": [7.88823, 98.391485],
-        "id": "phuket",
-        "country": "thailand",
-        "images": [
-            
+            "images/phuket/Photo_26-08-16_23_02_15.jpg",
+            "images/phuket/Photo_26-08-16_23_27_47.jpg"
         ],
         "geotagged": 1
     },
@@ -1157,7 +1148,14 @@ var cities = [
         "id": "kophiphi",
         "country": "thailand",
         "images": [
-            
+            "images/kophiphi/Photo_27-08-16_13_49_03.jpg",
+            "images/kophiphi/Photo_27-08-16_15_15_34.jpg",
+            "images/kophiphi/Photo_27-08-16_22_04_29.jpg",
+            "images/kophiphi/Photo_27-08-16_22_13_17.jpg",
+            "images/kophiphi/Photo_27-08-16_22_18_38.jpg",
+            "images/kophiphi/Photo_27-08-16_23_03_40.jpg",
+            "images/kophiphi/Photo_27-08-16_23_49_43.jpg",
+            "images/kophiphi/Photo_28-08-16_21_32_11.jpg"
         ],
         "geotagged": 1
     },
@@ -1172,12 +1170,31 @@ var cities = [
         "geotagged": 1
     },
     {
+        "name": "Krabi",
+        "latlng": [8.061079, 98.916168],
+        "id": "krabi",
+        "country": "thailand",
+        "images": [            
+            "images/krabi/Photo_29-08-16_17_54_58.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
         "name": "Ko Phayam",
         "latlng": [9.74047, 98.42311],
         "id": "kophayam",
         "country": "thailand",
         "images": [
-            
+            "images/kophayam/Photo_01-09-16_14_19_45.jpg",
+            "images/kophayam/Photo_01-09-16_14_32_04.jpg",
+            "images/kophayam/Photo_01-09-16_17_54_30.jpg",
+            "images/kophayam/Photo_31-08-16_14_58_33.jpg",
+            "images/kophayam/Photo_31-08-16_16_08_39.jpg",
+            "images/kophayam/Photo_31-08-16_16_08_45.jpg",
+            "images/kophayam/Photo_31-08-16_16_13_12.jpg",
+            "images/kophayam/Photo_31-08-16_16_15_35.jpg",
+            "images/kophayam/Photo_31-08-16_16_15_43.jpg",
+            "images/kophayam/Photo_31-08-16_18_35_19.jpg"
         ],
         "geotagged": 1
     },
