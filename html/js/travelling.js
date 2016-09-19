@@ -190,6 +190,7 @@ function addTracks(tracks) {
 // init map and titles
 var myGlobalMap = L.map('globalMap').setView([22.065278, 78.398438], 4);
 myGlobalMap.addLayer(new L.Google('ROADMAP'));
+myGlobalMap.keyboard.disable();
 
 var info = L.control();
 

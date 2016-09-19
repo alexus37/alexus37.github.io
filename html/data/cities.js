@@ -1204,6 +1204,62 @@ var cities = [
         "id": "bangkok",
         "country": "thailand",
         "images": [
+            "images/bangkok/Photo_03-09-16_05_59_23.jpg",
+            "images/bangkok/Photo_06-09-16_14_53_16.jpg",
+            "images/bangkok/Photo_06-09-16_15_40_00.jpg",
+            "images/bangkok/Photo_06-09-16_15_44_39.jpg",
+            "images/bangkok/Photo_06-09-16_16_03_43.jpg",
+            "images/bangkok/Photo_06-09-16_16_17_02.jpg",
+            "images/bangkok/Photo_07-09-16_22_55_09.jpg",
+            "images/bangkok/Photo_08-09-16_19_58_08.jpg",
+            "images/bangkok/Photo_09-09-16_17_49_40.jpg",
+            "images/bangkok/Photo_09-09-16_18_17_29.jpg",
+            "images/bangkok/Photo_09-09-16_18_21_24.jpg",
+            "images/bangkok/Photo_09-09-16_18_22_31.jpg",
+            "images/bangkok/Photo_10-09-16_19_10_29.jpg",
+            "images/bangkok/Photo_10-09-16_19_12_47.jpg",
+            "images/bangkok/Photo_10-09-16_21_16_49.jpg",
+            "images/bangkok/Photo_10-09-16_21_23_51.jpg",
+            "images/bangkok/Photo_10-09-16_21_24_08.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ho Chi Minh",
+        "latlng": [10.82311, 106.62967],
+        "id": "hoChiMinh",
+        "country": "vietnam",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Mui Ne",
+        "latlng": [10.93314, 108.28723],
+        "id": "muine",
+        "country": "vietnam",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Dalat",
+        "latlng": [11.94041, 108.45833],
+        "id": "dalat",
+        "country": "vietnam",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Nha Trang",
+        "latlng": [12.23879, 109.19673],
+        "id": "nhaTrang",
+        "country": "vietnam",
+        "images": [
             
         ],
         "geotagged": 1
