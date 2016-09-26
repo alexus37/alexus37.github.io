@@ -1230,7 +1230,14 @@ var cities = [
         "id": "hoChiMinh",
         "country": "vietnam",
         "images": [
-            
+            "images/hoChiMinh/Photo_12-09-16_12_44_49.jpg",
+            "images/hoChiMinh/Photo_12-09-16_13_23_41.jpg",
+            "images/hoChiMinh/Photo_12-09-16_16_49_01.jpg",
+            "images/hoChiMinh/Photo_13-09-16_15_11_02.jpg",
+            "images/hoChiMinh/Photo_13-09-16_16_50_56.jpg",
+            "images/hoChiMinh/Photo_13-09-16_17_14_27.jpg",
+            "images/hoChiMinh/Photo_13-09-16_17_14_55.jpg",
+            "images/hoChiMinh/Photo_13-09-16_17_16_09.jpg"
         ],
         "geotagged": 1
     },
@@ -1240,7 +1247,15 @@ var cities = [
         "id": "muine",
         "country": "vietnam",
         "images": [
-            
+            "images/muine/Photo_15-09-16_15_51_36.jpg",
+            "images/muine/Photo_15-09-16_18_56_46.jpg",
+            "images/muine/Photo_16-09-16_11_37_20.jpg",
+            "images/muine/Photo_16-09-16_11_38_23.jpg",
+            "images/muine/Photo_16-09-16_11_55_11.jpg",
+            "images/muine/Photo_16-09-16_11_55_26.jpg",
+            "images/muine/Photo_16-09-16_12_46_48.jpg",
+            "images/muine/Photo_16-09-16_13_47_32.jpg",
+            "images/muine/Photo_16-09-16_16_14_41.jpg"
         ],
         "geotagged": 1
     },
@@ -1250,7 +1265,19 @@ var cities = [
         "id": "dalat",
         "country": "vietnam",
         "images": [
-            
+            "images/dalat/Photo_17-09-16_15_20_51.jpg",
+            "images/dalat/Photo_17-09-16_15_41_52.jpg",
+            "images/dalat/Photo_17-09-16_15_42_24.jpg",
+            "images/dalat/Photo_17-09-16_15_46_23.jpg",
+            "images/dalat/Photo_17-09-16_16_29_36.jpg",
+            "images/dalat/Photo_17-09-16_18_17_08.jpg",
+            "images/dalat/Photo_18-09-16_16_18_30.jpg",
+            "images/dalat/Photo_18-09-16_16_24_24.jpg",
+            "images/dalat/Photo_18-09-16_16_26_05_(1).jpg",
+            "images/dalat/Photo_18-09-16_16_26_05.jpg",
+            "images/dalat/Photo_18-09-16_16_39_01.jpg",
+            "images/dalat/Photo_18-09-16_17_21_55_(1).jpg",
+            "images/dalat/Photo_18-09-16_17_21_55.jpg"
         ],
         "geotagged": 1
     },
@@ -1258,6 +1285,67 @@ var cities = [
         "name": "Nha Trang",
         "latlng": [12.23879, 109.19673],
         "id": "nhaTrang",
+        "country": "vietnam",
+        "images": [
+            "images/nhaTrang/Photo_19-09-16_15_00_44.jpg",
+            "images/nhaTrang/Photo_19-09-16_15_35_26.jpg",
+            "images/nhaTrang/Photo_24-09-16_11_58_10.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kon Tum",
+        "latlng": [14.66111, 107.83871],
+        "id": "kontum",
+        "country": "vietnam",
+        "images": [
+            "images/kontum/Photo_21-09-16_09_36_54.jpg",
+            "images/kontum/Photo_21-09-16_10_50_09.jpg",
+            "images/kontum/Photo_21-09-16_10_50_55.jpg",
+            "images/kontum/Photo_21-09-16_11_15_06.jpg",
+            "images/kontum/Photo_21-09-16_12_00_48.jpg",
+            "images/kontum/Photo_21-09-16_12_29_15.jpg",
+            "images/kontum/Photo_21-09-16_12_31_45.jpg",
+            "images/kontum/Photo_21-09-16_12_33_51.jpg",
+            "images/kontum/Photo_21-09-16_13_38_30.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Hoi An",
+        "latlng": [15.88, 108.33806],
+        "id": "Hoian",
+        "country": "vietnam",
+        "images": [
+            "images/hoian/Photo_22-09-16_16_05_22.jpg",
+            "images/hoian/Photo_22-09-16_16_10_53.jpg",
+            "images/hoian/Photo_22-09-16_16_40_42.jpg",
+            "images/hoian/Photo_22-09-16_16_49_53.jpg",
+            "images/hoian/Photo_22-09-16_17_01_09.jpg",
+            "images/hoian/Photo_22-09-16_17_03_27.jpg",
+            "images/hoian/Photo_22-09-16_17_13_04.jpg",
+            "images/hoian/Photo_22-09-16_17_19_18.jpg",
+            "images/hoian/Photo_23-09-16_18_44_30.jpg",
+            "images/hoian/Photo_23-09-16_19_03_38.jpg",
+            "images/hoian/Photo_23-09-16_19_08_17.jpg",
+            "images/hoian/Photo_23-09-16_19_22_31.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Hue",
+        "latlng": [16.4498, 107.56252],
+        "id": "hue",
+        "country": "vietnam",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Khe Sanh",
+        "latlng": [16.61939, 106.73252],
+        "id": "khesanh",
         "country": "vietnam",
         "images": [
             
