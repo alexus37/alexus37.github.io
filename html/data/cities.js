@@ -1338,7 +1338,17 @@ var cities = [
         "id": "hue",
         "country": "vietnam",
         "images": [
-            
+            "images/hue/Photo_25-09-2016,_12_23_47.jpg",
+            "images/hue/Photo_25-09-2016,_12_29_08.jpg",
+            "images/hue/Photo_25-09-2016,_13_00_14.jpg",
+            "images/hue/Photo_25-09-2016,_13_04_14.jpg",
+            "images/hue/Photo_25-09-2016,_13_26_39.jpg",
+            "images/hue/Photo_25-09-2016,_15_07_07.jpg",
+            "images/hue/Photo_25-09-2016,_15_08_28.jpg",
+            "images/hue/Photo_25-09-2016,_15_11_10.jpg",
+            "images/hue/Photo_25-09-2016,_15_13_30.jpg",
+            "images/hue/Photo_25-09-2016,_17_53_34.jpg",
+            "images/hue/Photo_26-09-2016,_15_25_21.jpg"
         ],
         "geotagged": 1
     },
@@ -1346,6 +1356,152 @@ var cities = [
         "name": "Khe Sanh",
         "latlng": [16.61939, 106.73252],
         "id": "khesanh",
+        "country": "vietnam",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Phong Nha",
+        "latlng": [17.58321, 106.28211],
+        "id": "phongNha",
+        "country": "vietnam",
+        "images": [
+            "images/phongNha/Photo_02-10-2016,_02_57_36.jpg",
+            "images/phongNha/Photo_02-10-2016,_02_57_54.jpg",
+            "images/phongNha/Photo_02-10-2016,_02_58_24.jpg",
+            "images/phongNha/Photo_27-09-2016,_10_50_31.jpg",
+            "images/phongNha/Photo_27-09-2016,_14_35_55.jpg",
+            "images/phongNha/Photo_27-09-2016,_15_08_36.jpg",
+            "images/phongNha/Photo_27-09-2016,_17_14_18.jpg",
+            "images/phongNha/Photo_27-09-2016,_22_18_43.jpg",
+            "images/phongNha/Photo_28-09-2016,_17_39_50.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Tam Coc",
+        "latlng": [20.216054, 105.93726],
+        "id": "tamCoc",
+        "country": "vietnam",
+        "images": [
+            "images/tamCoc/Photo_02-10-2016,_02_57_42.jpg",
+            "images/tamCoc/Photo_02-10-2016,_02_57_46.jpg",
+            "images/tamCoc/Photo_30-09-2016,_15_07_31.jpg",
+            "images/tamCoc/Photo_30-09-2016,_15_07_37.jpg",
+            "images/tamCoc/Photo_30-09-2016,_15_12_12.jpg",
+            "images/tamCoc/Photo_30-09-2016,_15_33_34.jpg",
+            "images/tamCoc/Photo_30-09-2016,_15_35_03.jpg",
+            "images/tamCoc/Photo_30-09-2016,_15_39_17.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Hanoi",
+        "latlng": [21.02778, 105.83414],
+        "id": "hanoi",
+        "country": "vietnam",
+        "images": [
+            "images/hanoi/Photo_01-10-2016,_11_08_02.jpg",
+            "images/hanoi/Photo_01-10-2016,_11_25_50.jpg",
+            "images/hanoi/Photo_01-10-2016,_11_52_51.jpg",
+            "images/hanoi/Photo_01-10-2016,_13_09_56.jpg",
+            "images/hanoi/Photo_01-10-2016,_23_41_53.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Cat Ba",
+        "latlng": [20.724577,107.051462],
+        "id": "catBa",
+        "country": "vietnam",
+        "images": [
+            "images/catBa/Photo_03-10-2016,_08_23_01.jpg",
+            "images/catBa/Photo_03-10-2016,_08_46_47.jpg",
+            "images/catBa/Photo_03-10-2016,_10_25_21.jpg",
+            "images/catBa/Photo_03-10-2016,_10_25_32.jpg",
+            "images/catBa/Photo_03-10-2016,_17_13_44.jpg",
+            "images/catBa/Photo_04-10-2016,_08_38_10.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "That Khe",
+        "latlng": [21.85376, 106.7618],
+        "id": "thatkhe",
+        "country": "vietnam",
+        "images": [
+            "images/thatKhe/Photo_04-10-2016,_17_32_35.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Cao Bang",
+        "latlng": [22.6381, 106.25468],
+        "id": "caoBang",
+        "country": "vietnam",
+        "images": [
+            "images/caoBang/Photo_05-10-2016,_10_50_02.jpg",
+            "images/caoBang/Photo_05-10-2016,_11_16_56.jpg",
+            "images/caoBang/Photo_05-10-2016,_15_13_40.jpg",
+            "images/caoBang/Photo_05-10-2016,_15_16_05.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Meo Vac",
+        "latlng": [23.164856, 105.4083],
+        "id": "meoVac",
+        "country": "vietnam",
+        "images": [
+            "images/meoVac/Photo_05-10-2016,_16_59_49.jpg",
+            "images/meoVac/Photo_05-10-2016,_17_00_02.jpg",
+            "images/meoVac/Photo_05-10-2016,_17_01_03.jpg",
+            "images/meoVac/Photo_05-10-2016,_17_03_38.jpg",
+            "images/meoVac/Photo_05-10-2016,_17_04_12.jpg",
+            "images/meoVac/Photo_05-10-2016,_17_15_47.jpg",
+            "images/meoVac/Photo_05-10-2016,_17_19_38.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Dong Van",
+        "latlng": [23.29432, 105.29359],
+        "id": "dongVan",
+        "country": "vietnam",
+        "images": [
+            "images/dongVan/Photo_06-10-2016,_08_34_39.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Bac Ha",
+        "latlng": [22.53582, 104.29079],
+        "id": "bacHa",
+        "country": "vietnam",
+        "images": [
+            "images/bacHa/Photo_06-10-2016,_17_49_20.jpg",
+            "images/bacHa/Photo_07-10-2016,_11_46_10.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Muong Khuong",
+        "latlng": [22.75885, 104.10868],
+        "id": "MuongKhuong",
+        "country": "vietnam",
+        "images": [
+            "images/muongKhuong/Photo_07-10-2016,_11_46_15.jpg",
+            "images/muongKhuong/Photo_07-10-2016,_12_18_45.jpg",
+            "images/muongKhuong/Photo_07-10-2016,_14_31_05.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Sa Pa",
+        "latlng": [22.33944, 103.8431],
+        "id": "sapa",
         "country": "vietnam",
         "images": [
             
