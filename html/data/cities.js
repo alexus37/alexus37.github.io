@@ -1504,6 +1504,105 @@ var cities = [
         "id": "sapa",
         "country": "vietnam",
         "images": [
+            "images/sapa/Photo_08-10-2016,_09_10_37.jpg",
+            "images/sapa/Photo_08-10-2016,_10_48_37.jpg",
+            "images/sapa/Photo_08-10-2016,_10_49_27.jpg",
+            "images/sapa/Photo_08-10-2016,_10_50_33.jpg",
+            "images/sapa/Photo_08-10-2016,_10_54_54.jpg",
+            "images/sapa/Photo_08-10-2016,_10_55_36.jpg",
+            "images/sapa/Photo_08-10-2016,_10_55_58.jpg",
+            "images/sapa/Photo_08-10-2016,_10_56_10.jpg",
+            "images/sapa/Photo_08-10-2016,_10_56_22.jpg",
+            "images/sapa/Photo_08-10-2016,_15_32_27.jpg",
+            "images/sapa/Photo_08-10-2016,_15_32_39.jpg",
+            "images/sapa/Photo_08-10-2016,_15_33_01.jpg",
+            "images/sapa/Photo_09-10-2016,_18_52_29.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Mai Chau",
+        "latlng": [20.665078, 105.08504],
+        "id": "maiChau",
+        "country": "vietnam",
+        "images": [
+            "images/maiChau/Photo_10-10-2016,_16_46_02.jpg",
+            "images/maiChau/Photo_10-10-2016,_16_51_02.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Viangxay",
+        "latlng": [20.409288, 104.22583],
+        "id": "viangxay",
+        "country": "laos",
+        "images": [
+            "images/viengxay/Photo_11-10-2016,_17_17_37.jpg",
+            "images/viengxay/Photo_12-10-2016,_16_07_09.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Phonsavan",
+        "latlng": [19.451741, 103.20474],
+        "id": "phonsavan",
+        "country": "laos",
+        "images": [
+            "images/phonsavan/Photo_13-10-2016,_12_40_32.jpg",
+            "images/phonsavan/Photo_13-10-2016,_12_45_46.jpg",
+            "images/phonsavan/Photo_13-10-2016,_13_12_47.jpg",
+            "images/phonsavan/Photo_13-10-2016,_13_32_19.jpg",
+            "images/phonsavan/Photo_13-10-2016,_13_32_27.jpg",
+            "images/phonsavan/Photo_14-10-2016,_11_47_41.jpg",
+            "images/phonsavan/Photo_14-10-2016,_17_33_47.jpg",
+            "images/phonsavan/Photo_14-10-2016,_17_35_01.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Luang Prabang",
+        "latlng": [19.888728, 102.135892],
+        "id": "luangPrabang",
+        "country": "laos",
+        "images": [
+            "images/luangPrabang/Photo_16-10-2016,_12_01_39.jpg",
+            "images/luangPrabang/Photo_16-10-2016,_12_09_26.jpg",
+            "images/luangPrabang/Photo_16-10-2016,_12_11_10.jpg",
+            "images/luangPrabang/Photo_16-10-2016,_12_26_38.jpg",
+            "images/luangPrabang/Photo_16-10-2016,_12_41_47.jpg",
+            "images/luangPrabang/Photo_16-10-2016,_13_40_30.jpg",
+            "images/luangPrabang/Photo_16-10-2016,_15_42_52.jpg",
+            "images/luangPrabang/Photo_16-10-2016,_20_10_01.jpg",
+            "images/luangPrabang/Photo_17-10-2016,_13_15_04.jpg",
+            "images/luangPrabang/Photo_17-10-2016,_18_22_35.jpg",
+            "images/luangPrabang/Photo_17-10-2016,_18_28_45.jpg",
+            "images/luangPrabang/Photo_17-10-2016,_18_34_38.jpg",
+            "images/luangPrabang/Photo_17-10-2016,_20_02_52.jpg",
+            "images/luangPrabang/Photo_18-10-2016,_12_34_02.jpg",
+            "images/luangPrabang/Photo_18-10-2016,_12_40_41.jpg",
+            "images/luangPrabang/Photo_18-10-2016,_14_56_37.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Vang Vieng",
+        "latlng": [18.919422, 102.44772],
+        "id": "vangVieng",
+        "country": "laos",
+        "images": [
+            "images/vangvieng/Photo_18-10-2016,_16_44_52.jpg",
+            "images/vangvieng/Photo_18-10-2016,_17_11_41.jpg",
+            "images/vangvieng/Photo_19-10-2016,_16_22_11.jpg",
+            "images/vangvieng/Photo_19-10-2016,_17_23_37.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Vientiane",
+        "latlng": [17.964101, 102.61337],
+        "id": "vientiane",
+        "country": "laos",
+        "images": [
             
         ],
         "geotagged": 1
