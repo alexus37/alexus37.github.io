@@ -1603,6 +1603,77 @@ var cities = [
         "id": "vientiane",
         "country": "laos",
         "images": [
+            "images/vientiane/Photo_23-10-2016,_17_33_37.jpg",
+            "images/vientiane/Photo_23-10-2016,_17_33_57.jpg",
+            "images/vientiane/Photo_24-10-2016,_14_14_08.jpg",
+            "images/vientiane/Photo_24-10-2016,_14_26_25.jpg",
+            "images/vientiane/Photo_25-10-2016,_11_57_51.jpg",
+            "images/vientiane/Photo_25-10-2016,_11_58_20.jpg",
+            "images/vientiane/Photo_25-10-2016,_11_59_44.jpg",
+            "images/vientiane/Photo_25-10-2016,_12_05_49.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Pakxan",
+        "latlng": [18.39826, 103.66444],
+        "id": "pakxan",
+        "country": "laos",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kong Lor",
+        "latlng": [17.96184, 104.74748],
+        "id": "kongLor",
+        "country": "laos",
+        "images": [
+            "images/kongLor/Photo_26-10-2016,_11_40_56.jpg",
+            "images/kongLor/Photo_26-10-2016,_13_52_09.jpg",
+            "images/kongLor/Photo_26-10-2016,_14_57_07.jpg",
+            "images/kongLor/Photo_26-10-2016,_15_49_07.jpg",
+            "images/kongLor/Photo_26-10-2016,_15_51_29.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Thalang",
+        "latlng": [17.84294, 105.05352],
+        "id": "thalang",
+        "country": "laos",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Thakhek",
+        "latlng": [17.40353, 104.83409],
+        "id": "thakhek",
+        "country": "laos",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Pakse",
+        "latlng": [15.11109, 105.81718],
+        "id": "pakse",
+        "country": "laos",
+        "images": [
+            
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Don Det",
+        "latlng": [13.974189, 105.91908],
+        "id": "donDet",
+        "country": "laos",
+        "images": [
             
         ],
         "geotagged": 1
