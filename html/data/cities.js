@@ -1644,7 +1644,7 @@ var cities = [
         "id": "thalang",
         "country": "laos",
         "images": [
-            
+            "images/thalang/Photo_27-10-2016,_14_02_43.jpg"
         ],
         "geotagged": 1
     },
@@ -1673,6 +1673,22 @@ var cities = [
         "latlng": [13.974189, 105.91908],
         "id": "donDet",
         "country": "laos",
+        "images": [
+            "images/donDet/Photo_01-11-2016,_14_38_48.jpg",
+            "images/donDet/Photo_02-11-2016,_15_03_38.jpg",
+            "images/donDet/Photo_02-11-2016,_15_09_12.jpg",
+            "images/donDet/Photo_03-11-2016,_12_03_17.jpg",
+            "images/donDet/Photo_30-10-2016,_11_17_34.jpg",
+            "images/donDet/Photo_30-10-2016,_17_07_16.jpg",
+            "images/donDet/Photo_31-10-2016,_15_19_28.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ban Lung",
+        "latlng": [13.7393, 106.99588],
+        "id": "banLung",
+        "country": "cambodia",
         "images": [
             
         ],
