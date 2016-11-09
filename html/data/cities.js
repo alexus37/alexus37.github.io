@@ -1692,6 +1692,36 @@ var cities = [
         "images": [
             
         ],
-        "geotagged": 1
+        "geotagged": 0
+    },
+    {
+        "name": "Preah Vihear",
+        "latlng": [13.801263, 104.97427],
+        "id": "preahVihear",
+        "country": "cambodia",
+        "images": [
+            
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Siam Reap",
+        "latlng": [13.345259, 103.85418],
+        "id": "siamReap",
+        "country": "cambodia",
+        "images": [
+            
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Battambang",
+        "latlng": [13.099857, 103.196674],
+        "id": "battambang",
+        "country": "cambodia",
+        "images": [
+            
+        ],
+        "geotagged": 0
     }
 ];
