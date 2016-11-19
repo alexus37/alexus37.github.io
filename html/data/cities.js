@@ -1690,7 +1690,8 @@ var cities = [
         "id": "banLung",
         "country": "cambodia",
         "images": [
-            
+            "images/banlung/Photo_05-11-2016,_13_04_49.jpg",
+            "images/banlung/Photo_05-11-2016,_17_39_08.jpg"
         ],
         "geotagged": 0
     },
@@ -1710,7 +1711,24 @@ var cities = [
         "id": "siamReap",
         "country": "cambodia",
         "images": [
-            
+            "images/siamReap/Photo_06-11-2016,_11_51_05.jpg",
+            "images/siamReap/Photo_08-11-2016,_10_26_36.jpg",
+            "images/siamReap/Photo_08-11-2016,_10_39_42.jpg",
+            "images/siamReap/Photo_08-11-2016,_10_45_34.jpg",
+            "images/siamReap/Photo_08-11-2016,_10_48_47.jpg",
+            "images/siamReap/Photo_08-11-2016,_10_50_56.jpg",
+            "images/siamReap/Photo_08-11-2016,_11_25_35.jpg",
+            "images/siamReap/Photo_08-11-2016,_11_27_54.jpg",
+            "images/siamReap/Photo_08-11-2016,_11_29_23.jpg",
+            "images/siamReap/Photo_08-11-2016,_11_32_58.jpg",
+            "images/siamReap/Photo_08-11-2016,_11_40_22.jpg",
+            "images/siamReap/Photo_08-11-2016,_12_22_02.jpg",
+            "images/siamReap/Photo_08-11-2016,_13_07_13.jpg",
+            "images/siamReap/Photo_08-11-2016,_13_13_22.jpg",
+            "images/siamReap/Photo_08-11-2016,_15_24_06.jpg",
+            "images/siamReap/Photo_08-11-2016,_15_32_11.jpg",
+            "images/siamReap/Photo_08-11-2016,_15_58_47.jpg",
+            "images/siamReap/Photo_08-11-2016,_16_02_42.jpg"
         ],
         "geotagged": 0
     },
@@ -1718,6 +1736,69 @@ var cities = [
         "name": "Battambang",
         "latlng": [13.099857, 103.196674],
         "id": "battambang",
+        "country": "cambodia",
+        "images": [
+            "images/battambang/Photo_09-11-2016,_15_06_40.jpg",
+            "images/battambang/Photo_10-11-2016,_13_41_00.jpg",
+            "images/battambang/Photo_10-11-2016,_13_51_25.jpg",
+            "images/battambang/Photo_10-11-2016,_14_05_52.jpg",
+            "images/battambang/Photo_10-11-2016,_14_19_06.jpg",
+            "images/battambang/Photo_10-11-2016,_14_24_13.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Phnom Penh",
+        "latlng": [11.568268, 104.922429],
+        "id": "phnomPenh",
+        "country": "cambodia",
+        "images": [
+            "images/phnomPenh/Photo_11-11-2016,_14_11_19.jpg",
+            "images/phnomPenh/Photo_11-11-2016,_16_46_22.jpg",
+            "images/phnomPenh/Photo_11-11-2016,_17_31_04.jpg",
+            "images/phnomPenh/Photo_11-11-2016,_18_32_44.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Kampot",
+        "latlng": [10.618305, 104.17973],
+        "id": "kampot",
+        "country": "cambodia",
+        "images": [
+            "images/kampot/Photo_15-11-2016,_12_19_58.jpg",
+            "images/kampot/Photo_15-11-2016,_12_20_09.jpg",
+            "images/kampot/Photo_15-11-2016,_13_15_50.jpg",
+            "images/kampot/Photo_15-11-2016,_13_55_24.jpg",
+            "images/kampot/Photo_15-11-2016,_14_03_06.jpg",
+            "images/kampot/Photo_15-11-2016,_18_45_45.jpg"
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Ream",
+        "latlng": [10.508281, 103.618393],
+        "id": "ream",
+        "country": "cambodia",
+        "images": [
+            
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Sihanoukville",
+        "latlng": [10.622049, 103.522337],
+        "id": "sihanoukville",
+        "country": "cambodia",
+        "images": [
+            
+        ],
+        "geotagged": 0
+    },
+    {
+        "name": "Koh Rong",
+        "latlng": [10.715897, 103.24878],
+        "id": "kohRong",
         "country": "cambodia",
         "images": [
             
