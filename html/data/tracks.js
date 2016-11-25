@@ -618,6 +618,20 @@ var tracks = [
         "from": "sihanoukville", 
         "to": "kohRong",
         "type": "boat"
+    },
+    {        
+        "fromLatLng": [10.715897, 103.24878],
+        "toLatLng": [25.223270, 55.259638],
+        "from": "kohRong", 
+        "to": "dubai",
+        "type": "flight"
+    },
+    {        
+        "fromLatLng": [25.223270, 55.259638],
+        "toLatLng": [52.52437, 13.41053],
+        "from": "dubai", 
+        "to": "berlin",
+        "type": "flight"
     }
 ];
 

@@ -1730,7 +1730,7 @@ var cities = [
             "images/siamReap/Photo_08-11-2016,_15_58_47.jpg",
             "images/siamReap/Photo_08-11-2016,_16_02_42.jpg"
         ],
-        "geotagged": 0
+        "geotagged": 1
     },
     {
         "name": "Battambang",
@@ -1745,7 +1745,7 @@ var cities = [
             "images/battambang/Photo_10-11-2016,_14_19_06.jpg",
             "images/battambang/Photo_10-11-2016,_14_24_13.jpg"
         ],
-        "geotagged": 0
+        "geotagged": 1
     },
     {
         "name": "Phnom Penh",
@@ -1758,7 +1758,7 @@ var cities = [
             "images/phnomPenh/Photo_11-11-2016,_17_31_04.jpg",
             "images/phnomPenh/Photo_11-11-2016,_18_32_44.jpg"
         ],
-        "geotagged": 0
+        "geotagged": 1
     },
     {
         "name": "Kampot",
@@ -1773,7 +1773,7 @@ var cities = [
             "images/kampot/Photo_15-11-2016,_14_03_06.jpg",
             "images/kampot/Photo_15-11-2016,_18_45_45.jpg"
         ],
-        "geotagged": 0
+        "geotagged": 1
     },
     {
         "name": "Ream",
@@ -1781,9 +1781,12 @@ var cities = [
         "id": "ream",
         "country": "cambodia",
         "images": [
-            
+            "images/ream/Photo_16-11-2016,_17_07_51.jpg",
+            "images/ream/Photo_16-11-2016,_17_08_04_(1).jpg",
+            "images/ream/Photo_16-11-2016,_17_08_04.jpg",
+            "images/ream/Photo_18-11-2016,_11_07_34.jpg"
         ],
-        "geotagged": 0
+        "geotagged": 1
     },
     {
         "name": "Sihanoukville",
@@ -1793,7 +1796,7 @@ var cities = [
         "images": [
             
         ],
-        "geotagged": 0
+        "geotagged": 1
     },
     {
         "name": "Koh Rong",
@@ -1801,8 +1804,32 @@ var cities = [
         "id": "kohRong",
         "country": "cambodia",
         "images": [
-            
+            "images/kohRong/Photo_20-11-2016,_12_09_36.jpg",
+            "images/kohRong/Photo_20-11-2016,_13_54_35.jpg",
+            "images/kohRong/Photo_20-11-2016,_14_00_47.jpg",
+            "images/kohRong/Photo_20-11-2016,_14_00_53.jpg",
+            "images/kohRong/Photo_20-11-2016,_14_04_15.jpg",
+            "images/kohRong/Photo_20-11-2016,_14_04_20.jpg",
+            "images/kohRong/Photo_21-11-2016,_15_43_23.jpg",
+            "images/kohRong/Photo_21-11-2016,_22_43_02.jpg",
+            "images/kohRong/Photo_22-11-2016,_12_20_40.jpg"
         ],
-        "geotagged": 0
+        "geotagged": 1
+    },
+    {
+        "name": "Dubai",
+        "latlng": [25.223270, 55.259638],
+        "id": "dubai",
+        "country": "unitedArabEmirates",
+        "images": [
+            "images/dubai/Photo_24-11-2016,_14_07_05.jpg",
+            "images/dubai/Photo_24-11-2016,_15_09_26.jpg",
+            "images/dubai/Photo_25-11-2016,_14_31_41.jpg",
+            "images/dubai/Photo_25-11-2016,_15_05_30.jpg",
+            "images/dubai/Photo_25-11-2016,_15_12_46_(1).jpg",
+            "images/dubai/Photo_25-11-2016,_15_53_30.jpg",
+            "images/dubai/Photo_25-11-2016,_16_15_33.jpg"
+        ],
+        "geotagged": 1
     }
 ];
