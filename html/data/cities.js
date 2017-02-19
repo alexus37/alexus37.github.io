@@ -1831,5 +1831,61 @@ var cities = [
             "images/dubai/Photo_25-11-2016,_16_15_33.jpg"
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Berlin",
+        "latlng": [25.223270, 55.259638],
+        "id": "berlin",
+        "country": "Germany",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Leipzig",
+        "latlng": [51.33977, 12.37304],
+        "id": "leipzig",
+        "country": "Germany",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Mayrhofen",
+        "latlng": [47.16918, 11.86517],
+        "id": "mayrhofen",
+        "country": "Austria",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Zürich",
+        "latlng": [47.3769, 8.54169],
+        "id": "zuerich",
+        "country": "Switzerland",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Val disere",
+        "latlng": [45.44802, 6.98037],
+        "id": "valdisere",
+        "country": "France",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Frankfurt",
+        "latlng": [50.11092, 8.68213],
+        "id": "frankfurt",
+        "country": "Germany",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Arambol",
+        "latlng": [15.688647, 73.712551],
+        "id": "arambol",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
     }
 ];
