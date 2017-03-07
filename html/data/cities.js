@@ -1885,7 +1885,12 @@ var cities = [
         "latlng": [15.688647, 73.712551],
         "id": "arambol",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/arambol/Photo_06-03-2017,_16_57_16.jpg",
+            "images/arambol/Photo_12-02-2017,_16_07_37.jpg",
+            "images/arambol/Photo_13-02-2017,_17_29_55.jpg",
+            "images/arambol/Photo_21-02-2017,_16_00_27.jpg"
+        ],
         "geotagged": 1
     },
     {
@@ -1893,7 +1898,30 @@ var cities = [
         "latlng": [15.335976, 76.460621],
         "id": "hampi",
         "country": "india",
-        "images": [],
+        "images": [ 
+            "images/hampi/Photo_07-03-2017,_18_50_48.jpg",
+            "images/hampi/Photo_07-03-2017,_18_51_29.jpg",
+            "images/hampi/Photo_07-03-2017,_18_54_09.jpg",
+            "images/hampi/Photo_23-02-2017,_17_52_37.jpg",
+            "images/hampi/Photo_24-02-2017,_13_19_40.jpg",
+            "images/hampi/Photo_26-02-2017,_18_34_30.jpg",
+            "images/hampi/DSC00046.jpg",
+            "images/hampi/DSC00050.jpg",
+            "images/hampi/DSC00053.jpg",
+            "images/hampi/DSC00064.jpg",
+            "images/hampi/DSC00068.jpg",
+            "images/hampi/DSC00069.jpg",
+            "images/hampi/DSC00072.jpg",
+            "images/hampi/DSC00082.jpg",
+            "images/hampi/DSC00093.jpg",
+            "images/hampi/DSC00094.jpg",
+            "images/hampi/DSC00107.jpg",
+            "images/hampi/DSC00108.jpg",
+            "images/hampi/DSC00109.jpg",
+            "images/hampi/DSC00115.jpg",
+            "images/hampi/DSC00117.jpg",
+            "images/hampi/DSC00119.jpg"
+        ],
         "geotagged": 1
     },
     {
@@ -1901,7 +1929,15 @@ var cities = [
         "latlng": [14.543962, 74.318443],
         "id": "gokarna",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/gokarna/DSC00124.jpg",
+            "images/gokarna/DSC00126.jpg",
+            "images/gokarna/DSC00127.jpg",
+            "images/gokarna/Photo_05-03-2017,_13_05_58.jpg",
+            "images/gokarna/Photo_05-03-2017,_13_17_37.jpg",
+            "images/gokarna/Photo_05-03-2017,_15_05_18.jpg",
+            "images/gokarna/Photo_05-03-2017,_15_49_34.jpg"
+        ],
         "geotagged": 1
     },
     {
