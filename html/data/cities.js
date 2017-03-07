@@ -1887,5 +1887,29 @@ var cities = [
         "country": "india",
         "images": [],
         "geotagged": 1
+    },
+    {
+        "name": "Hampi",
+        "latlng": [15.335976, 76.460621],
+        "id": "hampi",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Gokarna",
+        "latlng": [14.543962, 74.318443],
+        "id": "gokarna",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Madikeri",
+        "latlng": [12.420401, 75.740032],
+        "id": "madikeri",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
     }
 ];
