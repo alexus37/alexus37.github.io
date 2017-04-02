@@ -1947,5 +1947,77 @@ var cities = [
         "country": "india",
         "images": [],
         "geotagged": 1
+    },
+    {
+        "name": "Mysore",
+        "latlng": [12.305183, 76.655376],
+        "id": "mysore",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Pondicherry",
+        "latlng": [11.934058, 79.830639],
+        "id": "pondicherry",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Auroville",
+        "latlng": [12.00542, 79.8111],
+        "id": "auroville",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Chennai",
+        "latlng": [13.08017, 80.283825],
+        "id": "chennai",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Port Blair",
+        "latlng": [11.664532, 92.739061],
+        "id": "portBlair",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Havelock",
+        "latlng": [12.016363, 93.009046],
+        "id": "havelock",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Little Andamann",
+        "latlng": [10.697091, 92.496304],
+        "id": "littleAndamann",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Mahabalipuram",
+        "latlng": [12.619501, 80.193666],
+        "id": "mahabalipuram",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Tiruvannamali",
+        "latlng": [12.234313, 79.076188],
+        "id": "tiruvannamali",
+        "country": "india",
+        "images": [],
+        "geotagged": 1
     }
 ];
