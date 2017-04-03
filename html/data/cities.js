@@ -1954,16 +1954,16 @@ var cities = [
         "id": "mysore",
         "country": "india",
         "images": [
-            "images/mysore/DSC00129.JPG",
-            "images/mysore/DSC00130.JPG",
-            "images/mysore/DSC00131.JPG",
-            "images/mysore/DSC00132.JPG",
-            "images/mysore/DSC00133.JPG",
-            "images/mysore/DSC00135.JPG",
-            "images/mysore/DSC00136.JPG",
-            "images/mysore/DSC00137.JPG",
-            "images/mysore/DSC00138.JPG",
-            "images/mysore/DSC00139.JPG"
+            "images/mysore/DSC00129.jpg",
+            "images/mysore/DSC00130.jpg",
+            "images/mysore/DSC00131.jpg",
+            "images/mysore/DSC00132.jpg",
+            "images/mysore/DSC00133.jpg",
+            "images/mysore/DSC00135.jpg",
+            "images/mysore/DSC00136.jpg",
+            "images/mysore/DSC00137.jpg",
+            "images/mysore/DSC00138.jpg",
+            "images/mysore/DSC00139.jpg"
         ],
         "geotagged": 1
     },
@@ -1973,12 +1973,12 @@ var cities = [
         "id": "pondicherry",
         "country": "india",
         "images": [
-            "images/pondicherry/DSC00145.JPG",
-            "images/pondicherry/DSC00146.JPG",
-            "images/pondicherry/DSC00147.JPG",
-            "images/pondicherry/DSC00148.JPG"
+            "images/pondicherry/DSC00145.jpg",
+            "images/pondicherry/DSC00146.jpg",
+            "images/pondicherry/DSC00147.jpg",
+            "images/pondicherry/DSC00148.jpg"
         ],
-        "geotagged": 1
+        "geotagged": 0
     },
     {
         "name": "Auroville",
@@ -1986,10 +1986,10 @@ var cities = [
         "id": "auroville",
         "country": "india",
         "images": [
-            "images/auroville/DSC00140.JPG",
-            "images/auroville/DSC00143.JPG",
-            "images/auroville/DSC00144.JPG",
-            "images/auroville/DSC00150.JPG"
+            "images/auroville/DSC00140.jpg",
+            "images/auroville/DSC00143.jpg",
+            "images/auroville/DSC00144.jpg",
+            "images/auroville/DSC00150.jpg"
         ],
         "geotagged": 1
     },
@@ -2026,7 +2026,7 @@ var cities = [
             "images/portBlair/IMG_20170318_164740.jpg",
             "images/portBlair/IMG_20170318_175205.jpg"
         ],
-        "geotagged": 1
+        "geotagged": 0
     },
     {
         "name": "Havelock",
@@ -2062,18 +2062,18 @@ var cities = [
             "images/littleAndamann/IMG_20170328_111241.jpg",
             "images/littleAndamann/IMG_20170328_114234.jpg",
             "images/littleAndamann/IMG_20170328_114518.jpg",
-            "images/littleAndamann/DSC00151.JPG",
-            "images/littleAndamann/DSC00156.JPG",
-            "images/littleAndamann/DSC00157.JPG",
-            "images/littleAndamann/DSC00158.JPG",
-            "images/littleAndamann/DSC00164.JPG",
-            "images/littleAndamann/DSC00165.JPG",
-            "images/littleAndamann/DSC00166.JPG",
-            "images/littleAndamann/DSC00167.JPG",
-            "images/littleAndamann/DSC00168.JPG",
-            "images/littleAndamann/DSC00169.JPG",
-            "images/littleAndamann/DSC00170.JPG",
-            "images/littleAndamann/DSC00171.JPG"
+            "images/littleAndamann/DSC00151.jpg",
+            "images/littleAndamann/DSC00156.jpg",
+            "images/littleAndamann/DSC00157.jpg",
+            "images/littleAndamann/DSC00158.jpg",
+            "images/littleAndamann/DSC00164.jpg",
+            "images/littleAndamann/DSC00165.jpg",
+            "images/littleAndamann/DSC00166.jpg",
+            "images/littleAndamann/DSC00167.jpg",
+            "images/littleAndamann/DSC00168.jpg",
+            "images/littleAndamann/DSC00169.jpg",
+            "images/littleAndamann/DSC00170.jpg",
+            "images/littleAndamann/DSC00171.jpg"
         ],
         "geotagged": 1
     },
