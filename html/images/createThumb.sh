@@ -19,3 +19,11 @@ do
 echo "\"images/$f\","
 convert $f -resize 48x36 "${f%.*}_thumb.jpg"
 done
+
+array=($city"/"*.JPG);
+for f in ${array[*]};
+do 
+echo "\"images/$f\","
+convert $f -resize 48x36 "${f%.*}_thumb.JPG"
+
+done
