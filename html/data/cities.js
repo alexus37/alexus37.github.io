@@ -2049,7 +2049,7 @@ var cities = [
             "images/havelock/IMG_20170326_120904.jpg",
             "images/havelock/IMG_20170326_121133.jpg"
         ],
-        "geotagged": 1
+        "geotagged": 0  
     },
     {
         "name": "Little Andamann",
