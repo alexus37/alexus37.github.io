@@ -1953,7 +1953,18 @@ var cities = [
         "latlng": [12.305183, 76.655376],
         "id": "mysore",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/mysore/DSC00129.JPG",
+            "images/mysore/DSC00130.JPG",
+            "images/mysore/DSC00131.JPG",
+            "images/mysore/DSC00132.JPG",
+            "images/mysore/DSC00133.JPG",
+            "images/mysore/DSC00135.JPG",
+            "images/mysore/DSC00136.JPG",
+            "images/mysore/DSC00137.JPG",
+            "images/mysore/DSC00138.JPG",
+            "images/mysore/DSC00139.JPG"
+        ],
         "geotagged": 1
     },
     {
@@ -1961,7 +1972,12 @@ var cities = [
         "latlng": [11.934058, 79.830639],
         "id": "pondicherry",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/pondicherry/DSC00145.JPG",
+            "images/pondicherry/DSC00146.JPG",
+            "images/pondicherry/DSC00147.JPG",
+            "images/pondicherry/DSC00148.JPG"
+        ],
         "geotagged": 1
     },
     {
@@ -1969,7 +1985,12 @@ var cities = [
         "latlng": [12.00542, 79.8111],
         "id": "auroville",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/auroville/DSC00140.JPG",
+            "images/auroville/DSC00143.JPG",
+            "images/auroville/DSC00144.JPG",
+            "images/auroville/DSC00150.JPG"
+        ],
         "geotagged": 1
     },
     {
@@ -1977,7 +1998,11 @@ var cities = [
         "latlng": [13.08017, 80.283825],
         "id": "chennai",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/chennai/IMG_20170316_214711.jpg",
+            "images/chennai/IMG_20170330_172111.jpg",
+            "images/chennai/IMG_20170331_103644.jpg"
+        ],
         "geotagged": 1
     },
     {
@@ -1985,7 +2010,22 @@ var cities = [
         "latlng": [11.664532, 92.739061],
         "id": "portBlair",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/portBlair/IMG_20170317_170435.jpg",
+            "images/portBlair/IMG_20170318_090235.jpg",
+            "images/portBlair/IMG_20170318_090633~2.jpg",
+            "images/portBlair/IMG_20170318_091307.jpg",
+            "images/portBlair/IMG_20170318_093504.jpg",
+            "images/portBlair/IMG_20170318_094455.jpg",
+            "images/portBlair/IMG_20170318_103204.jpg",
+            "images/portBlair/IMG_20170318_103701.jpg",
+            "images/portBlair/IMG_20170318_123025.jpg",
+            "images/portBlair/IMG_20170318_140134.jpg",
+            "images/portBlair/IMG_20170318_140138.jpg",
+            "images/portBlair/IMG_20170318_164728.jpg",
+            "images/portBlair/IMG_20170318_164740.jpg",
+            "images/portBlair/IMG_20170318_175205.jpg"
+        ],
         "geotagged": 1
     },
     {
@@ -1993,7 +2033,22 @@ var cities = [
         "latlng": [12.016363, 93.009046],
         "id": "havelock",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/havelock/IMG_20170320_103747.jpg",
+            "images/havelock/IMG_20170320_140225.jpg",
+            "images/havelock/IMG_20170320_140240.jpg",
+            "images/havelock/IMG_20170320_140314.jpg",
+            "images/havelock/IMG_20170320_140331.jpg",
+            "images/havelock/IMG_20170320_140346.jpg",
+            "images/havelock/IMG_20170320_152842.jpg",
+            "images/havelock/IMG_20170320_152848.jpg",
+            "images/havelock/IMG_20170320_225119.jpg",
+            "images/havelock/IMG_20170324_125647.jpg",
+            "images/havelock/IMG_20170324_173218.jpg",
+            "images/havelock/IMG_20170326_112040.jpg",
+            "images/havelock/IMG_20170326_120904.jpg",
+            "images/havelock/IMG_20170326_121133.jpg"
+        ],
         "geotagged": 1
     },
     {
@@ -2001,7 +2056,25 @@ var cities = [
         "latlng": [10.697091, 92.496304],
         "id": "littleAndamann",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/littleAndamann/IMG_20170326_203107.jpg",
+            "images/littleAndamann/IMG_20170327_112659.jpg",
+            "images/littleAndamann/IMG_20170328_111241.jpg",
+            "images/littleAndamann/IMG_20170328_114234.jpg",
+            "images/littleAndamann/IMG_20170328_114518.jpg",
+            "images/littleAndamann/DSC00151.JPG",
+            "images/littleAndamann/DSC00156.JPG",
+            "images/littleAndamann/DSC00157.JPG",
+            "images/littleAndamann/DSC00158.JPG",
+            "images/littleAndamann/DSC00164.JPG",
+            "images/littleAndamann/DSC00165.JPG",
+            "images/littleAndamann/DSC00166.JPG",
+            "images/littleAndamann/DSC00167.JPG",
+            "images/littleAndamann/DSC00168.JPG",
+            "images/littleAndamann/DSC00169.JPG",
+            "images/littleAndamann/DSC00170.JPG",
+            "images/littleAndamann/DSC00171.JPG"
+        ],
         "geotagged": 1
     },
     {
@@ -2009,7 +2082,9 @@ var cities = [
         "latlng": [12.619501, 80.193666],
         "id": "mahabalipuram",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/mahabalipuram/IMG_20170331_173005.jpg"
+        ],
         "geotagged": 1
     },
     {
@@ -2017,7 +2092,11 @@ var cities = [
         "latlng": [12.234313, 79.076188],
         "id": "tiruvannamali",
         "country": "india",
-        "images": [],
+        "images": [
+            "images/tiruvannamali/IMG_20170401_195750.jpg",
+            "images/tiruvannamali/IMG_20170402_101614.jpg",
+            "images/tiruvannamali/IMG_20170402_114001.jpg"
+        ],
         "geotagged": 1
     }
 ];

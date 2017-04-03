@@ -21,5 +21,15 @@ if [[ $string != *"_thumb"* ]]
 then
   convert $f -resize 50% $f
 fi
+done
+
+array=($city"/"*.JPG);
+for f in ${array[*]};
+do 
+echo "\"images/$f\","
+if [[ $string != *"_thumb"* ]]
+then
+  convert $f -resize 50% $f
+fi
 
 done
