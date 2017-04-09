@@ -2098,5 +2098,41 @@ var cities = [
             "images/tiruvannamali/IMG_20170402_114001.jpg"
         ],
         "geotagged": 1
-    }
+    },
+    {
+        "name": "Tharangambadi",
+        "latlng": [11.026432, 79.855403],
+        "id": "tharangambadi",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Thanjavur",
+        "latlng": [10.786074, 79.138114],
+        "id": "thanjavur",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Rameswaram",
+        "latlng": [9.284465, 79.312555],
+        "id": "rameswaram",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kanyakumari",
+        "latlng": [8.079265, 77.549946],
+        "id": "kanyakumari",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
 ];
