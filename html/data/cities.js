@@ -2123,8 +2123,9 @@ var cities = [
         "id": "rameswaram",
         "country": "india",
         "images": [
+            "images/rameswaram/20170408_124838.jpg"
         ],
-        "geotagged": 1
+        "geotagged": 0
     },
     {
         "name": "Kanyakumari",
@@ -2135,4 +2136,30 @@ var cities = [
         ],
         "geotagged": 1
     },
+    {
+        "name": "Varkala",
+        "latlng": [8.740849, 76.723172],
+        "id": "varkala",
+        "country": "india",
+        "images": [
+            "images/varkala/IMG_20170415_140008.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Alappuzha",
+        "latlng": [9.4981, 76.332599],
+        "id": "alappuzha",
+        "country": "india",
+        "images": [
+            "images/alappuzha/IMG_20170417_085707.jpg",
+            "images/alappuzha/IMG_20170417_102541.jpg",
+            "images/alappuzha/IMG_20170417_104022.jpg",
+            "images/alappuzha/IMG_20170417_104246.jpg",
+            "images/alappuzha/IMG_20170417_113250.jpg",
+            "images/alappuzha/IMG_20170417_134637.jpg"
+        ],
+        "geotagged": 1
+    }
+
 ];
