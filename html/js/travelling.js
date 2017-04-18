@@ -49,7 +49,13 @@ function addFancyContent(path) {
         
     }
 
-    $.fancybox(fancyContent);
+    $.fancybox(fancyContent, {
+        helpers: {
+                    thumbs: {
+                        width: 50,
+                        height: 50
+                    }
+                }});
 }
 
 function addImages(path) {
