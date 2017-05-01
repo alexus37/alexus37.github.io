@@ -2160,6 +2160,42 @@ var cities = [
             "images/alappuzha/IMG_20170417_134637.jpg"
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Kochi",
+        "latlng": [9.964842, 76.242798],
+        "id": "kochi",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Munnar",
+        "latlng": [10.086725, 77.060983],
+        "id": "munnar",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kodaikanal",
+        "latlng": [10.235117, 77.493832],
+        "id": "kodaikanal",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Vattakanal",
+        "latlng": [10.216793, 77.484729],
+        "id": "vattakanal",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
     }
 
 ];
