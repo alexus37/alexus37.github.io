@@ -2167,6 +2167,12 @@ var cities = [
         "id": "kochi",
         "country": "india",
         "images": [
+            "images/kochi/IMG_20170419_165843.jpg",
+            "images/kochi/IMG_20170419_170954.jpg",
+            "images/kochi/IMG_20170419_171417.jpg",
+            "images/kochi/IMG_20170419_171803.jpg",
+            "images/kochi/IMG_20170419_175719.jpg",
+            "images/kochi/IMG_20170420_173255.jpg"
         ],
         "geotagged": 1
     },
@@ -2176,6 +2182,18 @@ var cities = [
         "id": "munnar",
         "country": "india",
         "images": [
+            "images/munnar/IMG_20170420_173255.jpg",
+            "images/munnar/IMG_20170420_175226.jpg",
+            "images/munnar/IMG_20170420_181128.jpg",
+            "images/munnar/IMG_20170421_110911.jpg",
+            "images/munnar/IMG_20170421_114558.jpg",
+            "images/munnar/IMG_20170421_123711.jpg",
+            "images/munnar/IMG_20170426_155646.jpg",
+            "images/munnar/IMG_20170426_155740_1.jpg",
+            "images/munnar/IMG_20170426_173346.jpg",
+            "images/munnar/IMG_20170427_123319.jpg",
+            "images/munnar/IMG_20170427_123351.jpg",
+            "images/munnar/IMG_20170427_134709.jpg"
         ],
         "geotagged": 1
     },
@@ -2194,6 +2212,11 @@ var cities = [
         "id": "vattakanal",
         "country": "india",
         "images": [
+            "images/vattakanal/IMG_20170422_164711.jpg",
+            "images/vattakanal/IMG_20170423_110811.jpg",
+            "images/vattakanal/IMG_20170423_110831.jpg",
+            "images/vattakanal/IMG_20170423_201140.jpg",
+            "images/vattakanal/IMG_20170425_115603.jpg"
         ],
         "geotagged": 1
     }
