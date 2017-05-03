@@ -2219,6 +2219,15 @@ var cities = [
             "images/vattakanal/IMG_20170425_115603.jpg"
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Kotagiri",
+        "latlng": [11.422841, 76.866109],
+        "id": "kotagiri",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
     }
 
 ];
