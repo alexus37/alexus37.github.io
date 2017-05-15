@@ -2228,6 +2228,41 @@ var cities = [
         "images": [
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Kannur",
+        "latlng": [11.876235, 75.373794],
+        "id": "kannur",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Lucknow",
+        "latlng": [26.838109, 80.934594],
+        "id": "lucknow",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kushinagar",
+        "latlng": [26.743827, 83.916232],
+        "id": "kushinagar",
+        "country": "india",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kathmandu",
+        "latlng": [27.708796, 85.320245],
+        "id": "kathmandu",
+        "country": "nepal",
+        "images": [
+        ],
+        "geotagged": 1
     }
-
 ];
