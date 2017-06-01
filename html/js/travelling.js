@@ -155,6 +155,7 @@ function getLinecolor(lType) {
     if(lType === 'motorbike') return 'black';
     if(lType === 'flight') return 'blue';
     if(lType === 'boat') return 'white';
+    if(lType === 'walking') return 'purple';
     
     return 'white'
 }
