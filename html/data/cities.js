@@ -3268,5 +3268,51 @@ var cities = [
 
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Chiang Mai",
+        "latlng": [18.790559, 98.988094],
+        "id": "chiangMai",
+        "country": "thailand",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Pai",
+        "latlng": [19.351825, 98.447179],
+        "id": "pai",
+        "country": "thailand",
+        "images": [
+            "images/pai/IMG_20170615_204029.jpg",
+            "images/pai/IMG_20170615_204048.jpg",
+            "images/pai/IMG_20170615_204149.jpg",
+            "images/pai/IMG_20170616_170754.jpg",
+            "images/pai/IMG_20170616_170815.jpg",
+            "images/pai/IMG_20170617_130118.jpg",
+            "images/pai/IMG_20170617_170202.jpg",
+            "images/pai/IMG_20170617_175149.jpg",
+            "images/pai/IMG_20170623_151021.jpg",
+            "images/pai/IMG_20170623_171759.jpg",
+            "images/pai/IMG_20170625_181918.jpg",
+            "images/pai/IMG_20170625_191108.jpg",
+            "images/pai/IMG_20170625_192141.jpg",
+            "images/pai/IMG_20170625_192214.jpg",
+            "images/pai/IMG_20170628_161055.jpg",
+            "images/pai/IMG_20170629_140716.jpg",
+            "images/pai/IMG_20170630_183501.jpg",
+            "images/pai/IMG_20170630_183512.jpg",
+            "images/pai/IMG_20170630_183525.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Jakarta",
+        "latlng": [-6.175394, 106.827184],
+        "id": "jakarta",
+        "country": "indonesia",
+        "images": [
+        ],
+        "geotagged": 1
     }
 ];
