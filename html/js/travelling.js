@@ -72,7 +72,10 @@ function addImages(path) {
                     EXIF.getData(image, function() {                        
                         var latlng = undefined;
                         if(this.exifdata.GPSLatitude !== undefined) {
-                            latlng = [deg2dec(this.exifdata.GPSLatitude), deg2dec(this.exifdata.GPSLongitude)];
+                            latlng = [
+                                this.exifdata.GPSLatitudeRef === 'S'? - deg2dec(this.exifdata.GPSLatitude): deg2dec(this.exifdata.GPSLatitude), 
+                                this.exifdata.GPSLongitudeRef === 'W'? - deg2dec(this.exifdata.GPSLongitude): deg2dec(this.exifdata.GPSLongitude)
+                            ];
                         } else {
                             var key = path.split("/").pop();
                             latlng = latlngDic[key];                            
@@ -156,6 +159,7 @@ function getLinecolor(lType) {
     if(lType === 'flight') return 'blue';
     if(lType === 'boat') return 'white';
     if(lType === 'walking') return 'purple';
+    if(lType === 'horse') return 'pink';
     
     return 'white'
 }

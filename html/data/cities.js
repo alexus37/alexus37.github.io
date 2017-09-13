@@ -1834,7 +1834,7 @@ var cities = [
     },
     {
         "name": "Berlin",
-        "latlng": [25.223270, 55.259638],
+        "latlng": [52.520645, 13.409779],
         "id": "berlin",
         "country": "Germany",
         "images": [],
@@ -3311,6 +3311,316 @@ var cities = [
         "latlng": [-6.175394, 106.827184],
         "id": "jakarta",
         "country": "indonesia",
+        "images": [
+            "images/jakarta/IMG_20170705_135211.jpg",
+            "images/jakarta/IMG_20170706_143058.jpg",
+            "images/jakarta/IMG_20170706_144832.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Lubuan Bajo",
+        "latlng": [-8.494416, 119.8855],
+        "id": "lubuanBajo",
+        "country": "indonesia",
+        "images": [
+            "images/lubuanBajo/IMG_20170708_084634.jpg",
+            "images/lubuanBajo/IMG_20170708_084834.jpg",
+            "images/lubuanBajo/IMG_20170708_085337.jpg",
+            "images/lubuanBajo/IMG_20170708_112332.jpg",
+            "images/lubuanBajo/IMG_20170708_120448.jpg",
+            "images/lubuanBajo/IMG_20170708_174509.jpg",
+            "images/lubuanBajo/IMG_20170708_175245.jpg",
+            "images/lubuanBajo/IMG_20170710_093420.jpg",
+            "images/lubuanBajo/IMG_20170710_113540_1.jpg",
+            "images/lubuanBajo/IMG_20170710_121502.jpg",
+            "images/lubuanBajo/IMG_20170710_121634.jpg",
+            "images/lubuanBajo/IMG_20170710_122721.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ferry Point 1",
+        "latlng": [-8.572554, 119.02179],
+        "id": "ferryPoint1",
+        "country": "indonesia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ferry Point 2",
+        "latlng": [-8.541541, 116.837579],
+        "id": "ferryPoint2",
+        "country": "indonesia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ferry Point 3",
+        "latlng": [-8.510787, 116.666676],
+        "id": "ferryPoint3",
+        "country": "indonesia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ferry Point 4",
+        "latlng": [-8.382807, 116.11517],
+        "id": "ferryPoint4",
+        "country": "indonesia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Gilli T",
+        "latlng": [-8.350566, 116.04196],
+        "id": "gilliT",
+        "country": "indonesia",
+        "images": [
+            "images/gilliT/IMG_20170713_180830.jpg",
+            "images/gilliT/IMG_20170713_181610.jpg",
+            "images/gilliT/IMG_20170714_175748.jpg",
+            "images/gilliT/IMG_20170714_183144.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kuta Lombok",
+        "latlng": [-8.878, 116.27614],
+        "id": "kutaLombok",
+        "country": "indonesia",
+        "images": [
+            "images/kutaLombok/IMG_20170715_175055.jpg",
+            "images/kutaLombok/IMG_20170721_135658.jpg",
+            "images/kutaLombok/IMG_20170728_143925.jpg",
+            "images/kutaLombok/IMG_20170728_173415.jpg"
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Beijing",
+        "latlng": [39.905971, 116.39126],
+        "id": "beijing",
+        "country": "china",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Ulaanbaatar",
+        "latlng": [47.905344, 106.921297],
+        "id": "ulaanbaatar",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Khatgal",
+        "latlng": [50.44423, 100.157935],
+        "id": "khatgal",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },{
+        "name": "Camp spot 1",
+        "latlng": [50.441225, 99.910327],
+        "id": "campspot1",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 2",
+        "latlng": [50.442100, 99.656268],
+        "id": "campspot2",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 3",
+        "latlng": [50.456966, 99.392596],
+        "id": "campspot3",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 4",
+        "latlng": [50.597521, 99.127551],
+        "id": "campspot4",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 5",
+        "latlng": [50.794530, 99.241875],
+        "id": "campspot5",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 6",
+        "latlng": [51.017953, 99.368218],
+        "id": "campspot6",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 7",
+        "latlng": [51.344068, 99.333615],
+        "id": "campspot7",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 8",
+        "latlng": [51.429341, 99.297566],
+        "id": "campspot8",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 9",
+        "latlng": [51.539019, 99.286580],
+        "id": "campspot9",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 10",
+        "latlng": [51.588960, 99.158177],
+        "id": "campspot10",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 11",
+        "latlng": [51.511451, 99.386497],
+        "id": "campspot11",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 12",
+        "latlng": [51.385419, 99.500888],
+        "id": "campspot12",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 13",
+        "latlng": [51.217776, 99.563029],
+        "id": "campspot13",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 14",
+        "latlng": [51.108834, 99.708255],
+        "id": "campspot14",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 15",
+        "latlng": [51.065488, 100.012782],
+        "id": "campspot15",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 16",
+        "latlng": [51.011086, 100.281947],
+        "id": "campspot16",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 17",
+        "latlng": [50.840992, 100.238002],
+        "id": "campspot17",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 18",
+        "latlng": [50.659396, 100.250361],
+        "id": "campspot18",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Camp spot 19",
+        "latlng": [50.546085, 100.152858],
+        "id": "campspot19",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Moron",
+        "latlng": [49.635802, 100.17111],
+        "id": "moron",
+        "country": "mongolia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Moscow",
+        "latlng": [55.751244, 37.618423],
+        "id": "moscow",
+        "country": "Russia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Sophia",
+        "latlng": [42.670786, 23.332606],
+        "id": "sophia",
+        "country": "Bulgaria",
         "images": [
         ],
         "geotagged": 1
