@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<style>
+		body {
+			font-family: Ubuntu, Trebuchet MS;
+			background-color: #c0c0c0;
+			margin: 0px;
+			overflow: hidden;
+		}
+		select {
+			font-family: Ubuntu, Trebuchet MS;
+		}
+	</style>
+</head>
+<body>
+
+	<script src="three.js"></script>
+	<script src="OrbitControls.js"></script>
+    <script src="particle.js"></script>
+    <script src="sphereEmiter.js"></script>
+    <script src="cubeEmitter.js"></script>
+    <script src="ParticleEngine.js"></script>
+    <script src="DAT.GUI.min.js"></script>
+    
+	<script>
+		var container;
+		var camera, controls, scene, renderer;
+        var ParticleEngine;
+        var gui;
+        var parameters = {
+                x: 0, y: 0, z: 0,
+                timeFactor : 0.0001,
+                numberOfParticles : 150,
+                MinMass : 1,
+                MaxMass : 1000,
+            
+                color: "#00ff7f", // color (change "#" to "0x")
+                //opacity: 1, 
+                //visible: true,
+                MinimumRadius : 15,
+                MaximumRadius : 20,
+        
+                MinInclination : 0,
+                MaxInclination : 180,
+
+                MinAzimuth : 0,
+                MaxAzimuth : 360,
+                MinWidth : -10,
+                MaxWidth : 10,
+
+                MinHeight : -10,
+                MaxHeight : 10,
+
+                MinDepth : -10,
+                MaxDepth : 10,
+
+                MinSpeed : 0,
+                MaxSpeed : 0,
+                MinLifetime : 3,
+                MaxLifetime : 10,
+                emitter: "SPHERE",
+                restart: function() { restartEngine() },
+                reset: function() { resetEngine() },
+                showInstr: function() { alert("Use ASWD or arrow keys to naviged. Left and right mous ekeys are changing the viewing perspective. The mousewheel is for zooming ") }
+            };
+        
+		// start scene
+		init();
+		animate();
+       
+    
+		function init() {
+            
+            //SCENE
+            scene = new THREE.Scene();
+            
+            
+			container = document.createElement( 'div' );
+			document.body.appendChild( container );
+			info = document.createElement( 'div' );
+			info.style.position = 'absolute';
+			info.style.top = '10px';
+			info.style.width = '100%';
+			info.style.textAlign = 'center';
+			info.innerHTML = '';
+			container.appendChild( info );
+            
+            // CAMERA
+            var SCREEN_WIDTH = window.innerWidth, SCREEN_HEIGHT = window.innerHeight;
+            var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+            camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+            scene.add(camera);
+            camera.position.set(0,150,400);
+            camera.lookAt(scene.position);
+            
+            //RENDER
+            renderer = new THREE.WebGLRenderer({antialias:true} );
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            container.appendChild( renderer.domElement );
+            controls = new THREE.OrbitControls( camera, renderer.domElement );
+			
+            //LIGHT
+			var light = new THREE.PointLight( 0xffffff);
+			light.position.set( 0, 250, 0 );
+			scene.add( light );
+            
+			//SKYBOX
+            var imagePrefix = "images/sky-";
+	        //var directions  = ["xpos", "xneg", "ypos", "yneg", "zpos", "zneg"];
+            var directions  = ["xneg", "xpos", "ypos", "yneg", "zpos", "zneg"];
+            var imageSuffix = ".png";
+            var skyGeometry = new THREE.CubeGeometry( 5000, 5000, 5000 );	
+            var materialArray = [];
+            for (var i = 0; i < 6; i++)
+                materialArray.push( new THREE.MeshBasicMaterial({
+                    map: THREE.ImageUtils.loadTexture( imagePrefix + directions[i] + imageSuffix ),
+                    side: THREE.BackSide
+                }));
+            var skyMaterial = new THREE.MeshFaceMaterial( materialArray );
+            var skyBox = new THREE.Mesh( skyGeometry, skyMaterial );
+            scene.add( skyBox );
+            
+            //PARTICLES
+            ParticleEngine = new ParticleEngine();
+            updateEngine();
+            ParticleEngine.createParticles();
+			window.addEventListener( 'resize', onWindowResize, false );
+            
+            //GUI
+            gui = new dat.GUI();
+           
+            var folder0 = gui.addFolder('Particle Parameters');
+            var color = folder0.addColor( parameters, 'color' ).name('Color').listen();
+            
+            color.onChange(function(value) {   updateEngine();   });
+            
+            var folder1 = gui.addFolder('Engine Parameters');
+            var timeFactor = folder1.add( parameters, 'timeFactor' ).min(0.0).max(0.001).step(0.00001).listen();
+            var numberOfParticles = folder1.add( parameters, 'numberOfParticles' ).min(1).max(1000).step(1).listen();
+            var MinMass = folder1.add( parameters, 'MinMass' ).min(1).max(1000).step(1).listen();
+            var MaxMass = folder1.add( parameters, 'MaxMass' ).min(1).max(1000).step(1).listen();
+            
+            
+            var folder2 = gui.addFolder('Emitter Parameters');
+            var originX = folder2.add( parameters, 'x' ).min(-200).max(200).step(1).listen();
+            var originY = folder2.add( parameters, 'y' ).min(0).max(100).step(1).listen();
+            var originZ = folder2.add( parameters, 'z' ).min(-200).max(200).step(1).listen();
+            var emitter = folder2.add( parameters, 'emitter', [ "SPHERE", "CUBE"] ).name('Emitter Type').listen();
+            var MinRad = folder2.add( parameters, 'MinimumRadius' ).min(0).max(200).step(1).listen();
+            var MaxRad = folder2.add( parameters, 'MaximumRadius' ).min(0).max(200).step(1).listen();
+            var MinInc = folder2.add( parameters, 'MinInclination' ).min(0).max(180).step(1).listen();
+            var MaxInc = folder2.add( parameters, 'MaxInclination' ).min(0).max(180).step(1).listen();
+            var MinAzi = folder2.add( parameters, 'MinAzimuth' ).min(0).max(360).step(1).listen();
+            var MaxAzi = folder2.add( parameters, 'MaxAzimuth' ).min(0).max(360).step(1).listen();
+            
+            var MinHeight = folder2.add( parameters, 'MinHeight' ).min(-100).max(0).step(1).listen();
+            var MaxHeight = folder2.add( parameters, 'MaxHeight' ).min(0).max(100).step(1).listen();
+            var MinDepth = folder2.add( parameters, 'MinDepth' ).min(-100).max(0).step(1).listen();
+            var MaxDepth = folder2.add( parameters, 'MaxDepth' ).min(0).max(100).step(1).listen();
+            var MinWidth = folder2.add( parameters, 'MinWidth' ).min(-100).max(0).step(1).listen();
+            var MaxWidth = folder2.add( parameters, 'MaxWidth' ).min(0).max(100).step(1).listen();
+            
+            var MinSpeed = folder2.add( parameters, 'MinSpeed' ).min(0).max(100).step(1).listen();
+            var MaxSpeed = folder2.add( parameters, 'MaxSpeed' ).min(0).max(100).step(1).listen();
+            var MinLifetime = folder2.add( parameters, 'MinLifetime' ).min(0).max(25).step(1).listen();
+            var MaxLifetime = folder2.add( parameters, 'MaxLifetime' ).min(0).max(25).step(1).listen();
+            
+            timeFactor.onChange(function(value) {   updateEngine();   });
+            numberOfParticles.onChange(function(value) {   updateEngine();   });
+            MinMass.onChange(function(value) {   updateEngine();   });
+            MaxMass.onChange(function(value) {   updateEngine();   });
+            
+            
+            originX.onChange(function(value) {   ParticleEngine.emitter.Origin.x = value;   });
+            originY.onChange(function(value) {   ParticleEngine.emitter.Origin.y = value;   });
+            originZ.onChange(function(value) {   ParticleEngine.emitter.Origin.z = value;   });
+            emitter.onChange(function(value) {   updateEngine();   });
+            MinRad.onChange(function(value) {   updateEngine();   });
+            MaxRad.onChange(function(value) {   updateEngine();   });
+            MinInc.onChange(function(value) {   updateEngine();   });
+            MaxInc.onChange(function(value) {   updateEngine();  });
+            MinAzi.onChange(function(value) {   updateEngine();   });
+            MaxAzi.onChange(function(value) {   updateEngine();   });
+            
+            MinHeight.onChange(function(value) {   updateEngine();   });
+            MaxHeight.onChange(function(value) {   updateEngine();   });
+            MinDepth.onChange(function(value) {   updateEngine();   });
+            MaxDepth.onChange(function(value) {   updateEngine();   });
+            MinWidth.onChange(function(value) {   updateEngine();   });
+            MaxWidth.onChange(function(value) {   updateEngine();   });
+            
+            MinSpeed.onChange(function(value) {   updateEngine();   });
+            MaxSpeed.onChange(function(value) {   updateEngine();   });
+            MinLifetime.onChange(function(value) {   updateEngine();   });
+            MaxLifetime.onChange(function(value) {   updateEngine();   });
+
+            
+            
+            
+            gui.add( parameters, 'reset' ).name("Reset Parameters");
+            gui.add( parameters, 'restart' ).name("Restart the engine");
+            gui.add( parameters, 'showInstr' ).name("Show instructions");
+	
+            gui.open();
+            
+		}
+        function resetEngine() {
+            parameters.color = "#00ff7f";
+            parameters.timeFactor = 0.00001;
+            parameters.numberOfParticles = 150;
+            parameters.MinMass = 1;
+            parameters.MaxMass = 1000;
+            
+            parameters.x = 0;
+            parameters.y = 0;
+            parameters.z = 0;
+            parameters.MinimumRadius = 45;
+            parameters.MaximumRadius = 50;
+            parameters.MinInclination = 0;
+            parameters.MaxInclination = 180;
+
+            parameters.MinAzimuth = 0;
+            parameters.MaxAzimuth = 360;
+            parameters.MinWidth = -10;
+            parameters.MaxWidth = 10;
+
+            parameters.MinHeight = -10;
+            parameters.MaxHeight = 10;
+
+            parameters.MinDepth = -10;
+            parameters.MaxDepth = 10;
+
+            parameters.MinSpeed = 25;
+            parameters.MaxSpeed = 75;
+            parameters.MinLifetime = 300;
+            parameters.emitter = "SPHERE";
+            updateEngine();
+        }
+        function updateEngine() {
+            ParticleEngine.timeFactor = parameters.timeFactor;
+            ParticleEngine.numberOfParticles = parameters.numberOfParticles;
+            
+            ParticleEngine.emitter.Origin.x = parameters.x;
+            ParticleEngine.emitter.Origin.y = parameters.y;
+            ParticleEngine.emitter.Origin.z = parameters.z;
+            
+            if (parameters.emitter == "SPHERE") {
+                ParticleEngine.emitter = $SE();
+                ParticleEngine.emitter.MinimumRadius = parameters.MinimumRadius;
+                ParticleEngine.emitter.MaximumRadius = parameters.MaximumRadius;
+                ParticleEngine.emitter.MinInclination = parameters.MinInclination;
+                ParticleEngine.emitter.MaxInclination = parameters.MaxInclination;
+                ParticleEngine.emitter.MinAzimuth = parameters.MinAzimuth;
+                ParticleEngine.emitter.MaxAzimuth = parameters.MaxAzimuth;
+                
+                
+            } else {
+                ParticleEngine.emitter = $CE();
+                ParticleEngine.emitter.MinWidth = parameters.MinWidth;
+                ParticleEngine.emitter.MaxWidth = parameters.MaxWidth;
+                ParticleEngine.emitter.MinHeight = parameters.MinHeight;
+                ParticleEngine.emitter.MaxHeight = parameters.MaxHeight;
+                ParticleEngine.emitter.MinDepth = parameters.MinDepth;
+                ParticleEngine.emitter.MaxDepth = parameters.MaxDepth;
+            }
+            
+            ParticleEngine.emitter.MinMass = parameters.MinMass;
+            ParticleEngine.emitter.MaxMass = parameters.MaxMass;
+            ParticleEngine.emitter.MinSpeed = parameters.MinSpeed;
+            ParticleEngine.emitter.MaxSpeed = parameters.MaxSpeed;
+            ParticleEngine.emitter.MinLifetime = parameters.MinimumRadius;
+            ParticleEngine.emitter.MaxLifetime = parameters.MaxLifetime;
+            
+            
+            ParticleEngine.particleColor = new THREE.Color(parameters.color);
+            
+        }
+        function restartEngine() {
+            ParticleEngine.createParticles();
+        }
+		function onWindowResize() {
+			camera.aspect = window.innerWidth / window.innerHeight;
+			camera.updateProjectionMatrix();
+			renderer.setSize( window.innerWidth, window.innerHeight );
+		}
+		function animate() {
+			requestAnimationFrame( animate );
+			controls.update();
+            ParticleEngine.updateParticles();
+			render();
+		}
+		function render() {
+			renderer.render( scene, camera );
+		}
+	</script>
+
+</body>
+</html>
