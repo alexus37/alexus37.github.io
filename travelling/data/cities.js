@@ -4088,5 +4088,113 @@ var cities = [
         "images": [
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Perth",
+        "latlng": [-31.95273, 115.86048],
+        "id": "perth",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Fremantle",
+        "latlng": [-32.055871, 115.74617],
+        "id": "frementle",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Margaret River",
+        "latlng": [-33.953178, 115.07694],
+        "id": "margaretRiver",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Yallingup",
+        "latlng": [-33.639525, 115.02596],
+        "id": "yallingup",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Prevelly",
+        "latlng": [-33.978444, 114.99485],
+        "id": "prevelly",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Augusta",
+        "latlng": [-34.315606, 115.16059],
+        "id": "augusta",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Nannup",
+        "latlng": [-33.978429, 115.76377],
+        "id": "nannup",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Bridgetown",
+        "latlng": [-33.95757, 116.13747],
+        "id": "bridgetown",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Manjimup",
+        "latlng": [-34.241028, 116.1463],
+        "id": "manjimup",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Denmark",
+        "latlng": [-34.964655, 117.35915],
+        "id": "denmark",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Albany",
+        "latlng": [-35.024781, 117.88361],
+        "id": "albany",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Melbourne",
+        "latlng": [-37.814212, 144.963179],
+        "id": "melbourne",
+        "country": "Australia",
+        "images": [
+        ],
+        "geotagged": 1
     }
 ];
