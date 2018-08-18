@@ -4196,5 +4196,77 @@ var cities = [
         "images": [
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Cologne",
+        "latlng": [50.932291, 6.953878],
+        "id": "cologne",
+        "country": "Germany",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Chimay",
+        "latlng": [50.048194, 4.320435],
+        "id": "chimay",
+        "country": "Belgium",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Dune du Pilat",
+        "latlng": [44.598983, -1.196425],
+        "id": "duneduPilat",
+        "country": "France",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Valladolid",
+        "latlng": [41.643168, -4.743697],
+        "id": "valladolid",
+        "country": "Spain",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Idanha a Nova",
+        "latlng": [39.920844, -7.223289],
+        "id": "idanhaANova",
+        "country": "Portugal",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Porto",
+        "latlng": [41.158143, -8.622714],
+        "id": "porto",
+        "country": "Portugal",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "London",
+        "latlng": [51.507061, -0.131466],
+        "id": "london",
+        "country": "England",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Dublin",
+        "latlng": [53.337772, -6.253900],
+        "id": "dublin",
+        "country": "Ireland",
+        "images": [
+        ],
+        "geotagged": 1
     }
 ];
