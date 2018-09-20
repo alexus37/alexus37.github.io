@@ -4268,5 +4268,158 @@ var cities = [
         "images": [
         ],
         "geotagged": 1
+    },
+    {
+        "name": "Tokyo",
+        "latlng": [35.681128, 139.766182],
+        "id": "tokyo",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Fujikawaguchiko",
+        "latlng": [35.504924, 138.757889],
+        "id": "fujikawaguchiko",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Tsumago",
+        "latlng": [35.582882, 137.597710],
+        "id": "tsumago",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Magome",
+        "latlng": [35.526067, 137.566608],
+        "id": "Magome",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kyoto",
+        "latlng": [34.984034, 135.757270],
+        "id": "kyoto",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Nara",
+        "latlng": [34.686220, 135.806408],
+        "id": "nara",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Osaka",
+        "latlng": [34.702238, 135.497433],
+        "id": "osaka",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kobe",
+        "latlng": [34.691463, 135.195402],
+        "id": "kobe",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Himeji",
+        "latlng": [34.825295, 134.685497],
+        "id": "himeji",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Okayama",
+        "latlng": [34.665358, 133.919272],
+        "id": "okayama",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Naoshima",
+        "latlng": [34.458486, 133.979367],
+        "id": "naoshima",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Hiroshima",
+        "latlng": [34.390921, 132.451054],
+        "id": "hiroshima",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Miyajima",
+        "latlng": [34.295411, 132.320328],
+        "id": "miyajima",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kagoshima",
+        "latlng": [31.592924, 130.550087],
+        "id": "kagoshima",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Yakushima",
+        "latlng": [30.346047, 130.512908],
+        "id": "yakushima",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kanazawa",
+        "latlng": [36.562102, 136.655358],
+        "id": "kanazawa",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Takayama",
+        "latlng": [36.142553, 137.249736],
+        "id": "takayama",
+        "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
     }
 ];
