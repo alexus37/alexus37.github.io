@@ -834,7 +834,7 @@ var cities = [
             "images/colombo/Foto_17.07.16_15_28_57.jpg",
             "images/colombo/Foto_17.07.16_15_30_06.jpg",
             "images/colombo/Foto_17.07.16_15_43_02.jpg",
-            "images/colombo/Foto_17.07.16_18_31_33.jpg"            
+            "images/colombo/Foto_17.07.16_18_31_33.jpg"
         ],
         "geotagged": 1
     },
@@ -884,7 +884,7 @@ var cities = [
             "images/mirissa/Foto_20.07.16_12_41_17.jpg",
             "images/mirissa/Foto_20.07.16_13_18_25.jpg",
             "images/mirissa/Foto_20.07.16_15_41_45.jpg",
-            "images/mirissa/Foto_21.07.16_09_17_00.jpg"            
+            "images/mirissa/Foto_21.07.16_09_17_00.jpg"
         ],
         "geotagged": 1
     },
@@ -1165,7 +1165,7 @@ var cities = [
         "id": "ranong",
         "country": "thailand",
         "images": [
-            
+
         ],
         "geotagged": 1
     },
@@ -1174,7 +1174,7 @@ var cities = [
         "latlng": [8.061079, 98.916168],
         "id": "krabi",
         "country": "thailand",
-        "images": [            
+        "images": [
             "images/krabi/Photo_29-08-16_17_54_58.jpg"
         ],
         "geotagged": 1
@@ -1358,7 +1358,7 @@ var cities = [
         "id": "khesanh",
         "country": "vietnam",
         "images": [
-            
+
         ],
         "geotagged": 1
     },
@@ -1620,7 +1620,7 @@ var cities = [
         "id": "pakxan",
         "country": "laos",
         "images": [
-            
+
         ],
         "geotagged": 1
     },
@@ -1654,7 +1654,7 @@ var cities = [
         "id": "thakhek",
         "country": "laos",
         "images": [
-            
+
         ],
         "geotagged": 1
     },
@@ -1664,7 +1664,7 @@ var cities = [
         "id": "pakse",
         "country": "laos",
         "images": [
-            
+
         ],
         "geotagged": 1
     },
@@ -1701,7 +1701,7 @@ var cities = [
         "id": "preahVihear",
         "country": "cambodia",
         "images": [
-            
+
         ],
         "geotagged": 0
     },
@@ -1794,7 +1794,7 @@ var cities = [
         "id": "sihanoukville",
         "country": "cambodia",
         "images": [
-            
+
         ],
         "geotagged": 1
     },
@@ -1898,7 +1898,7 @@ var cities = [
         "latlng": [15.335976, 76.460621],
         "id": "hampi",
         "country": "india",
-        "images": [ 
+        "images": [
             "images/hampi/Photo_07-03-2017,_18_50_48.jpg",
             "images/hampi/Photo_07-03-2017,_18_51_29.jpg",
             "images/hampi/Photo_07-03-2017,_18_54_09.jpg",
@@ -2049,7 +2049,7 @@ var cities = [
             "images/havelock/IMG_20170326_120904.jpg",
             "images/havelock/IMG_20170326_121133.jpg"
         ],
-        "geotagged": 0  
+        "geotagged": 0
     },
     {
         "name": "Little Andamann",
@@ -4418,6 +4418,15 @@ var cities = [
         "latlng": [36.142553, 137.249736],
         "id": "takayama",
         "country": "Japan",
+        "images": [
+        ],
+        "geotagged": 1
+    },
+    {
+        "name": "Cape Town",
+        "latlng": [-33.972810, 18.602820],
+        "id": "capeTown",
+        "country": "South Africa",
         "images": [
         ],
         "geotagged": 1
