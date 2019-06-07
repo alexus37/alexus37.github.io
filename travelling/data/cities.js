@@ -3,7 +3,7 @@ var cities = [
         "name": "Mumbai",
         "latlng": [19.046541, 72.861328],
         "id": "mumbai",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/mumbai/Foto_02.04.16_20_50_51.jpg",
             "images/mumbai/Foto_02.04.16_21_01_44.jpg",
@@ -34,7 +34,7 @@ var cities = [
         "name": "Udaipur",
         "latlng": [24.567108, 73.718262],
         "id": "udaipur",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/udaipur/Foto_06.04.16_13_41_33.jpg",
             "images/udaipur/Foto_06.04.16_15_08_29.jpg",
@@ -53,7 +53,7 @@ var cities = [
         "name": "Jaisalmer",
         "latlng": [26.9127570, 70.9143750],
         "id": "jaisalmer",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/jaisalmer/Foto_10.04.16_11_33_57.jpg",
             "images/jaisalmer/Foto_10.04.16_11_59_57.jpg",
@@ -70,7 +70,7 @@ var cities = [
         "name": "Jodhpur",
         "latlng": [26.2805556, 73.0158333],
         "id": "jodhpur",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/jodhpur/Foto_13.04.16_16_12_26.jpg",
             "images/jodhpur/Foto_13.04.16_16_12_42.jpg",
@@ -92,7 +92,7 @@ var cities = [
         "name": "Pushkar",
         "latlng": [26.4905072, 74.5551162],
         "id": "pushkar",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/pushkar/Foto_16.04.16_16_15_03.jpg",
             "images/pushkar/Foto_16.04.16_16_54_45.jpg",
@@ -108,7 +108,7 @@ var cities = [
         "name": "Agra",
         "latlng": [27.19, 78.01],
         "id": "agra",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/agra/Foto_19.04.16_09_01_24.jpg",
             "images/agra/Foto_19.04.16_09_05_09.jpg",
@@ -136,7 +136,7 @@ var cities = [
         "name": "Delhi",
         "latlng": [28.61394, 77.20902],
         "id": "delhi",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/delhi/Foto_08.07.16_13_41_45.jpg",
             "images/delhi/Foto_08.07.16_14_17_33.jpg",
@@ -152,7 +152,7 @@ var cities = [
         "name": "Haridwar",
         "latlng": [29.94582, 78.1643],
         "id": "haridwar",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/haridwar/Foto_21.04.16_17_05_45.jpg",
             "images/haridwar/Foto_21.04.16_17_06_28.jpg",
@@ -181,7 +181,7 @@ var cities = [
         "name": "Rishikesh",
         "latlng": [30.08695, 78.26761],
         "id": "rishikesh",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/rishikesh/Foto_21.04.16_14_08_08.jpg",
             "images/rishikesh/Foto_21.04.16_14_08_12.jpg",
@@ -202,7 +202,7 @@ var cities = [
         "name": "Mussoorie",
         "latlng": [30.46006, 78.06645],
         "id": "mussoorie",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/mussoorie/Foto_28.04.16_14_41_35.jpg",
             "images/mussoorie/Foto_28.04.16_14_41_41.jpg",
@@ -219,7 +219,7 @@ var cities = [
         "name": "Shimla",
         "latlng": [31.10359, 77.17291],
         "id": "shimla",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/shimla/Foto_01.05.16_11_26_28.jpg",
             "images/shimla/Foto_01.05.16_11_33_14.jpg",
@@ -238,7 +238,7 @@ var cities = [
         "name": "Sarahan",
         "latlng": [31.51763, 77.79496],
         "id": "sarahan",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/sarahan/Foto_02.05.16_09_20_11.jpg",
             "images/sarahan/Foto_02.05.16_12_30_19.jpg",
@@ -255,7 +255,7 @@ var cities = [
         "name": "Sangla",
         "latlng": [31.42549, 78.265],
         "id": "sangla",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/sangla/Foto_03.05.16_09_38_48.jpg",
             "images/sangla/Foto_03.05.16_12_06_46.jpg",
@@ -268,7 +268,7 @@ var cities = [
         "name": "Chitkul",
         "latlng": [31.35075, 78.43669],
         "id": "chitkul",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/chitkul/Foto_03.05.16_13_39_36.jpg",
             "images/chitkul/Foto_03.05.16_13_43_11.jpg",
@@ -283,7 +283,7 @@ var cities = [
         "name": "Rekong Peo",
         "latlng": [31.53903, 78.26751],
         "id": "rekongPeo",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/rekongPeo/Foto_04.05.16_09_26_16.jpg",
             "images/rekongPeo/Foto_04.05.16_10_18_49.jpg",
@@ -297,7 +297,7 @@ var cities = [
         "name": "Kalpa",
         "latlng": [31.53949, 78.25153],
         "id": "kalpa",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/kalpa/Foto_04.05.16_11_43_33.jpg",
             "images/kalpa/Foto_04.05.16_11_45_43.jpg",
@@ -312,7 +312,7 @@ var cities = [
         "name": "Pooh",
         "latlng": [31.7642, 78.59237],
         "id": "pooh",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/pooh/Foto_04.05.16_14_14_37.jpg",
             "images/pooh/Foto_04.05.16_14_14_49.jpg",
@@ -326,7 +326,7 @@ var cities = [
         "name": "Nako",
         "latlng": [31.88183, 78.62789],
         "id": "nako",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/nako/Foto_05.05.16_09_34_51.jpg",
             "images/nako/Foto_05.05.16_11_04_58.jpg",
@@ -339,7 +339,7 @@ var cities = [
         "name": "Tabo",
         "latlng": [32.09325, 78.38564],
         "id": "tabo",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/tabo/Foto_05.05.16_13_58_28.jpg",
             "images/tabo/Foto_05.05.16_14_29_35.jpg",
@@ -353,7 +353,7 @@ var cities = [
         "name": "Dhankhar",
         "latlng": [32.08930, 78.21557],
         "id": "dhankhar",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/dhankhar/Foto_05.05.16_16_20_15.jpg",
             "images/dhankhar/Foto_05.05.16_17_00_10.jpg",
@@ -366,7 +366,7 @@ var cities = [
         "name": "Kaza",
         "latlng": [32.22568, 78.07051],
         "id": "kaza",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/kaza/Foto_11.05.16_21_05_41.jpg",
             "images/kaza/Foto_11.05.16_21_06_11.jpg",
@@ -379,7 +379,7 @@ var cities = [
         "name": "Kee",
         "latlng": [32.30034, 78.01221],
         "id": "kee",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/kee/Foto_06.05.16_13_01_57.jpg",
             "images/kee/Foto_06.05.16_13_04_47.jpg",
@@ -395,7 +395,7 @@ var cities = [
         "name": "Kibber",
         "latlng": [32.33266, 78.01026],
         "id": "kibber",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/kibber/Foto_06.05.16_13_47_39.jpg"
         ],
@@ -405,7 +405,7 @@ var cities = [
         "name": "Comic",
         "latlng": [32.234394, 78.109303],
         "id": "comic",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/comic/Foto_06.05.16_17_27_22.jpg",
             "images/comic/Foto_06.05.16_17_27_50.jpg",
@@ -418,7 +418,7 @@ var cities = [
         "name": "Chango",
         "latlng": [31.97804, 78.59519],
         "id": "chango",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/chango/Foto_07.05.16_12_53_10.jpg"
         ],
@@ -428,7 +428,7 @@ var cities = [
         "name": "Manali",
         "latlng": [32.23969, 77.18851],
         "id": "manali",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/manali/Foto_13.05.16_12_23_19.jpg",
             "images/manali/Foto_17.05.16_17_30_32.jpg",
@@ -440,7 +440,7 @@ var cities = [
         "name": "Vashisht",
         "latlng": [32.25885, 77.19002],
         "id": "vashisht",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/vashisht/Foto_16.05.16_13_52_55.jpg",
             "images/vashisht/Foto_16.05.16_18_25_24.jpg"
@@ -451,7 +451,7 @@ var cities = [
         "name": "Kasol",
         "latlng": [32.01019, 77.31496],
         "id": "kasol",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/kasol/Foto_19.05.16_18_46_44.jpg",
             "images/kasol/Foto_20.05.16_17_38_02.jpg",
@@ -463,7 +463,7 @@ var cities = [
         "name": "Khirganga",
         "latlng": [31.997565, 77.504367],
         "id": "khirganga",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/khirganga/Foto_26.05.16_15_48_07.jpg",
             "images/khirganga/Foto_26.05.16_15_48_36.jpg",
@@ -478,7 +478,7 @@ var cities = [
         "name": "Dharmshala",
         "latlng": [32.21885, 76.32339],
         "id": "dharmshala",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/dharmshala/Foto_01.06.16_18_33_30.jpg",
             "images/dharmshala/Foto_03.06.16_16_16_28.jpg",
@@ -500,7 +500,7 @@ var cities = [
         "name": "Amritsar",
         "latlng": [31.634, 74.87227],
         "id": "amritsar",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/amritsar/Foto_10.06.16_14_54_09.jpg",
             "images/amritsar/Foto_10.06.16_14_55_23.jpg",
@@ -530,7 +530,7 @@ var cities = [
         "name": "Jammu",
         "latlng": [32.718576, 74.858081],
         "id": "jammu",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/jammu/Foto_12.06.16_10_48_04.jpg",
             "images/jammu/Foto_12.06.16_15_47_40.jpg",
@@ -548,7 +548,7 @@ var cities = [
         "name": "Srinagar",
         "latlng": [34.074758, 74.820444],
         "id": "srinagar",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/srinagar/Foto_13.06.16_16_34_23.jpg",
             "images/srinagar/Foto_13.06.16_16_36_45.jpg",
@@ -580,7 +580,7 @@ var cities = [
         "name": "Naranag",
         "latlng": [34.350229, 74.972119],
         "id": "naranag",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/narannag/Foto_15.06.16_12_17_13.jpg",
             "images/narannag/Foto_15.06.16_12_55_56.jpg",
@@ -598,7 +598,7 @@ var cities = [
         "name": "Sonamarg",
         "latlng": [34.302386, 75.296556],
         "id": "sonamarg",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/sonamarg/Foto_21.06.16_08_15_32.jpg"
         ],
@@ -608,7 +608,7 @@ var cities = [
         "name": "Drass",
         "latlng": [34.42927, 75.750761],
         "id": "drass",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/drass/Foto_21.06.16_09_22_33.jpg",
             "images/drass/Foto_21.06.16_10_10_21.jpg",
@@ -620,7 +620,7 @@ var cities = [
         "name": "Kargil",
         "latlng": [34.559432, 76.125586],
         "id": "kargil",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/kargil/Foto_21.06.16_13_15_30.jpg",
             "images/kargil/Foto_21.06.16_13_17_38.jpg",
@@ -636,7 +636,7 @@ var cities = [
         "name": "Lamayuru",
         "latlng": [34.282706, 76.77396],
         "id": "lamayuru",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/lamayuru/Foto_21.06.16_16_47_04.jpg",
             "images/lamayuru/Foto_21.06.16_16_50_46.jpg",
@@ -654,7 +654,7 @@ var cities = [
         "name": "Wangla",
         "latlng": [34.248667, 76.828870],
         "id": "wangla",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/wangla/Foto_22.06.16_08_19_54.jpg",
             "images/wangla/Foto_22.06.16_08_20_52.jpg",
@@ -666,7 +666,7 @@ var cities = [
         "name": "Honupatta",
         "latlng": [34.159365, 76.841385],
         "id": "honupatta",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/honupatta/Foto_22.06.16_07_14_54.jpg",
             "images/honupatta/Foto_22.06.16_07_37_51.jpg",
@@ -678,7 +678,7 @@ var cities = [
         "name": "Alchi",
         "latlng": [34.222558, 77.161859],
         "id": "alchi",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/alchi/Foto_22.06.16_10_33_39.jpg",
             "images/alchi/Foto_22.06.16_10_35_26.jpg",
@@ -691,7 +691,7 @@ var cities = [
         "name": "Leh",
         "latlng": [34.15259, 77.57706],
         "id": "leh",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/leh/Foto_01.07.16_14_12_54.jpg",
             "images/leh/Foto_01.07.16_14_13_06.jpg",
@@ -705,7 +705,7 @@ var cities = [
         "name": "Diskit",
         "latlng": [34.54775, 77.55561],
         "id": "diskit",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/diskit/Foto_27.06.16_13_44_30.jpg",
             "images/diskit/Foto_27.06.16_13_44_54.jpg",
@@ -724,7 +724,7 @@ var cities = [
         "name": "Turtuk",
         "latlng": [34.84745, 76.82737],
         "id": "turtuk",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/turtuk/Foto_27.06.16_13_45_52.jpg",
             "images/turtuk/Foto_28.06.16_09_36_36.jpg",
@@ -736,7 +736,7 @@ var cities = [
         "name": "Spangmtk",
         "latlng": [33.90783, 78.45959],
         "id": "spangmtk",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/spangmtk/Foto_28.06.16_17_43_26.jpg",
             "images/spangmtk/Foto_29.06.16_11_48_11.jpg",
@@ -750,7 +750,7 @@ var cities = [
         "name": "Chemre",
         "latlng": [33.94768, 77.78186],
         "id": "chemre",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/chemre/Foto_30.06.16_09_48_04.jpg",
             "images/chemre/Foto_30.06.16_11_00_40.jpg",
@@ -763,7 +763,7 @@ var cities = [
         "name": "Thiske",
         "latlng": [34.038292, 77.671092],
         "id": "thiske",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/thikse/Foto_30.06.16_12_09_00.jpg",
             "images/thikse/Foto_30.06.16_13_13_53.jpg"
@@ -774,7 +774,7 @@ var cities = [
         "name": "Chilling",
         "latlng": [34.282706, 76.77396],
         "id": "chilling",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/chilling/Foto_25.06.16_19_06_44.jpg",
             "images/chilling/Foto_25.06.16_19_26_04.jpg"
@@ -785,7 +785,7 @@ var cities = [
         "name": "Varansi",
         "latlng": [25.335632, 83.00762],
         "id": "varansi",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/varanasi/Foto_09.07.16_10_17_26.jpg",
             "images/varanasi/Foto_09.07.16_10_36_15.jpg",
@@ -815,7 +815,7 @@ var cities = [
         "name": "Colombo",
         "latlng": [6.935012, 79.853857],
         "id": "comlobo",
-        "country": "srilanka",
+        "country": "SriLanka",
         "images": [
             "images/colombo/Foto_16.07.16_12_48_42.jpg",
             "images/colombo/Foto_16.07.16_12_50_38.jpg",
@@ -842,7 +842,7 @@ var cities = [
         "name": "hikkaduw",
         "latlng": [6.13186, 80.1149],
         "id": "hikkaduw",
-        "country": "srilanka",
+        "country": "SriLanka",
         "images": [
             "images/hikkaduw/Foto_18.07.16_12_54_11.jpg",
             "images/hikkaduw/Foto_18.07.16_12_54_23.jpg",
@@ -863,7 +863,7 @@ var cities = [
         "name": "galle",
         "latlng": [6.05365, 80.22122],
         "id": "galle",
-        "country": "srilanka",
+        "country": "SriLanka",
         "images": [
             "images/galle/Foto_18.07.16_17_41_00.jpg",
             "images/galle/Foto_18.07.16_17_42_59.jpg",
@@ -879,7 +879,7 @@ var cities = [
         "name": "Mirissa",
         "latlng": [5.94884, 80.47139],
         "id": "mirissa",
-        "country": "srilanka",
+        "country": "SriLanka",
         "images": [
             "images/mirissa/Foto_20.07.16_12_41_17.jpg",
             "images/mirissa/Foto_20.07.16_13_18_25.jpg",
@@ -892,7 +892,7 @@ var cities = [
         "name": "Tangalle",
         "latlng": [6.02447, 80.79414],
         "id": "tangalle",
-        "country": "srilanka",
+        "country": "SriLanka",
         "images": [
             "images/tangalle/Foto_21.07.16_17_15_54.jpg",
             "images/tangalle/Foto_21.07.16_17_38_12.jpg",
@@ -916,7 +916,7 @@ var cities = [
         "name": "Arugam",
         "latlng": [6.83745, 81.82487],
         "id": "arugam",
-        "country": "srilanka",
+        "country": "SriLanka",
         "images": [
             "images/arugam/Foto_02.08.16_18_18_47.jpg",
             "images/arugam/Foto_02.08.16_22_17_13.jpg",
@@ -936,7 +936,7 @@ var cities = [
         "name": "Ella",
         "latlng": [6.86753, 81.04696],
         "id": "ella",
-        "country": "srilanka",
+        "country": "SriLanka",
         "images": [
             "images/ella/Foto_27.07.16_12_28_15.jpg",
             "images/ella/Foto_27.07.16_16_37_08.jpg",
@@ -964,7 +964,7 @@ var cities = [
         "name": "Negombo",
         "latlng": [7.20039, 79.8737],
         "id": "negombo",
-        "country": "srilanka",
+        "country": "SriLanka",
         "images": [
             "images/negombo/Foto_10.08.16_06_43_49.jpg",
             "images/negombo/Foto_10.08.16_06_51_53.jpg",
@@ -998,7 +998,7 @@ var cities = [
         "name": "Yangon",
         "latlng": [16.997581, 96.174601],
         "id": "yangon",
-        "country": "myanmar",
+        "country": "Myanmar",
         "images": [
             "images/yangon/Foto_12.08.16,_09_57_01.jpg",
             "images/yangon/Foto_12.08.16,_10_12_54.jpg",
@@ -1019,7 +1019,7 @@ var cities = [
         "name": "Bago",
         "latlng": [17.336651, 96.479735],
         "id": "bago",
-        "country": "myanmar",
+        "country": "Myanmar",
         "images": [
             "images/bago/Photo_12-08-16_17_50_23.jpg",
             "images/bago/Photo_12-08-16_17_54_20.jpg",
@@ -1035,7 +1035,7 @@ var cities = [
         "name": "Kalaw",
         "latlng": [20.636187, 96.565639],
         "id": "kalaw",
-        "country": "myanmar",
+        "country": "Myanmar",
         "images": [
             "images/kalaw/Photo_14-08-16_12_51_10.jpg",
             "images/kalaw/Photo_14-08-16_13_24_39.jpg",
@@ -1049,7 +1049,7 @@ var cities = [
         "name": "Nyaung Shwe",
         "latlng": [20.657117, 96.930656],
         "id": "NyaungShwe",
-        "country": "myanmar",
+        "country": "Myanmar",
         "images": [
             "images/nyaungShwe/Photo_15-08-16_18_40_27.jpg",
             "images/nyaungShwe/Photo_16-08-16_15_32_16.jpg",
@@ -1078,7 +1078,7 @@ var cities = [
         "name": "Nyaung U",
         "latlng": [21.199961, 94.907168],
         "id": "NyaungU",
-        "country": "myanmar",
+        "country": "Myanmar",
         "images": [
             "images/nyaungU/Photo_19-08-16_14_00_33.jpg",
             "images/nyaungU/Photo_19-08-16_14_02_35.jpg",
@@ -1107,7 +1107,7 @@ var cities = [
         "name": "Hsipaw",
         "latlng": [22.62368, 97.29978],
         "id": "hsipaw",
-        "country": "myanmar",
+        "country": "Myanmar",
         "images": [
             "images/hsipaw/Photo_22-08-16_14_00_09.jpg",
             "images/hsipaw/Photo_22-08-16_18_29_02.jpg",
@@ -1122,7 +1122,7 @@ var cities = [
         "name": "Mandalay",
         "latlng": [21.96057, 96.08912],
         "id": "mandalay",
-        "country": "myanmar",
+        "country": "Myanmar",
         "images": [
             "images/mandalay/Photo_25-08-16_13_15_32.jpg",
             "images/mandalay/Photo_25-08-16_14_02_51.jpg",
@@ -1135,7 +1135,7 @@ var cities = [
         "name": "Phuket",
         "latlng": [7.88823, 98.391485],
         "id": "phuket",
-        "country": "thailand",
+        "country": "Thailand",
         "images": [
             "images/phuket/Photo_26-08-16_23_02_15.jpg",
             "images/phuket/Photo_26-08-16_23_27_47.jpg"
@@ -1146,7 +1146,7 @@ var cities = [
         "name": "Ko Phi Phi",
         "latlng": [7.737362, 98.770415],
         "id": "kophiphi",
-        "country": "thailand",
+        "country": "Thailand",
         "images": [
             "images/kophiphi/Photo_27-08-16_13_49_03.jpg",
             "images/kophiphi/Photo_27-08-16_15_15_34.jpg",
@@ -1163,7 +1163,7 @@ var cities = [
         "name": "Ranong",
         "latlng": [9.960081, 98.623872],
         "id": "ranong",
-        "country": "thailand",
+        "country": "Thailand",
         "images": [
 
         ],
@@ -1173,7 +1173,7 @@ var cities = [
         "name": "Krabi",
         "latlng": [8.061079, 98.916168],
         "id": "krabi",
-        "country": "thailand",
+        "country": "Thailand",
         "images": [
             "images/krabi/Photo_29-08-16_17_54_58.jpg"
         ],
@@ -1183,7 +1183,7 @@ var cities = [
         "name": "Ko Phayam",
         "latlng": [9.74047, 98.42311],
         "id": "kophayam",
-        "country": "thailand",
+        "country": "Thailand",
         "images": [
             "images/kophayam/Photo_01-09-16_14_19_45.jpg",
             "images/kophayam/Photo_01-09-16_14_32_04.jpg",
@@ -1202,7 +1202,7 @@ var cities = [
         "name": "Bangkok",
         "latlng": [13.75633, 100.50176],
         "id": "bangkok",
-        "country": "thailand",
+        "country": "Thailand",
         "images": [
             "images/bangkok/Photo_03-09-16_05_59_23.jpg",
             "images/bangkok/Photo_06-09-16_14_53_16.jpg",
@@ -1228,7 +1228,7 @@ var cities = [
         "name": "Ho Chi Minh",
         "latlng": [10.82311, 106.62967],
         "id": "hoChiMinh",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/hoChiMinh/Photo_12-09-16_12_44_49.jpg",
             "images/hoChiMinh/Photo_12-09-16_13_23_41.jpg",
@@ -1245,7 +1245,7 @@ var cities = [
         "name": "Mui Ne",
         "latlng": [10.93314, 108.28723],
         "id": "muine",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/muine/Photo_15-09-16_15_51_36.jpg",
             "images/muine/Photo_15-09-16_18_56_46.jpg",
@@ -1263,7 +1263,7 @@ var cities = [
         "name": "Dalat",
         "latlng": [11.94041, 108.45833],
         "id": "dalat",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/dalat/Photo_17-09-16_15_20_51.jpg",
             "images/dalat/Photo_17-09-16_15_41_52.jpg",
@@ -1285,7 +1285,7 @@ var cities = [
         "name": "Nha Trang",
         "latlng": [12.23879, 109.19673],
         "id": "nhaTrang",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/nhaTrang/Photo_19-09-16_15_00_44.jpg",
             "images/nhaTrang/Photo_19-09-16_15_35_26.jpg",
@@ -1297,7 +1297,7 @@ var cities = [
         "name": "Kon Tum",
         "latlng": [14.66111, 107.83871],
         "id": "kontum",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/kontum/Photo_21-09-16_09_36_54.jpg",
             "images/kontum/Photo_21-09-16_10_50_09.jpg",
@@ -1315,7 +1315,7 @@ var cities = [
         "name": "Hoi An",
         "latlng": [15.88, 108.33806],
         "id": "Hoian",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/hoian/Photo_22-09-16_16_05_22.jpg",
             "images/hoian/Photo_22-09-16_16_10_53.jpg",
@@ -1336,7 +1336,7 @@ var cities = [
         "name": "Hue",
         "latlng": [16.4498, 107.56252],
         "id": "hue",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/hue/Photo_25-09-2016,_12_23_47.jpg",
             "images/hue/Photo_25-09-2016,_12_29_08.jpg",
@@ -1356,7 +1356,7 @@ var cities = [
         "name": "Khe Sanh",
         "latlng": [16.61939, 106.73252],
         "id": "khesanh",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
 
         ],
@@ -1366,7 +1366,7 @@ var cities = [
         "name": "Phong Nha",
         "latlng": [17.58321, 106.28211],
         "id": "phongNha",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/phongNha/Photo_02-10-2016,_02_57_36.jpg",
             "images/phongNha/Photo_02-10-2016,_02_57_54.jpg",
@@ -1384,7 +1384,7 @@ var cities = [
         "name": "Tam Coc",
         "latlng": [20.216054, 105.93726],
         "id": "tamCoc",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/tamCoc/Photo_02-10-2016,_02_57_42.jpg",
             "images/tamCoc/Photo_02-10-2016,_02_57_46.jpg",
@@ -1401,7 +1401,7 @@ var cities = [
         "name": "Hanoi",
         "latlng": [21.02778, 105.83414],
         "id": "hanoi",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/hanoi/Photo_01-10-2016,_11_08_02.jpg",
             "images/hanoi/Photo_01-10-2016,_11_25_50.jpg",
@@ -1415,7 +1415,7 @@ var cities = [
         "name": "Cat Ba",
         "latlng": [20.724577,107.051462],
         "id": "catBa",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/catBa/Photo_03-10-2016,_08_23_01.jpg",
             "images/catBa/Photo_03-10-2016,_08_46_47.jpg",
@@ -1430,7 +1430,7 @@ var cities = [
         "name": "That Khe",
         "latlng": [21.85376, 106.7618],
         "id": "thatkhe",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/thatKhe/Photo_04-10-2016,_17_32_35.jpg"
         ],
@@ -1440,7 +1440,7 @@ var cities = [
         "name": "Cao Bang",
         "latlng": [22.6381, 106.25468],
         "id": "caoBang",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/caoBang/Photo_05-10-2016,_10_50_02.jpg",
             "images/caoBang/Photo_05-10-2016,_11_16_56.jpg",
@@ -1453,7 +1453,7 @@ var cities = [
         "name": "Meo Vac",
         "latlng": [23.164856, 105.4083],
         "id": "meoVac",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/meoVac/Photo_05-10-2016,_16_59_49.jpg",
             "images/meoVac/Photo_05-10-2016,_17_00_02.jpg",
@@ -1469,7 +1469,7 @@ var cities = [
         "name": "Dong Van",
         "latlng": [23.29432, 105.29359],
         "id": "dongVan",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/dongVan/Photo_06-10-2016,_08_34_39.jpg"
         ],
@@ -1479,7 +1479,7 @@ var cities = [
         "name": "Bac Ha",
         "latlng": [22.53582, 104.29079],
         "id": "bacHa",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/bacHa/Photo_06-10-2016,_17_49_20.jpg",
             "images/bacHa/Photo_07-10-2016,_11_46_10.jpg"
@@ -1490,7 +1490,7 @@ var cities = [
         "name": "Muong Khuong",
         "latlng": [22.75885, 104.10868],
         "id": "MuongKhuong",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/muongKhuong/Photo_07-10-2016,_11_46_15.jpg",
             "images/muongKhuong/Photo_07-10-2016,_12_18_45.jpg",
@@ -1502,7 +1502,7 @@ var cities = [
         "name": "Sa Pa",
         "latlng": [22.33944, 103.8431],
         "id": "sapa",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/sapa/Photo_08-10-2016,_09_10_37.jpg",
             "images/sapa/Photo_08-10-2016,_10_48_37.jpg",
@@ -1524,7 +1524,7 @@ var cities = [
         "name": "Mai Chau",
         "latlng": [20.665078, 105.08504],
         "id": "maiChau",
-        "country": "vietnam",
+        "country": "Vietnam",
         "images": [
             "images/maiChau/Photo_10-10-2016,_16_46_02.jpg",
             "images/maiChau/Photo_10-10-2016,_16_51_02.jpg"
@@ -1535,7 +1535,7 @@ var cities = [
         "name": "Viangxay",
         "latlng": [20.409288, 104.22583],
         "id": "viangxay",
-        "country": "laos",
+        "country": "Laos",
         "images": [
             "images/viengxay/Photo_11-10-2016,_17_17_37.jpg",
             "images/viengxay/Photo_12-10-2016,_16_07_09.jpg"
@@ -1546,7 +1546,7 @@ var cities = [
         "name": "Phonsavan",
         "latlng": [19.451741, 103.20474],
         "id": "phonsavan",
-        "country": "laos",
+        "country": "Laos",
         "images": [
             "images/phonsavan/Photo_13-10-2016,_12_40_32.jpg",
             "images/phonsavan/Photo_13-10-2016,_12_45_46.jpg",
@@ -1563,7 +1563,7 @@ var cities = [
         "name": "Luang Prabang",
         "latlng": [19.888728, 102.135892],
         "id": "luangPrabang",
-        "country": "laos",
+        "country": "Laos",
         "images": [
             "images/luangPrabang/Photo_16-10-2016,_12_01_39.jpg",
             "images/luangPrabang/Photo_16-10-2016,_12_09_26.jpg",
@@ -1588,7 +1588,7 @@ var cities = [
         "name": "Vang Vieng",
         "latlng": [18.919422, 102.44772],
         "id": "vangVieng",
-        "country": "laos",
+        "country": "Laos",
         "images": [
             "images/vangvieng/Photo_18-10-2016,_16_44_52.jpg",
             "images/vangvieng/Photo_18-10-2016,_17_11_41.jpg",
@@ -1601,7 +1601,7 @@ var cities = [
         "name": "Vientiane",
         "latlng": [17.964101, 102.61337],
         "id": "vientiane",
-        "country": "laos",
+        "country": "Laos",
         "images": [
             "images/vientiane/Photo_23-10-2016,_17_33_37.jpg",
             "images/vientiane/Photo_23-10-2016,_17_33_57.jpg",
@@ -1618,7 +1618,7 @@ var cities = [
         "name": "Pakxan",
         "latlng": [18.39826, 103.66444],
         "id": "pakxan",
-        "country": "laos",
+        "country": "Laos",
         "images": [
 
         ],
@@ -1628,7 +1628,7 @@ var cities = [
         "name": "Kong Lor",
         "latlng": [17.96184, 104.74748],
         "id": "kongLor",
-        "country": "laos",
+        "country": "Laos",
         "images": [
             "images/kongLor/Photo_26-10-2016,_11_40_56.jpg",
             "images/kongLor/Photo_26-10-2016,_13_52_09.jpg",
@@ -1642,7 +1642,7 @@ var cities = [
         "name": "Thalang",
         "latlng": [17.84294, 105.05352],
         "id": "thalang",
-        "country": "laos",
+        "country": "Laos",
         "images": [
             "images/thalang/Photo_27-10-2016,_14_02_43.jpg"
         ],
@@ -1652,7 +1652,7 @@ var cities = [
         "name": "Thakhek",
         "latlng": [17.40353, 104.83409],
         "id": "thakhek",
-        "country": "laos",
+        "country": "Laos",
         "images": [
 
         ],
@@ -1662,7 +1662,7 @@ var cities = [
         "name": "Pakse",
         "latlng": [15.11109, 105.81718],
         "id": "pakse",
-        "country": "laos",
+        "country": "Laos",
         "images": [
 
         ],
@@ -1672,7 +1672,7 @@ var cities = [
         "name": "Don Det",
         "latlng": [13.974189, 105.91908],
         "id": "donDet",
-        "country": "laos",
+        "country": "Laos",
         "images": [
             "images/donDet/Photo_01-11-2016,_14_38_48.jpg",
             "images/donDet/Photo_02-11-2016,_15_03_38.jpg",
@@ -1688,7 +1688,7 @@ var cities = [
         "name": "Ban Lung",
         "latlng": [13.7393, 106.99588],
         "id": "banLung",
-        "country": "cambodia",
+        "country": "Cambodia",
         "images": [
             "images/banlung/Photo_05-11-2016,_13_04_49.jpg",
             "images/banlung/Photo_05-11-2016,_17_39_08.jpg"
@@ -1699,7 +1699,7 @@ var cities = [
         "name": "Preah Vihear",
         "latlng": [13.801263, 104.97427],
         "id": "preahVihear",
-        "country": "cambodia",
+        "country": "Cambodia",
         "images": [
 
         ],
@@ -1709,7 +1709,7 @@ var cities = [
         "name": "Siam Reap",
         "latlng": [13.345259, 103.85418],
         "id": "siamReap",
-        "country": "cambodia",
+        "country": "Cambodia",
         "images": [
             "images/siamReap/Photo_06-11-2016,_11_51_05.jpg",
             "images/siamReap/Photo_08-11-2016,_10_26_36.jpg",
@@ -1736,7 +1736,7 @@ var cities = [
         "name": "Battambang",
         "latlng": [13.099857, 103.196674],
         "id": "battambang",
-        "country": "cambodia",
+        "country": "Cambodia",
         "images": [
             "images/battambang/Photo_09-11-2016,_15_06_40.jpg",
             "images/battambang/Photo_10-11-2016,_13_41_00.jpg",
@@ -1751,7 +1751,7 @@ var cities = [
         "name": "Phnom Penh",
         "latlng": [11.568268, 104.922429],
         "id": "phnomPenh",
-        "country": "cambodia",
+        "country": "Cambodia",
         "images": [
             "images/phnomPenh/Photo_11-11-2016,_14_11_19.jpg",
             "images/phnomPenh/Photo_11-11-2016,_16_46_22.jpg",
@@ -1764,7 +1764,7 @@ var cities = [
         "name": "Kampot",
         "latlng": [10.618305, 104.17973],
         "id": "kampot",
-        "country": "cambodia",
+        "country": "Cambodia",
         "images": [
             "images/kampot/Photo_15-11-2016,_12_19_58.jpg",
             "images/kampot/Photo_15-11-2016,_12_20_09.jpg",
@@ -1779,7 +1779,7 @@ var cities = [
         "name": "Ream",
         "latlng": [10.508281, 103.618393],
         "id": "ream",
-        "country": "cambodia",
+        "country": "Cambodia",
         "images": [
             "images/ream/Photo_16-11-2016,_17_07_51.jpg",
             "images/ream/Photo_16-11-2016,_17_08_04_(1).jpg",
@@ -1792,7 +1792,7 @@ var cities = [
         "name": "Sihanoukville",
         "latlng": [10.622049, 103.522337],
         "id": "sihanoukville",
-        "country": "cambodia",
+        "country": "Cambodia",
         "images": [
 
         ],
@@ -1802,7 +1802,7 @@ var cities = [
         "name": "Koh Rong",
         "latlng": [10.715897, 103.24878],
         "id": "kohRong",
-        "country": "cambodia",
+        "country": "Cambodia",
         "images": [
             "images/kohRong/Photo_20-11-2016,_12_09_36.jpg",
             "images/kohRong/Photo_20-11-2016,_13_54_35.jpg",
@@ -1820,7 +1820,7 @@ var cities = [
         "name": "Dubai",
         "latlng": [25.223270, 55.259638],
         "id": "dubai",
-        "country": "unitedArabEmirates",
+        "country": "UnitedArabEmirates",
         "images": [
             "images/dubai/Photo_24-11-2016,_14_07_05.jpg",
             "images/dubai/Photo_24-11-2016,_15_09_26.jpg",
@@ -1884,7 +1884,7 @@ var cities = [
         "name": "Arambol",
         "latlng": [15.688647, 73.712551],
         "id": "arambol",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/arambol/Photo_06-03-2017,_16_57_16.jpg",
             "images/arambol/Photo_12-02-2017,_16_07_37.jpg",
@@ -1897,7 +1897,7 @@ var cities = [
         "name": "Hampi",
         "latlng": [15.335976, 76.460621],
         "id": "hampi",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/hampi/Photo_07-03-2017,_18_50_48.jpg",
             "images/hampi/Photo_07-03-2017,_18_51_29.jpg",
@@ -1928,7 +1928,7 @@ var cities = [
         "name": "Gokarna",
         "latlng": [14.543962, 74.318443],
         "id": "gokarna",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/gokarna/DSC00124.jpg",
             "images/gokarna/DSC00126.jpg",
@@ -1944,7 +1944,7 @@ var cities = [
         "name": "Madikeri",
         "latlng": [12.420401, 75.740032],
         "id": "madikeri",
-        "country": "india",
+        "country": "India",
         "images": [],
         "geotagged": 1
     },
@@ -1952,7 +1952,7 @@ var cities = [
         "name": "Mysore",
         "latlng": [12.305183, 76.655376],
         "id": "mysore",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/mysore/DSC00129.jpg",
             "images/mysore/DSC00130.jpg",
@@ -1971,7 +1971,7 @@ var cities = [
         "name": "Pondicherry",
         "latlng": [11.934058, 79.830639],
         "id": "pondicherry",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/pondicherry/DSC00145.jpg",
             "images/pondicherry/DSC00146.jpg",
@@ -1984,7 +1984,7 @@ var cities = [
         "name": "Auroville",
         "latlng": [12.00542, 79.8111],
         "id": "auroville",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/auroville/DSC00140.jpg",
             "images/auroville/DSC00143.jpg",
@@ -1997,7 +1997,7 @@ var cities = [
         "name": "Chennai",
         "latlng": [13.08017, 80.283825],
         "id": "chennai",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/chennai/IMG_20170316_214711.jpg",
             "images/chennai/IMG_20170330_172111.jpg",
@@ -2009,7 +2009,7 @@ var cities = [
         "name": "Port Blair",
         "latlng": [11.664532, 92.739061],
         "id": "portBlair",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/portBlair/IMG_20170317_170435.jpg",
             "images/portBlair/IMG_20170318_090235.jpg",
@@ -2032,7 +2032,7 @@ var cities = [
         "name": "Havelock",
         "latlng": [12.016363, 93.009046],
         "id": "havelock",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/havelock/IMG_20170320_103747.jpg",
             "images/havelock/IMG_20170320_140225.jpg",
@@ -2055,7 +2055,7 @@ var cities = [
         "name": "Little Andamann",
         "latlng": [10.697091, 92.496304],
         "id": "littleAndamann",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/littleAndamann/IMG_20170326_203107.jpg",
             "images/littleAndamann/IMG_20170327_112659.jpg",
@@ -2081,7 +2081,7 @@ var cities = [
         "name": "Mahabalipuram",
         "latlng": [12.619501, 80.193666],
         "id": "mahabalipuram",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/mahabalipuram/IMG_20170331_173005.jpg"
         ],
@@ -2091,7 +2091,7 @@ var cities = [
         "name": "Tiruvannamali",
         "latlng": [12.234313, 79.076188],
         "id": "tiruvannamali",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/tiruvannamali/IMG_20170401_195750.jpg",
             "images/tiruvannamali/IMG_20170402_101614.jpg",
@@ -2103,7 +2103,7 @@ var cities = [
         "name": "Tharangambadi",
         "latlng": [11.026432, 79.855403],
         "id": "tharangambadi",
-        "country": "india",
+        "country": "India",
         "images": [
         ],
         "geotagged": 1
@@ -2112,7 +2112,7 @@ var cities = [
         "name": "Thanjavur",
         "latlng": [10.786074, 79.138114],
         "id": "thanjavur",
-        "country": "india",
+        "country": "India",
         "images": [
         ],
         "geotagged": 1
@@ -2121,7 +2121,7 @@ var cities = [
         "name": "Rameswaram",
         "latlng": [9.284465, 79.312555],
         "id": "rameswaram",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/rameswaram/20170408_124838.jpg"
         ],
@@ -2131,7 +2131,7 @@ var cities = [
         "name": "Kanyakumari",
         "latlng": [8.079265, 77.549946],
         "id": "kanyakumari",
-        "country": "india",
+        "country": "India",
         "images": [
         ],
         "geotagged": 1
@@ -2140,7 +2140,7 @@ var cities = [
         "name": "Varkala",
         "latlng": [8.740849, 76.723172],
         "id": "varkala",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/varkala/IMG_20170415_140008.jpg"
         ],
@@ -2150,7 +2150,7 @@ var cities = [
         "name": "Alappuzha",
         "latlng": [9.4981, 76.332599],
         "id": "alappuzha",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/alappuzha/IMG_20170417_085707.jpg",
             "images/alappuzha/IMG_20170417_102541.jpg",
@@ -2165,7 +2165,7 @@ var cities = [
         "name": "Kochi",
         "latlng": [9.964842, 76.242798],
         "id": "kochi",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/kochi/IMG_20170419_165843.jpg",
             "images/kochi/IMG_20170419_170954.jpg",
@@ -2180,7 +2180,7 @@ var cities = [
         "name": "Munnar",
         "latlng": [10.086725, 77.060983],
         "id": "munnar",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/munnar/IMG_20170420_173255.jpg",
             "images/munnar/IMG_20170420_175226.jpg",
@@ -2201,7 +2201,7 @@ var cities = [
         "name": "Kodaikanal",
         "latlng": [10.235117, 77.493832],
         "id": "kodaikanal",
-        "country": "india",
+        "country": "India",
         "images": [
         ],
         "geotagged": 1
@@ -2210,7 +2210,7 @@ var cities = [
         "name": "Vattakanal",
         "latlng": [10.216793, 77.484729],
         "id": "vattakanal",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/vattakanal/IMG_20170422_164711.jpg",
             "images/vattakanal/IMG_20170423_110811.jpg",
@@ -2224,7 +2224,7 @@ var cities = [
         "name": "Kotagiri",
         "latlng": [11.422841, 76.866109],
         "id": "kotagiri",
-        "country": "india",
+        "country": "India",
         "images": [
         ],
         "geotagged": 1
@@ -2233,7 +2233,7 @@ var cities = [
         "name": "Kannur",
         "latlng": [11.876235, 75.373794],
         "id": "kannur",
-        "country": "india",
+        "country": "India",
         "images": [
         ],
         "geotagged": 1
@@ -2242,7 +2242,7 @@ var cities = [
         "name": "Lucknow",
         "latlng": [26.838109, 80.934594],
         "id": "lucknow",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/lucknow/IMG_20170512_093914.jpg",
             "images/lucknow/IMG_20170512_094107.jpg",
@@ -2254,7 +2254,7 @@ var cities = [
         "name": "Kushinagar",
         "latlng": [26.743827, 83.916232],
         "id": "kushinagar",
-        "country": "india",
+        "country": "India",
         "images": [
             "images/kushinagar/IMG_20170512_173431.jpg",
             "images/kushinagar/IMG_20170512_173822.jpg",
@@ -2267,7 +2267,7 @@ var cities = [
         "name": "Kathmandu",
         "latlng": [27.708796, 85.320245],
         "id": "kathmandu",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
             "images/kathmandu/IMG_20170516_145530.jpg",
             "images/kathmandu/IMG_20170516_151433.jpg",
@@ -2285,7 +2285,7 @@ var cities = [
         "name": "Pokhara",
         "latlng": [28.209522, 83.991411],
         "id": "pokhara",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
             "images/pokhara/IMG_20170518_183152.jpg",
             "images/pokhara/IMG_20170518_183207.jpg"
@@ -2296,7 +2296,7 @@ var cities = [
         "name": "Beshisahar",
         "latlng": [28.231315, 84.376145],
         "id": "besisahar",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
             "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -2384,7 +2384,7 @@ var cities = [
         "name": "Bhulbhule",
         "latlng": [28.290391, 84.371507],
         "id": "bhulbhule",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -2472,7 +2472,7 @@ var cities = [
         "name": "Chamje",
         "latlng": [28.435984, 84.389199],
         "id": "chamje",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -2561,7 +2561,7 @@ var cities = [
         "name": "Timang",
         "latlng": [28.527109, 84.304916],
         "id": "timang",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -2650,7 +2650,7 @@ var cities = [
         "name": "Lower Pisang",
         "latlng": [28.615432, 84.147484],
         "id": "lowerPisang",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -2739,7 +2739,7 @@ var cities = [
         "name": "Manang",
         "latlng": [28.666111, 84.023118],
         "id": "manang",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -2828,7 +2828,7 @@ var cities = [
         "name": "Yak Khagar",
         "latlng": [28.71762, 83.976321],
         "id": "yakKhagar",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -2917,7 +2917,7 @@ var cities = [
         "name": "Thorung Phedi",
         "latlng": [28.776926, 83.973033],
         "id": "thorungPhedi",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -3006,7 +3006,7 @@ var cities = [
         "name": "Ranipauwa",
         "latlng": [28.816191, 83.864588],
         "id": "ranipauwa",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -3095,7 +3095,7 @@ var cities = [
         "name": "Marpha",
         "latlng": [28.751914, 83.686235],
         "id": "marpha",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -3184,7 +3184,7 @@ var cities = [
         "name": "Tatopani",
         "latlng": [28.497577, 83.65396],
         "id": "tatopani",
-        "country": "nepal",
+        "country": "Nepal",
         "images": [
                     "images/annapurna/IMG_20170519_163227.jpg",
             "images/annapurna/IMG_20170519_164736.jpg",
@@ -3273,7 +3273,7 @@ var cities = [
         "name": "Chiang Mai",
         "latlng": [18.790559, 98.988094],
         "id": "chiangMai",
-        "country": "thailand",
+        "country": "Thailand",
         "images": [
         ],
         "geotagged": 1
@@ -3282,7 +3282,7 @@ var cities = [
         "name": "Pai",
         "latlng": [19.351825, 98.447179],
         "id": "pai",
-        "country": "thailand",
+        "country": "Thailand",
         "images": [
             "images/pai/IMG_20170615_204029.jpg",
             "images/pai/IMG_20170615_204048.jpg",
@@ -3310,7 +3310,7 @@ var cities = [
         "name": "Jakarta",
         "latlng": [-6.175394, 106.827184],
         "id": "jakarta",
-        "country": "indonesia",
+        "country": "Indonesia",
         "images": [
             "images/jakarta/IMG_20170705_135211.jpg",
             "images/jakarta/IMG_20170706_143058.jpg",
@@ -3322,7 +3322,7 @@ var cities = [
         "name": "Lubuan Bajo",
         "latlng": [-8.494416, 119.8855],
         "id": "lubuanBajo",
-        "country": "indonesia",
+        "country": "Indonesia",
         "images": [
             "images/lubuanBajo/IMG_20170708_084634.jpg",
             "images/lubuanBajo/IMG_20170708_084834.jpg",
@@ -3343,7 +3343,7 @@ var cities = [
         "name": "Ferry Point 1",
         "latlng": [-8.572554, 119.02179],
         "id": "ferryPoint1",
-        "country": "indonesia",
+        "country": "Indonesia",
         "images": [
         ],
         "geotagged": 1
@@ -3352,7 +3352,7 @@ var cities = [
         "name": "Ferry Point 2",
         "latlng": [-8.541541, 116.837579],
         "id": "ferryPoint2",
-        "country": "indonesia",
+        "country": "Indonesia",
         "images": [
         ],
         "geotagged": 1
@@ -3361,7 +3361,7 @@ var cities = [
         "name": "Ferry Point 3",
         "latlng": [-8.510787, 116.666676],
         "id": "ferryPoint3",
-        "country": "indonesia",
+        "country": "Indonesia",
         "images": [
         ],
         "geotagged": 1
@@ -3370,7 +3370,7 @@ var cities = [
         "name": "Ferry Point 4",
         "latlng": [-8.382807, 116.11517],
         "id": "ferryPoint4",
-        "country": "indonesia",
+        "country": "Indonesia",
         "images": [
         ],
         "geotagged": 1
@@ -3379,7 +3379,7 @@ var cities = [
         "name": "Gilli T",
         "latlng": [-8.350566, 116.04196],
         "id": "gilliT",
-        "country": "indonesia",
+        "country": "Indonesia",
         "images": [
             "images/gilliT/IMG_20170713_180830.jpg",
             "images/gilliT/IMG_20170713_181610.jpg",
@@ -3392,7 +3392,7 @@ var cities = [
         "name": "Kuta Lombok",
         "latlng": [-8.878, 116.27614],
         "id": "kutaLombok",
-        "country": "indonesia",
+        "country": "Indonesia",
         "images": [
             "images/kutaLombok/IMG_20170715_175055.jpg",
             "images/kutaLombok/IMG_20170721_135658.jpg",
@@ -3405,7 +3405,7 @@ var cities = [
         "name": "Beijing",
         "latlng": [39.905971, 116.39126],
         "id": "beijing",
-        "country": "china",
+        "country": "China",
         "images": [
             "images/beijing/IMG_20170801_105409.jpg",
             "images/beijing/IMG_20170801_112036.jpg",
@@ -3424,7 +3424,7 @@ var cities = [
         "name": "Ulaanbaatar",
         "latlng": [47.905344, 106.921297],
         "id": "ulaanbaatar",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/ulaanbaatar/IMG_20170802_115903.jpg",
             "images/ulaanbaatar/IMG_20170802_120138.jpg",
@@ -3441,7 +3441,7 @@ var cities = [
         "name": "Khatgal",
         "latlng": [50.44423, 100.157935],
         "id": "khatgal",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3470,7 +3470,7 @@ var cities = [
         "name": "Camp spot 1",
         "latlng": [50.441225, 99.910327],
         "id": "campspot1",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
                 "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3500,7 +3500,7 @@ var cities = [
         "name": "Camp spot 2",
         "latlng": [50.442100, 99.656268],
         "id": "campspot2",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
                     "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3530,7 +3530,7 @@ var cities = [
         "name": "Camp spot 3",
         "latlng": [50.456966, 99.392596],
         "id": "campspot3",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
         "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3560,7 +3560,7 @@ var cities = [
         "name": "Camp spot 4",
         "latlng": [50.597521, 99.127551],
         "id": "campspot4",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3590,7 +3590,7 @@ var cities = [
         "name": "Camp spot 5",
         "latlng": [50.794530, 99.241875],
         "id": "campspot5",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3620,7 +3620,7 @@ var cities = [
         "name": "Camp spot 6",
         "latlng": [51.017953, 99.368218],
         "id": "campspot6",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3650,7 +3650,7 @@ var cities = [
         "name": "Camp spot 7",
         "latlng": [51.344068, 99.333615],
         "id": "campspot7",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3680,7 +3680,7 @@ var cities = [
         "name": "Camp spot 8",
         "latlng": [51.429341, 99.297566],
         "id": "campspot8",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3710,7 +3710,7 @@ var cities = [
         "name": "Camp spot 9",
         "latlng": [51.539019, 99.286580],
         "id": "campspot9",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3740,7 +3740,7 @@ var cities = [
         "name": "Camp spot 10",
         "latlng": [51.588960, 99.158177],
         "id": "campspot10",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3770,7 +3770,7 @@ var cities = [
         "name": "Camp spot 11",
         "latlng": [51.511451, 99.386497],
         "id": "campspot11",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3800,7 +3800,7 @@ var cities = [
         "name": "Camp spot 12",
         "latlng": [51.385419, 99.500888],
         "id": "campspot12",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3830,7 +3830,7 @@ var cities = [
         "name": "Camp spot 13",
         "latlng": [51.217776, 99.563029],
         "id": "campspot13",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3860,7 +3860,7 @@ var cities = [
         "name": "Camp spot 14",
         "latlng": [51.108834, 99.708255],
         "id": "campspot14",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3890,7 +3890,7 @@ var cities = [
         "name": "Camp spot 15",
         "latlng": [51.065488, 100.012782],
         "id": "campspot15",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3920,7 +3920,7 @@ var cities = [
         "name": "Camp spot 16",
         "latlng": [51.011086, 100.281947],
         "id": "campspot16",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3950,7 +3950,7 @@ var cities = [
         "name": "Camp spot 17",
         "latlng": [50.840992, 100.238002],
         "id": "campspot17",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -3980,7 +3980,7 @@ var cities = [
         "name": "Camp spot 18",
         "latlng": [50.659396, 100.250361],
         "id": "campspot18",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -4010,7 +4010,7 @@ var cities = [
         "name": "Camp spot 19",
         "latlng": [50.546085, 100.152858],
         "id": "campspot19",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
             "images/horsetrack/20839950_10203617425714277_1315837560_o.jpg",
             "images/horsetrack/20840049_10203617455635025_581699778_o.jpg",
@@ -4040,7 +4040,7 @@ var cities = [
         "name": "Moron",
         "latlng": [49.635802, 100.17111],
         "id": "moron",
-        "country": "mongolia",
+        "country": "Mongolia",
         "images": [
         ],
         "geotagged": 1
@@ -4084,7 +4084,7 @@ var cities = [
         "name": "Amsterdam",
         "latlng": [52.378815, 4.853761],
         "id": "amsterdam",
-        "country": "Netherland",
+        "country": "Netherlands",
         "images": [
         ],
         "geotagged": 1
@@ -4255,7 +4255,7 @@ var cities = [
         "name": "London",
         "latlng": [51.507061, -0.131466],
         "id": "london",
-        "country": "England",
+        "country": "United Kingdom",
         "images": [
         ],
         "geotagged": 1
@@ -4429,6 +4429,78 @@ var cities = [
         "country": "South Africa",
         "images": [
         ],
+        "geotagged": 1
+    },
+    {
+        "name": "Kopenhagen",
+        "latlng": [55.67594, 12.56553],
+        "id": "kopenhagen",
+        "country": "Denmark",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Athens",
+        "latlng": [37.983810, 23.727539],
+        "id": "athens",
+        "country": "Greece",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Pula",
+        "latlng": [44.866623, 13.849579],
+        "id": "pula",
+        "country": "Croatia",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Istanbul",
+        "latlng": [41.008240, 28.978359],
+        "id": "istanbul",
+        "country": "Turkey",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "TelAviv",
+        "latlng": [32.085300, 34.781769],
+        "id": "telAviv",
+        "country": "Israel",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Milano",
+        "latlng": [45.463619, 9.188120],
+        "id": "milano",
+        "country": "Italy",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Budapest",
+        "latlng": [47.497913, 19.040236],
+        "id": "budapest",
+        "country": "Hungary",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Prag",
+        "latlng": [50.087811, 14.420460],
+        "id": "prag",
+        "country": "CzechRepublic",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Gdansk",
+        "latlng": [54.352024, 18.646639],
+        "id": "Gdansk",
+        "country": "Poland",
+        "images": [],
         "geotagged": 1
     }
 ];
