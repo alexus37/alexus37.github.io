@@ -147,7 +147,7 @@ require([
             return COLORS[d.type];
           })
           .showValues(true);
-        chart.yAxis.tickFormat(d3.format(',.1f'));
+        chart.yAxis.tickFormat(d3.format('.2s'));
         chart.xAxis.tickFormat(function (d) {
           return ICONS[d];
         });
