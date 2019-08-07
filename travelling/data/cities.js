@@ -4502,5 +4502,117 @@ var cities = [
         "country": "Poland",
         "images": [],
         "geotagged": 1
+    },
+    {
+        "name": "Toronto",
+        "latlng": [43.688797, -79.389182],
+        "id": "toronto",
+        "country": "Canada",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Cancun",
+        "latlng": [21.166074, -86.859495],
+        "id": "cancun",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Playa del Carmen",
+        "latlng": [20.633453, -87.075561],
+        "id": "playaDelCarmen",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Holbox",
+        "latlng": [21.521765, -87.379986],
+        "id": "holbox",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Merida",
+        "latlng": [20.966442, -89.598299],
+        "id": "merdia",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Valladolid",
+        "latlng": [20.688589, -88.200361],
+        "id": "valladolid",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Coba",
+        "latlng": [20.494800, -87.735339],
+        "id": "coba",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Tullum",
+        "latlng": [20.210899, -87.459000],
+        "id": "tullum",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Bacalar",
+        "latlng": [18.684776, -88.393987],
+        "id": "bacalar",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Palenque",
+        "latlng": [17.510974, -91.991215],
+        "id": "palenque",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "San Christobal",
+        "latlng": [16.736228, -92.638872],
+        "id": "San Christobal",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Puerto Escondido",
+        "latlng": [15.871062, -97.075642],
+        "id": "purtoEscondido",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Oaxaca",
+        "latlng": [17.065075, -96.721737],
+        "id": "oaxaca",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Mexico City",
+        "latlng": [19.424408, -99.135277],
+        "id": "mexicoCity",
+        "country": "Mexico",
+        "images": [],
+        "geotagged": 1
     }
 ];
