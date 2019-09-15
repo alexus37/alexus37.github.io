@@ -40,7 +40,6 @@ def decode_polyline(polyline_str):
 
 def requestData(origin, destination, mode = 'driving'):
     url = 'https://maps.googleapis.com/maps/api/directions/json?origin=' + origin + '&destination=' + destination + '&mode=' + mode + '&key=AIzaSyDgDMgGYKossMJE1xWFyWhqT83Enml5D8A'
-    print('Requesting...\n' + url)
     r = requests.get(url)
 
     j = json.loads(r.text)
