@@ -4614,5 +4614,93 @@ var cities = [
         "country": "Mexico",
         "images": [],
         "geotagged": 1
+    },
+    {
+        "name": "Lisbon",
+        "latlng": [38.716455, -9.129862],
+        "id": "lisbon",
+        "country": "Portugal",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Crato",
+        "latlng": [39.287830, -7.644784],
+        "id": "crato",
+        "country": "Portugal",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Peniche",
+        "latlng": [39.359775, -9.386505],
+        "id": "peniche",
+        "country": "Portugal",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Lagos",
+        "latlng": [37.104075, -8.676289],
+        "id": "lagos",
+        "country": "Portugal",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Faro",
+        "latlng": [37.018569, -7.930389],
+        "id": "faro",
+        "country": "Portugal",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Sagres",
+        "latlng": [37.016394, -8.940696],
+        "id": "sagres",
+        "country": "Portugal",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Thessaloniki",
+        "latlng": [40.636780, 22.939870],
+        "id": "thessaloniki",
+        "country": "Greece",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Litochoro",
+        "latlng": [40.103957, 22.505388],
+        "id": "litochoro",
+        "country": "Greece",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Argalasti",
+        "latlng": [39.225566, 23.219324],
+        "id": "argalasti",
+        "country": "Greece",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Platania",
+        "latlng": [39.140795, 23.274255],
+        "id": "platania",
+        "country": "Greece",
+        "images": [],
+        "geotagged": 1
+    },
+    {
+        "name": "Nea Mesangle",
+        "latlng": [39.950916, 22.707982],
+        "id": "neaMesangle",
+        "country": "Greece",
+        "images": [],
+        "geotagged": 1
     }
 ];
