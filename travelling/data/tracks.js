@@ -1728,6 +1728,20 @@ var tracks = [
         "from": "neaMesangle",
         "to": "thessaloniki",
         "type": "motorbike"
-    }
+    },
+    {
+      "fromLatLng": [47.3769, 8.54169],
+      "toLatLng": [59.325125, 18.071018],
+      "from": "zuerich",
+      "to": "stockholm",
+      "type": "flight"
+  },
+  {
+    "fromLatLng": [59.325125, 18.071018],
+    "toLatLng": [47.3769, 8.54169],
+    "from": "stockholm",
+    "to": "zuerich",
+    "type": "flight"
+},
 ];
 
