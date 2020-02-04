@@ -1728,6 +1728,33 @@ var tracks = [
         "from": "neaMesangle",
         "to": "thessaloniki",
         "type": "motorbike"
-    }
+    },
+    {
+        "fromLatLng": [47.3769, 8.54169],
+        "toLatLng": [41.903045, 12.498053],
+        "from": "zuerich",
+        "to": "rome",
+        "type": "flight"
+    },
+    {
+        "fromLatLng": [41.903045, 12.4980533],
+        "toLatLng": [47.3769, 8.54169],
+        "from": "rome",
+        "to": "zuerich",
+        "type": "flight"
+    },
+    {
+        "coordinates": [[41.903045, 12.4980533], [41.90293, 12.451203]],
+        "from": "rome",
+        "to": "vaticanCity",
+        "type": "motorbike"
+    },
+    {
+        "fromLatLng": [47.3769, 8.54169],
+        "toLatLng": [41.903045, 12.498053],
+        "from": "zuerich",
+        "to": "rome",
+        "type": "flight"
+    },
 ];
 
