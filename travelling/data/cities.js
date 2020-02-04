@@ -4624,5 +4624,13 @@ var cities = [
     country: "Vatican City",
     images: [],
     geotagged: 1
+  },
+  {
+    name: "Stockholm",
+    latlng: [59.325125, 18.071018],
+    id: "stockholm",
+    country: "Sweden",
+    images: [],
+    geotagged: 1
   }
 ];
