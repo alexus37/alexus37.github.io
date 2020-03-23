@@ -1,621 +1,773 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Alexander Lelidis</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.min.js"></script>
     <script src="js/vanta.net.min.js"></script>
     <script src="js/vanta.birds.min.js"></script>
-</head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111763271-1"></script>
-<script>
+  </head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-111763271-1"
+  ></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
-        dataLayer.push(arguments);
+      dataLayer.push(arguments);
     }
-    gtag('js', new Date());
+    gtag("js", new Date());
 
-    gtag('config', 'UA-111763271-1');
-</script>
+    gtag("config", "UA-111763271-1");
+  </script>
 
-<body>
+  <body>
     <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+      <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
     <header class="sticky">
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#travelling">Travelling</a>
-            </li>
-            <li>
-                <a href="#art">Art</a>
-            </li>
-            <li>
-                <a href="#research">Research</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+      <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <ul id="menu" class="shadow">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#travelling">Travelling</a>
+        </li>
+        <li>
+          <a href="#art">Art</a>
+        </li>
+        <li>
+          <a href="#research">Research</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </header>
     <!-- End header -->
 
     <div id="lead">
-        <div id="lead-content">
-            <h1>Alexander Lelidis</h1>
-            <h2>Computer scientist</h2>
-            <a href="pdf/cv.pdf" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
+      <div id="lead-content">
+        <h1>Alexander Lelidis</h1>
+        <h2>Computer scientist</h2>
+        <a
+          href="https://github.com/alexus37/Awesome-CV/raw/master/examples/cv.pdf"
+          class="btn-rounded-white"
+          >Download Resume</a
+        >
+      </div>
+      <!-- End #lead-content -->
 
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
+      <div id="lead-down">
+        <span>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
+      </div>
+      <!-- End #lead-down -->
     </div>
     <!-- End #lead -->
 
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Hello friends, I am Alexander Lelidis, and I’m a 4th year Computer Science student doing my masters degree here at ETH Zurich. I am interessed in computer graphics, computer vision, machine learning and security. However, I am really open for other things
-                        as well. In my free time I like to ski and do art.
-                    </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading">About Me</h2>
+          </div>
+          <div class="col-md-8">
+            <p>
+              Hello friends, I am Alexander Lelidis, and I’m a 5th-year Computer
+              Science student doing my master's degree here at ETH Zurich. I am
+              interested in computer graphics, computer vision, machine learning
+              and security. However, I am open for other things as well. In my
+              free time, I like to ski and do art.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End #about -->
     <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>ES6</li>
-            <li>TS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>VBA</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>Ionic</li>
-            <li>React</li>
-            <li>Redux</li>
-            <li>Redux-Saga</li>
-            <li>Jest</li>
-            <li>React-Native</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>SQL</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>Express</li>
-            <li>Postgres</li>
-            <li>graphQL</li>
-            <li>ESRI AGO</li>
-            <li>Metabase</li>
-            <li>Node</li>
-            <li>CouchDB</li>
-            <li>mongoDB</li>
-            <li>tornado</li>
-            <li>flask</li>
-            <li>cgal</li>
-            <li>boost</li>
-            <li>HTML</li>
-            <li>JSX</li>
-            <li>assembler</li>
-            <li>PHP</li>
-            <li>svg</li>
-            <li>leaflet</li>
-            <li>django</li>
-            <li>ROS</li>
-            <li>GLSL</li>
-            <li>openGL</li>
-            <li>OSG</li>
-            <li>mapbox</li>
-            <li>OSMR</li>
-            <li>CSS</li>
-            <li>SASS</li>
-            <li>bootstrap</li>
-            <li>linux</li>
-        </ul>
+      <h2 class="heading">Skills</h2>
+      <ul>
+        <li>ES6</li>
+        <li>TS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Ruby</li>
+        <li>VBA</li>
+        <li>Node.js</li>
+        <li>AngularJs</li>
+        <li>Ionic</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Redux-Saga</li>
+        <li>Jest</li>
+        <li>React-Native</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>SQL</li>
+        <li>C++</li>
+        <li>Ruby on Rails</li>
+        <li>Express</li>
+        <li>Postgres</li>
+        <li>graphQL</li>
+        <li>ESRI AGO</li>
+        <li>Metabase</li>
+        <li>CouchDB</li>
+        <li>mongoDB</li>
+        <li>tornado</li>
+        <li>flask</li>
+        <li>cgal</li>
+        <li>boost</li>
+        <li>HTML</li>
+        <li>JSX</li>
+        <li>assembler</li>
+        <li>PHP</li>
+        <li>svg</li>
+        <li>leaflet</li>
+        <li>django</li>
+        <li>ROS</li>
+        <li>GLSL</li>
+        <li>openGL</li>
+        <li>OSG</li>
+        <li>mapbox</li>
+        <li>OSMR</li>
+        <li>CSS</li>
+        <li>SASS</li>
+        <li>bootstrap</li>
+        <li>linux</li>
+      </ul>
     </div>
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="Spring 2019 – now">
-                <h3>ESRI</h3>
-                <h4>Software Engineer</h4>
-                <p>
-                    ARCGIS URBAN<br/> Make planning more creative and more productive in react <br/> ArcGIS Urban is a collection of web-based and desktop <br /> tools to help you create and manage plans and projects
-                </p>
-            </div>
-            <div data-date="Spring 2016 – Winter 2019">
-                <h3>Antavi GmbH</h3>
-                <h4>Software Engineer</h4>
-                <p>
-                    Crowd management<br/> Development of command, control and communications system in react <br/> GIS data analysis
-                </p>
-            </div>
-
-            <div data-date="Fall 2014 – Spring 2016">
-                <h3>ETH Zurich</h3>
-                <h4>Research Assistant at IFT</h4>
-                <p>
-                    Mobile crowd analysis <br/> Development of web based software for crowd analysis (js, python)<br/> Server implementation<br/> Web design
-                </p>
-            </div>
-
-            <div data-date="Fall 2012 – Spring 2016">
-                <h3>WeltWeitBau GmbH</h3>
-                <h4>Software Engineer</h4>
-                <p>
-                    Development of software civil engineering informatics (vbs, java, c++)<br/> Automatisation of software quality assurance<br/> Web design and marketing
-                </p>
-            </div>
+      <h2 class="heading">Experience</h2>
+      <div id="experience-timeline">
+        <div data-date="Spring 2019 – now">
+          <h3>ESRI</h3>
+          <h4>Software Engineer</h4>
+          <p>
+            ARCGIS URBAN<br />
+            Make planning more creative and more productive in react <br />
+            ArcGIS Urban is a collection of web-based and desktop <br />
+            tools to help you create and manage plans and projects
+          </p>
         </div>
+        <div data-date="Spring 2016 – Winter 2019">
+          <h3>Antavi GmbH</h3>
+          <h4>Software Engineer</h4>
+          <p>
+            Crowd management<br />
+            Development of command, control and communications system in react
+            <br />
+            GIS data analysis
+          </p>
+        </div>
+
+        <div data-date="Fall 2014 – Spring 2016">
+          <h3>ETH Zurich</h3>
+          <h4>Research Assistant at IFT</h4>
+          <p>
+            Mobile crowd analysis <br />
+            Development of web based software for crowd analysis (js, python)<br />
+            Server implementation<br />
+            Web design
+          </p>
+        </div>
+
+        <div data-date="Fall 2012 – Spring 2016">
+          <h3>WeltWeitBau GmbH</h3>
+          <h4>Software Engineer</h4>
+          <p>
+            Development of software civil engineering informatics (vbs, java,
+            c++)<br />
+            Automatisation of software quality assurance<br />
+            Web design and marketing
+          </p>
+        </div>
+      </div>
     </div>
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>ETH Zurich</h3>
-            <span class="education-date">Sept 2017 - Now</span>
-            <h4>Master of Science in Computer Science</h4>
-            <p>
-                Study track general computer science
-            </p>
-        </div>
-        <!-- End .education-block -->
+      <h2 class="heading">Education</h2>
+      <div class="education-block">
+        <h3>ETH Zurich</h3>
+        <span class="education-date">Sept 2017 - Now</span>
+        <h4>Master of Science in Computer Science</h4>
+        <p>
+          Study track general computer science
+        </p>
+      </div>
+      <!-- End .education-block -->
 
-        <div class="education-block">
-            <h3>Technical University Berlin</h3>
-            <span class="education-date">Oct 2012 - Apr 2016</span>
-            <h4>Bachelor of Science in Computer Science (1.9)</h4>
-            <ul>
-                <li>
-                    Exchange program at ETH Zurich
-                </li>
-                <li>
-                    Thesis: STRUCTURE-AWARE SURFACE RECONSTRUCTION WITH SPARSE MOVING LEAST SQUARES (1.0)
-                </li>
-            </ul>
-        </div>
+      <div class="education-block">
+        <h3>Technical University Berlin</h3>
+        <span class="education-date">Oct 2012 - Apr 2016</span>
+        <h4>Bachelor of Science in Computer Science (1.9)</h4>
+        <ul>
+          <li>
+            Exchange program at ETH Zurich
+          </li>
+          <li>
+            Thesis: STRUCTURE-AWARE SURFACE RECONSTRUCTION WITH SPARSE MOVING
+            LEAST SQUARES (1.0)
+          </li>
+        </ul>
+      </div>
 
-        <div class="education-block">
-            <h3>Werner-von-Siemens Gymnasium</h3>
-            <span class="education-date">Mai 2006 - Mar 2012</span>
-            <h4>German Abitur (2.1)</h4>
-        </div>
-        <!-- End .education-block -->
+      <div class="education-block">
+        <h3>Werner-von-Siemens Gymnasium</h3>
+        <span class="education-date">Mai 2006 - Mar 2012</span>
+        <h4>German Abitur (2.1)</h4>
+      </div>
+      <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/hg2g.jpg" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>Hitchhiker's guide to the galaxy door</b></h3>
-                        <p>
-                            Inspired by the movie hitchhiker's guide to the galaxy I created a small system,
-                            which replicates the behavior of the doors in the spaceship.
-                        </p>
-                        <a href="https://alexus37.github.io/hg2gDoor/index.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/aml.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>Advanced machine learning</b></h3>
-                        <p>
-                            This project consists of 5 subprojects in the medical subfield of machine learning. Various tasks like multi class classification and regression were performed. This task were takled using LSTMs, decision trees or suport vector machines.
-
-                        </p>
-                        <a href="https://alexus37.github.io/AML-18/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/gan.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>FFTGAN: Generative Adversarial Network system for generating cosmological images in the frequency space</b></h3>
-                        <p>
-                            In this project, we discuss techniques to quantify quality of cosmological images in the frequency domain. The problem consists of two parts. First, we had to find a way to quantify the concept of a ”cosmological image”. Second, we had to use knowledge
-                            and results which we obtained to generate a ”cosmological image”. The images are large in size, which required careful choice of techniques for discrimination and generation. Our research show that classification on images
-                            which have strong local characteristics, which don’t have a fixed global location can be accomplished better in the frequency domain.
-                        </p>
-                        <a href="pdf/gan.pdf">Download report</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/game.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>Game dev: That failed bank robbery</b></h3>
-                        <p>
-                            That failed bank robbery is a competitive local multiplayer game for 2 or 4 players in which two teams of thieves try to rob the same bank at the same time. Drive unlikely vehicles, pick up all the cash, steal your opponent’s loot, use a vast arsenal
-                            of different power-ups and get out there before the police catches you! The game was created as part of the Game Programming Lab at ETH Zürich during spring 2018 and will be presented at the GAMESCOM 2018 in Cologne.
-                        </p>
-                        <a href="http://thatfailedbankrobbery.ch">View Project</a>
-                        <a href="https://www.youtube.com/watch?v=NfyRlZ4NVYo&feature=youtu.be">View trailer</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/nbody.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>N-Body simulation with collision handling</b></h3>
-                        <p>
-                            Simulating planets and asteroids in space is an intersecting multi dimensional challenge. Due to the nature of the set up, we have to solve a few hard challenges to achieve a real time engine. The first part of the problem is the numerical computation
-                            of gravitational forces. This problem is today only solved analytically for 2 bodies. Since our objective is to have an asteroid field we using numerical methods to approximated these forces. Once the bodies start to move around
-                            the second challenge is to handle collisions and compute physically correct responses. Again this needs to be done in rather fast fashion to be able to run in real time.
-                        </p>
-                        <a href="https://alexus37.github.io/asteroidField/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/triptrackr.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>tripTrackr</b></h3>
-                        <p>
-                            The motivation behinde this project was to understand the full stack developement of an app with including backend. Therefore I choose to create a travel app, where users can create a personal webpage with the travel trajectory and share it with friends.
-                        </p>
-                        <a href="https://www.triptrackr.de/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/webinterface.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3> <b>WebGL interface for the NORI renderer </b></h3>
-                        <p>
-                            Nori Webinterface is a web platform, functioning as a frontend for the Nori Raytracer. It features a user management system, allowing users to save and load scenes, which they can edit in a 3D editor in the browser. Scenes can then be renderd by the platform
-                            and will be streamed, piece by piece to the browser. The server uses Django to provide a REST API which is used by an Angular Web App. THREE.js is used for the 3D Editor. The rendered image is streamed to piece by piece via
-                            a Websocket.
-                        </p>
-                        <a href="http://alexus37.github.io/NoriV2Webinterface/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/layeredMaterials.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3> <b>Generating BSDF layered material files</b></h3>
-                        <p>
-                            I decided to implement the paper A Comprehensive Framework for Rendering Layered Materials from Jakob Wenzel. The paper presents a new method for rendering material consisting of multiple layers by precomputing the reflection model. The technique supports
-                            arbitrary composition of materials and correctly accounts for multiple scattering within and between layers. In terms of a rendering system the models are efficient to evaluate. By exploiting the concepts of sparse matrix representation,
-                            the precomputed values can be stored space efficently, even for high glossy materials, and be reused for different scenes.
-                        </p>
-                        <a href="projects/layeredMaterials/layeredMaterials.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/nori.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3> <b>Physically based renderer </b></h3>
-                        <p>
-                            I want to render a complicated forest scene in the morning. The scene should contain a rarely used train track on which you can see a very old Swiss made train approaching. The train will be a steam locomotive, which emits a lot of dark steam. Because
-                            the scene takes place in the morning it will be very foggy, so that you can see the sun rays passing through the forest canopy. To achieve that, I took the nori renderer and implement the neccessary features, like Volumetric
-                            Photon mapping with beam radiance estimate or an environment map emitter with importance sampling.
-                        </p>
-                        <a href="projects/nori/report-Alexander-Lelidis.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/chess.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3> <b>Thermal augmented reality chess </b></h3>
-                        <p>
-                            The goal of this project was to create an augmented reality chess game. We used two cameras - an RGB-D camera and a thermal camera. The RGB camera is used to track a paper checkerboard with augmented reality markers which are used to estimate the pose
-                            of the camera. The video with the resulting camera matrix are used by OpenGL to augment the video with the virtual game objects. We use a thermal camera for the detection of the user input.
-                        </p>
-                        <a href="pdf/report.pdf">Download Project report</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/particles.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3> <b>N-body simulation using particles </b></h3>
-                        <p>
-                            In that project I wanted to learn the basics of three.js and implement a simple particle based n-body simulation. The whole simulation runs in the browser in real time and enables to change parameters on the fly.
-                        </p>
-                        <a href="projects/particles/index.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/brdf.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3> <b>BRDF explorer </b></h3>
-                        <p>
-                            To get a better understanding of Bidirectional Reflectance Distribution Function, I implemented a viewer using GLSL to visualize the different effects of various BRDFs. Due to the GPU implementation, the user can change input parameters for the function
-                            during the run time and directly see the effect. Additionally, I added costum BRDFs using procedual noise to create interesting materials.
-                        </p>
-                        <a href="projects/brdf/brdf.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/curves.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3> <b>B splines Editor</b></h3>
-                        <p>
-                            In the editor window I rendered the B-Spline curve corresponding to the control points and knot sequence specified by the user. The application is interactive, meaning that changes in the control points, knot vector or active knot are reflected visually
-                            automatically.
-                        </p>
-                        <a href="projects/curves/bsplineEditor.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/subdivision.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3> <b>Subdivision explorer</b></h3>
-                        <p>
-                            This JavaScript page based on three.js use 2 different subdivision algorithms on different meshes and enables the user to specify the abount of iterations.
-                        </p>
-                        <a href="projects/subdivision/subdivision.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/raytracer2.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3> <b>Simple JS raytracer</b></h3>
-                        <p>
-                            In this project I implement a basic raytracer complete from scratch. The objective was to get a hands on experience on different CS methods, like Bump mapping or ray/ geometry intersection.
-                        </p>
-                        <a href="projects/raytracer2/raytracer.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
+      <h2 class="heading">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/hg2g.jpg" width="300" height="300" />
             </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Hitchhiker's guide to the galaxy door</b></h3>
+              <p>
+                Inspired by the movie hitchhiker's guide to the galaxy I created
+                a small system, which replicates the behaviour of the doors in
+                the spaceship.
+              </p>
+              <a href="https://alexus37.github.io/hg2gDoor/index.html"
+                >View Project</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/aml.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Advanced machine learning</b></h3>
+              <p>
+                This project consists of 5 subprojects in the medical subfield
+                of machine learning. Various tasks like multi class
+                classification and regression were performed. This task were
+                takled using LSTMs, decision trees or suport vector machines.
+              </p>
+              <a href="https://alexus37.github.io/AML-18/">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/gan.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>
+                <b
+                  >FFTGAN: Generative Adversarial Network system for generating
+                  cosmological images in the frequency space</b
+                >
+              </h3>
+              <p>
+                In this project, we discuss techniques to quantify the quality
+                of cosmological images in the frequency domain. The problem
+                consists of two parts. First, we had to find a way to quantify
+                the concept of a ”cosmological image”. Second, we had to use
+                knowledge and results which we obtained to generate a
+                ”cosmological image”. The images are large, which required
+                careful choice of techniques for discrimination and generation.
+                Our research shows that classification on images which have
+                strong local characteristics, which don’t have a fixed global
+                location can be accomplished better in the frequency domain.
+              </p>
+              <a href="pdf/gan.pdf">Download report</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/game.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Game dev: That failed bank robbery</b></h3>
+              <p>
+                That failed bank robbery is a competitive local multiplayer game
+                for 2 or 4 players in which two teams of thieves try to rob the
+                same bank at the same time. Drive unlikely vehicles, pick up all
+                the cash, steal your opponent’s loot, use a vast arsenal of
+                different power-ups and get out there before the police catch
+                you! The game was created as part of the Game Programming Lab at
+                ETH Zürich during spring 2018 and will be presented at the
+                GAMESCOM 2018 in Cologne.
+              </p>
+              <a href="http://thatfailedbankrobbery.ch">View Project</a>
+              <a
+                href="https://www.youtube.com/watch?v=NfyRlZ4NVYo&feature=youtu.be"
+                >View trailer</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/nbody.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>N-Body simulation with collision handling</b></h3>
+              <p>
+                Simulating planets and asteroids in space is an intersecting
+                multi-dimensional challenge. Due to the nature of the setup, we
+                have to solve a few hard challenges to achieve a real-time
+                engine. The first part of the problem is the numerical
+                computation of gravitational forces. This problem is today only
+                solved analytically for 2 bodies. Since our objective is to have
+                an asteroid field we using numerical methods to approximated
+                these forces. Once the bodies start to move around the second
+                challenge is to handle collisions and compute physically correct
+                responses. Again this needs to be done in rather fast fashion to
+                be able to run in real-time.
+              </p>
+              <a href="https://alexus37.github.io/asteroidField/"
+                >View Project</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/triptrackr.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>tripTrackr</b></h3>
+              <p>
+                The motivation behinde this project was to understand the full
+                stack developement of an app with including backend. Therefore I
+                choose to create a travel app, where users can create a personal
+                webpage with the travel trajectory and share it with friends.
+              </p>
+              <a href="https://www.triptrackr.de/">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/webinterface.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>WebGL interface for the NORI renderer </b></h3>
+              <p>
+                Nori Webinterface is a web platform, functioning as a frontend
+                for the Nori Raytracer. It features a user management system,
+                allowing users to save and load scenes, which they can edit in a
+                3D editor in the browser. Scenes can then be rendered by the
+                platform and will be streamed, piece by piece to the browser.
+                The server uses Django to provide a REST API which is used by an
+                Angular Web App. THREE.js is used for the 3D Editor. The
+                rendered image is streamed to piece by piece via a Websocket.
+              </p>
+              <a href="http://alexus37.github.io/NoriV2Webinterface/"
+                >View Project</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/layeredMaterials.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Generating BSDF layered material files</b></h3>
+              <p>
+                I decided to implement the paper A Comprehensive Framework for
+                Rendering Layered Materials from Jakob Wenzel. The paper
+                presents a new method for rendering material consisting of
+                multiple layers by precomputing the reflection model. The
+                technique supports arbitrary composition of materials and
+                correctly accounts for multiple scattering within and between
+                layers. In terms of a rendering system, the models are efficient
+                to evaluate. By exploiting the concepts of sparse matrix
+                representation, the precomputed values can be stored space
+                efficiently, even for high glossy materials, and be reused for
+                different scenes.
+              </p>
+              <a href="projects/layeredMaterials/layeredMaterials.html"
+                >View Project</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/nori.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Physically based renderer </b></h3>
+              <p>
+                I want to render a complicated forest scene in the morning. The
+                scene should contain a rarely used train track on which you can
+                see a very old Swiss made train approaching. The train will be a
+                steam locomotive, which emits a lot of dark steam. Because the
+                scene takes place in the morning it will be very foggy, so that
+                you can see the sun rays passing through the forest canopy. To
+                achieve that, I took the Nori renderer and implement the
+                necessary features, like Volumetric Photon mapping with beam
+                radiance estimate or an environment map emitter with importance
+                sampling.
+              </p>
+              <a href="projects/nori/report-Alexander-Lelidis.html"
+                >View Project</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/chess.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Thermal augmented reality chess </b></h3>
+              <p>
+                The goal of this project was to create an augmented reality
+                chess game. We used two cameras - an RGB-D camera and a thermal
+                camera. The RGB camera is used to track a paper checkerboard
+                with augmented reality markers which are used to estimate the
+                pose of the camera. The video with the resulting camera matrix
+                are used by OpenGL to augment the video with the virtual game
+                objects. We use a thermal camera for the detection of the user
+                input.
+              </p>
+              <a href="pdf/report.pdf">Download Project report</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/particles.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>N-body simulation using particles </b></h3>
+              <p>
+                In that project I wanted to learn the basics of three.js and
+                implement a simple particle based n-body simulation. The whole
+                simulation runs in the browser in real time and enables to
+                change parameters on the fly.
+              </p>
+              <a href="projects/particles/index.html">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/brdf.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>BRDF explorer </b></h3>
+              <p>
+                To get a better understanding of Bidirectional Reflectance
+                Distribution Function, I implemented a viewer using GLSL to
+                visualize the different effects of various BRDFs. Due to the GPU
+                implementation, the user can change input parameters for the
+                function during the run time and directly see the effect.
+                Additionally, I added costum BRDFs using procedual noise to
+                create interesting materials.
+              </p>
+              <a href="projects/brdf/brdf.html">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/curves.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>B splines Editor</b></h3>
+              <p>
+                In the editor window, I rendered the B-Spline curve
+                corresponding to the control points and knot sequence specified
+                by the user. The application is interactive, meaning that
+                changes in the control points, knot vector or active knot are
+                reflected visually automatically.
+              </p>
+              <a href="projects/curves/bsplineEditor.html">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/subdivision.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Subdivision explorer</b></h3>
+              <p>
+                This JavaScript page based on three.js use 2 different
+                subdivision algorithms on different meshes and enables the user
+                to specify the abount of iterations.
+              </p>
+              <a href="projects/subdivision/subdivision.html">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/raytracer2.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Simple JS raytracer</b></h3>
+              <p>
+                In this project I implement a basic raytracer complete from
+                scratch. The objective was to get a hands on experience on
+                different CS methods, like Bump mapping or ray/ geometry
+                intersection.
+              </p>
+              <a href="projects/raytracer2/raytracer.html">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
         </div>
+      </div>
     </div>
     <!-- End #projects -->
     <div class="optional-section background-alt" id="research">
-        <h2 class="heading">Research</h2>
+      <h2 class="heading">Research</h2>
 
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/bumpySphere.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>Geometry Representations for Big Geometry Data with Unsupervised Feature Learning</b></h3>
-                        <p>
-                            In this paper, we present an exploration of analyzing geometries via learning local geometry features. After extracting local geometry patches, we parameterize each patch geometry by a radial basis function based interpolation. We use the resulting coefficients
-                            as discrete representations of the patches. These are then fed into feature learning algorithms to extract the dominant components explaining the overall patch database. This simple approach allows us to handle general representations
-                            such as point clouds or meshes with noises, outliers, and missing data. We present features learned on several patch databases, highlighting the utility of such an analysis for geometry processing applications.
-                        </p>
-                        <a href="pdf/geometryRepresentations.pdf">Download paper</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/bunnyTrans.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>STRUCTURE-AWARE SURFACE RECONSTRUCTION WITH SPARSE MOVING LEAST SQUARES</b></h3>
-                        <p>
-                            Reconstructing the surface underlying a given point cloud is a fundamental problem in geometry processing. Moving least squares solves this problem efficiently using local fits. However, locality comes at the expense of losing a global view of the geometry,
-                            leading to inferior results when there is missing data or significant amount of noise or outliers. Global methods are more robust, but they are expensive to compute. In this thesis, we will combine global and local methods
-                            in an efficient manner by using learned local geometry bases and sparse moving least squares fits.
-                        </p>
-                        <a href="pdf/thesis.pdf">Download Thesis</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/bumpySphere.png" width="300" height="300" />
             </div>
-        </div>
-        <!-- End .optional-section-block -->
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>
+                <b
+                  >Geometry Representations for Big Geometry Data with
+                  Unsupervised Feature Learning</b
+                >
+              </h3>
+              <p>
+                In this paper, we present an exploration of analyzing geometries
+                via learning local geometry features. After extracting local
+                geometry patches, we parameterize each patch geometry by a
+                radial basis function-based interpolation. We use the resulting
+                coefficients as discrete representations of the patches. These
+                are then fed into feature learning algorithms to extract the
+                dominant components explaining the overall patch database. This
+                simple approach allows us to handle general representations such
+                as point clouds or meshes with noises, outliers, and missing
+                data. We present features learned on several patch databases,
+                highlighting the utility of such an analysis for geometry
+                processing applications.
+              </p>
+              <a href="pdf/geometryRepresentations.pdf">Download paper</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
 
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/bunnyTrans.png" width="300" height="300" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>
+                <b
+                  >STRUCTURE-AWARE SURFACE RECONSTRUCTION WITH SPARSE MOVING
+                  LEAST SQUARES</b
+                >
+              </h3>
+              <p>
+                Reconstructing the surface underlying a given point cloud is a
+                fundamental problem in geometry processing. Moving least squares
+                solves this problem efficiently using local fits. However,
+                locality comes at the expense of losing a global view of the
+                geometry, leading to inferior results when there is missing data
+                or significant amount of noise or outliers. Global methods are
+                more robust, but they are expensive to compute. In this thesis,
+                we will combine global and local methods in an efficient manner
+                by using learned local geometry bases and sparse moving least
+                squares fits.
+              </p>
+              <a href="pdf/thesis.pdf">Download Thesis</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+        </div>
+      </div>
+      <!-- End .optional-section-block -->
     </div>
     <!-- End .optional-section -->
     <!-- End #skills -->
     <div class="optional-section background-alt" id="travelling">
-        <h2 class="heading">Travelling</h2>
+      <h2 class="heading">Travelling</h2>
 
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/travelling.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>Exploring the world</b></h3>
-                        <p>
-                            In my free time I love to travel the world, doesnt matter if in india on a Royal Enfield or in Mongolia on a horse back.
-                        </p>
-                        <a href="travelling/travellingFullscreen_v2.html">View Stats</a>
-                        <a href="travelling/travellingFullscreen.html">View trajectory</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/travelling.png" width="300" height="300" />
             </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Exploring the world</b></h3>
+              <p>
+                In my free time, I love to travel the world, doesn't matter if
+                in India on a Royal Enfield or in Mongolia on a horseback.
+              </p>
+              <a href="travelling/travellingFullscreen_v2.html">View Stats</a>
+              <a href="travelling/travellingFullscreen.html">View trajectory</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
         </div>
-        <!-- End .optional-section-block -->
-
+      </div>
+      <!-- End .optional-section-block -->
     </div>
     <!-- End .optional-section -->
     <div class="optional-section background-alt" id="art">
-        <h2 class="heading">Art</h2>
+      <h2 class="heading">Art</h2>
 
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/art.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><b>Airbrush, water color and more!</b></h3>
-                        <p>
-                            Since a youngster I was interessed in color and drawings, which resulted into learning and experimenting with different methods to create art.
-                        </p>
-                        <a href="art/art.html">View Gallery</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/art.png" width="300" height="300" />
             </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3><b>Airbrush, water color and more!</b></h3>
+              <p>
+                Since a youngster, I was interested in colour and drawings,
+                which resulted in learning and experimenting with different
+                methods to create art.
+              </p>
+              <a href="art/art.html">View Gallery</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
         </div>
-        <!-- End .optional-section-block -->
-
+      </div>
+      <!-- End .optional-section-block -->
     </div>
     <!-- End .optional-section -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/alexlelidis@gmx.de">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
+      <h2>Get in Touch</h2>
+      <div id="contact-form">
+        <form method="POST" action="https://formspree.io/alexlelidis@gmx.de">
+          <input
+            type="hidden"
+            name="_subject"
+            value="Contact request from personal website"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2019 Alexander Lelidis
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/alexus37" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 copyright">
+            <p>
+              Copyright &copy; 2020 Alexander Lelidis
+            </p>
+          </div>
+          <div class="col-sm-2 top">
+            <span id="to-top">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="col-sm-5 social">
+            <ul>
+              <li>
+                <a href="https://github.com/alexus37" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
 
-                        <li>
-                            <a href="https://bitbucket.org/Alexus/" target="_blank"><i class="fa fa-bitbucket" aria-hidden="true"></i></a>
-                        </li>
-                        <!--
+              <li>
+                <a href="https://bitbucket.org/Alexus/" target="_blank"
+                  ><i class="fa fa-bitbucket" aria-hidden="true"></i
+                ></a>
+              </li>
+              <!--
                         <li>
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
@@ -626,15 +778,14 @@
                             <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         </li>
                         -->
-                    </ul>
-                </div>
-            </div>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
-</body>
-
+  </body>
 </html>
