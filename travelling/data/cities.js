@@ -26,9 +26,9 @@ var cities = [
       "images/mumbai/Foto_04.04.16_17_37_31.jpg",
       "images/mumbai/Foto_04.04.16_18_30_03.jpg",
       "images/mumbai/Foto_05.04.16_16_14_03.jpg",
-      "images/mumbai/Foto_05.04.16_16_15_41.jpg"
+      "images/mumbai/Foto_05.04.16_16_15_41.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Udaipur",
@@ -45,9 +45,9 @@ var cities = [
       "images/udaipur/Foto_06.04.16_18_56_30.jpg",
       "images/udaipur/Foto_07.04.16_12_30_52.jpg",
       "images/udaipur/Foto_07.04.16_12_33_09.jpg",
-      "images/udaipur/Foto_07.04.16_12_37_12.jpg"
+      "images/udaipur/Foto_07.04.16_12_37_12.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Jaisalmer",
@@ -62,9 +62,9 @@ var cities = [
       "images/jaisalmer/Foto_10.04.16_18_09_26.jpg",
       "images/jaisalmer/Foto_11.04.16_16_04_13.jpg",
       "images/jaisalmer/Foto_12.04.16_08_05_51.jpg",
-      "images/jaisalmer/Foto_12.04.16_17_04_33.jpg"
+      "images/jaisalmer/Foto_12.04.16_17_04_33.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Jodhpur",
@@ -84,9 +84,9 @@ var cities = [
       "images/jodhpur/Foto_14.04.16_16_04_43.jpg",
       "images/jodhpur/Foto_14.04.16_16_06_35.jpg",
       "images/jodhpur/Foto_14.04.16_16_29_39.jpg",
-      "images/jodhpur/Foto_14.04.16_16_39_26.jpg"
+      "images/jodhpur/Foto_14.04.16_16_39_26.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Pushkar",
@@ -100,9 +100,9 @@ var cities = [
       "images/pushkar/Foto_16.04.16_18_19_46.jpg",
       "images/pushkar/Foto_17.04.16_18_51_02.jpg",
       "images/pushkar/Foto_17.04.16_18_51_48.jpg",
-      "images/pushkar/Foto_18.04.16_16_09_19.jpg"
+      "images/pushkar/Foto_18.04.16_16_09_19.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Agra",
@@ -128,9 +128,9 @@ var cities = [
       "images/agra/Foto_20.04.16_06_20_35.jpg",
       "images/agra/Foto_20.04.16_06_30_03.jpg",
       "images/agra/Foto_20.04.16_06_38_56.jpg",
-      "images/agra/Foto_20.04.16_06_46_38.jpg"
+      "images/agra/Foto_20.04.16_06_46_38.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Delhi",
@@ -144,9 +144,9 @@ var cities = [
       "images/delhi/Foto_08.07.16_14_37_54.jpg",
       "images/delhi/Foto_08.07.16_15_17_00.jpg",
       "images/delhi/Foto_08.07.16_17_32_52.jpg",
-      "images/delhi/Foto_20.04.16_13_46_52.jpg"
+      "images/delhi/Foto_20.04.16_13_46_52.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Haridwar",
@@ -173,9 +173,9 @@ var cities = [
       "images/haridwar/Foto_21.04.16_22_13_56.jpg",
       "images/haridwar/Foto_22.04.16_10_53_01.jpg",
       "images/haridwar/Foto_22.04.16_11_07_09.jpg",
-      "images/haridwar/Foto_22.04.16_13_03_05.jpg"
+      "images/haridwar/Foto_22.04.16_13_03_05.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Rishikesh",
@@ -194,9 +194,9 @@ var cities = [
       "images/rishikesh/Foto_25.04.16_13_49_29.jpg",
       "images/rishikesh/Foto_25.04.16_14_52_33.jpg",
       "images/rishikesh/Foto_26.04.16_18_19_19.jpg",
-      "images/rishikesh/Foto_26.04.16_19_10_35.jpg"
+      "images/rishikesh/Foto_26.04.16_19_10_35.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Mussoorie",
@@ -211,9 +211,9 @@ var cities = [
       "images/mussoorie/Foto_28.04.16_16_25_22.jpg",
       "images/mussoorie/Foto_28.04.16_17_51_33.jpg",
       "images/mussoorie/Foto_29.04.16_16_21_21.jpg",
-      "images/mussoorie/Foto_29.04.16_16_22_39.jpg"
+      "images/mussoorie/Foto_29.04.16_16_22_39.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Shimla",
@@ -230,9 +230,9 @@ var cities = [
       "images/shimla/Foto_30.04.16_13_39_15.jpg",
       "images/shimla/Foto_30.04.16_15_24_29.jpg",
       "images/shimla/Foto_30.04.16_18_22_35.jpg",
-      "images/shimla/Foto_30.04.16_19_28_34.jpg"
+      "images/shimla/Foto_30.04.16_19_28_34.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Sarahan",
@@ -247,9 +247,9 @@ var cities = [
       "images/sarahan/Foto_02.05.16_18_37_48.jpg",
       "images/sarahan/Foto_02.05.16_18_45_53.jpg",
       "images/sarahan/Foto_03.05.16_09_04_59.jpg",
-      "images/sarahan/Foto_03.05.16_09_31_28.jpg"
+      "images/sarahan/Foto_03.05.16_09_31_28.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Sangla",
@@ -260,9 +260,9 @@ var cities = [
       "images/sangla/Foto_03.05.16_09_38_48.jpg",
       "images/sangla/Foto_03.05.16_12_06_46.jpg",
       "images/sangla/Foto_03.05.16_12_10_06.jpg",
-      "images/sangla/Foto_03.05.16_12_26_39.jpg"
+      "images/sangla/Foto_03.05.16_12_26_39.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Chitkul",
@@ -275,9 +275,9 @@ var cities = [
       "images/chitkul/Foto_03.05.16_13_43_31.jpg",
       "images/chitkul/Foto_03.05.16_13_49_22.jpg",
       "images/chitkul/Foto_03.05.16_13_51_15.jpg",
-      "images/chitkul/Foto_03.05.16_13_52_54.jpg"
+      "images/chitkul/Foto_03.05.16_13_52_54.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Rekong Peo",
@@ -289,9 +289,9 @@ var cities = [
       "images/rekongPeo/Foto_04.05.16_10_18_49.jpg",
       "images/rekongPeo/Foto_05.05.16_11_18_04.jpg",
       "images/rekongPeo/Foto_07.05.16_18_00_11.jpg",
-      "images/rekongPeo/Foto_08.05.16_06_06_40.jpg"
+      "images/rekongPeo/Foto_08.05.16_06_06_40.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kalpa",
@@ -304,9 +304,9 @@ var cities = [
       "images/kalpa/Foto_04.05.16_11_45_50.jpg",
       "images/kalpa/Foto_04.05.16_11_51_37.jpg",
       "images/kalpa/Foto_04.05.16_11_56_55.jpg",
-      "images/kalpa/Foto_04.05.16_12_00_56.jpg"
+      "images/kalpa/Foto_04.05.16_12_00_56.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Pooh",
@@ -318,9 +318,9 @@ var cities = [
       "images/pooh/Foto_04.05.16_14_14_49.jpg",
       "images/pooh/Foto_04.05.16_14_15_10.jpg",
       "images/pooh/Foto_04.05.16_15_06_12.jpg",
-      "images/pooh/Foto_04.05.16_15_36_43.jpg"
+      "images/pooh/Foto_04.05.16_15_36_43.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Nako",
@@ -331,9 +331,9 @@ var cities = [
       "images/nako/Foto_05.05.16_09_34_51.jpg",
       "images/nako/Foto_05.05.16_11_04_58.jpg",
       "images/nako/Foto_05.05.16_11_09_23.jpg",
-      "images/nako/Foto_05.05.16_11_18_04.jpg"
+      "images/nako/Foto_05.05.16_11_18_04.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Tabo",
@@ -345,9 +345,9 @@ var cities = [
       "images/tabo/Foto_05.05.16_14_29_35.jpg",
       "images/tabo/Foto_05.05.16_14_30_00.jpg",
       "images/tabo/Foto_05.05.16_15_17_57.jpg",
-      "images/tabo/Foto_05.05.16_15_36_11.jpg"
+      "images/tabo/Foto_05.05.16_15_36_11.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Dhankhar",
@@ -358,9 +358,9 @@ var cities = [
       "images/dhankhar/Foto_05.05.16_16_20_15.jpg",
       "images/dhankhar/Foto_05.05.16_17_00_10.jpg",
       "images/dhankhar/Foto_05.05.16_17_12_23.jpg",
-      "images/dhankhar/Foto_05.05.16_17_22_17.jpg"
+      "images/dhankhar/Foto_05.05.16_17_22_17.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kaza",
@@ -371,9 +371,9 @@ var cities = [
       "images/kaza/Foto_11.05.16_21_05_41.jpg",
       "images/kaza/Foto_11.05.16_21_06_11.jpg",
       "images/kaza/Foto_11.05.16_21_06_54.jpg",
-      "images/kaza/Foto_11.05.16_21_07_15.jpg"
+      "images/kaza/Foto_11.05.16_21_07_15.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kee",
@@ -387,9 +387,9 @@ var cities = [
       "images/kee/Foto_06.05.16_13_13_02.jpg",
       "images/kee/Foto_06.05.16_13_16_36.jpg",
       "images/kee/Foto_06.05.16_13_19_29.jpg",
-      "images/kee/Foto_06.05.16_13_19_54.jpg"
+      "images/kee/Foto_06.05.16_13_19_54.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kibber",
@@ -397,7 +397,7 @@ var cities = [
     id: "kibber",
     country: "India",
     images: ["images/kibber/Foto_06.05.16_13_47_39.jpg"],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Comic",
@@ -408,9 +408,9 @@ var cities = [
       "images/comic/Foto_06.05.16_17_27_22.jpg",
       "images/comic/Foto_06.05.16_17_27_50.jpg",
       "images/comic/Foto_06.05.16_17_39_56.jpg",
-      "images/comic/Foto_06.05.16_17_40_02.jpg"
+      "images/comic/Foto_06.05.16_17_40_02.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Chango",
@@ -418,7 +418,7 @@ var cities = [
     id: "chango",
     country: "India",
     images: ["images/chango/Foto_07.05.16_12_53_10.jpg"],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Manali",
@@ -428,9 +428,9 @@ var cities = [
     images: [
       "images/manali/Foto_13.05.16_12_23_19.jpg",
       "images/manali/Foto_17.05.16_17_30_32.jpg",
-      "images/manali/Foto_17.05.16_17_55_04.jpg"
+      "images/manali/Foto_17.05.16_17_55_04.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Vashisht",
@@ -439,9 +439,9 @@ var cities = [
     country: "India",
     images: [
       "images/vashisht/Foto_16.05.16_13_52_55.jpg",
-      "images/vashisht/Foto_16.05.16_18_25_24.jpg"
+      "images/vashisht/Foto_16.05.16_18_25_24.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kasol",
@@ -451,9 +451,9 @@ var cities = [
     images: [
       "images/kasol/Foto_19.05.16_18_46_44.jpg",
       "images/kasol/Foto_20.05.16_17_38_02.jpg",
-      "images/kasol/Foto_20.05.16_18_21_49.jpg"
+      "images/kasol/Foto_20.05.16_18_21_49.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Khirganga",
@@ -466,9 +466,9 @@ var cities = [
       "images/khirganga/Foto_26.05.16_15_48_55.jpg",
       "images/khirganga/Foto_26.05.16_16_46_12.jpg",
       "images/khirganga/Foto_29.05.16_09_27_52.jpg",
-      "images/khirganga/Foto_29.05.16_09_54_24.jpg"
+      "images/khirganga/Foto_29.05.16_09_54_24.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Dharmshala",
@@ -488,9 +488,9 @@ var cities = [
       "images/dharmshala/Foto_31.05.16_12_02_31.jpg",
       "images/dharmshala/Foto_31.05.16_12_32_36.jpg",
       "images/dharmshala/Foto_31.05.16_12_42_58.jpg",
-      "images/dharmshala/Foto_31.05.16_18_58_28.jpg"
+      "images/dharmshala/Foto_31.05.16_18_58_28.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Amritsar",
@@ -518,9 +518,9 @@ var cities = [
       "images/amritsar/Foto_11.06.16_18_03_01.jpg",
       "images/amritsar/Foto_11.06.16_18_05_55.jpg",
       "images/amritsar/Foto_11.06.16_18_15_42.jpg",
-      "images/amritsar/Foto_11.06.16_18_21_31.jpg"
+      "images/amritsar/Foto_11.06.16_18_21_31.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Jammu",
@@ -536,9 +536,9 @@ var cities = [
       "images/jammu/Foto_12.06.16_16_31_06.jpg",
       "images/jammu/Foto_12.06.16_16_34_07.jpg",
       "images/jammu/Foto_12.06.16_16_36_23.jpg",
-      "images/jammu/Foto_12.06.16_16_42_26.jpg"
+      "images/jammu/Foto_12.06.16_16_42_26.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Srinagar",
@@ -568,9 +568,9 @@ var cities = [
       "images/srinagar/Foto_19.06.16_15_30_28.jpg",
       "images/srinagar/Foto_20.06.16_12_38_24.jpg",
       "images/srinagar/Foto_20.06.16_12_39_16.jpg",
-      "images/srinagar/Foto_20.06.16_13_54_37.jpg"
+      "images/srinagar/Foto_20.06.16_13_54_37.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Naranag",
@@ -586,9 +586,9 @@ var cities = [
       "images/narannag/Foto_16.06.16_12_39_27.jpg",
       "images/narannag/Foto_16.06.16_13_33_57.jpg",
       "images/narannag/Foto_16.06.16_15_09_54.jpg",
-      "images/narannag/Foto_17.06.16_12_15_52.jpg"
+      "images/narannag/Foto_17.06.16_12_15_52.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Sonamarg",
@@ -596,7 +596,7 @@ var cities = [
     id: "sonamarg",
     country: "India",
     images: ["images/sonamarg/Foto_21.06.16_08_15_32.jpg"],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Drass",
@@ -606,9 +606,9 @@ var cities = [
     images: [
       "images/drass/Foto_21.06.16_09_22_33.jpg",
       "images/drass/Foto_21.06.16_10_10_21.jpg",
-      "images/drass/Foto_21.06.16_11_46_50.jpg"
+      "images/drass/Foto_21.06.16_11_46_50.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Kargil",
@@ -622,9 +622,9 @@ var cities = [
       "images/kargil/Foto_21.06.16_13_48_15.jpg",
       "images/kargil/Foto_21.06.16_14_38_29.jpg",
       "images/kargil/Foto_21.06.16_15_13_43.jpg",
-      "images/kargil/Foto_21.06.16_15_34_57.jpg"
+      "images/kargil/Foto_21.06.16_15_34_57.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Lamayuru",
@@ -640,9 +640,9 @@ var cities = [
       "images/lamayuru/Foto_21.06.16_18_21_22.jpg",
       "images/lamayuru/Foto_21.06.16_18_23_22.jpg",
       "images/lamayuru/Foto_21.06.16_18_38_30.jpg",
-      "images/lamayuru/Foto_21.06.16_18_41_00.jpg"
+      "images/lamayuru/Foto_21.06.16_18_41_00.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Wangla",
@@ -652,9 +652,9 @@ var cities = [
     images: [
       "images/wangla/Foto_22.06.16_08_19_54.jpg",
       "images/wangla/Foto_22.06.16_08_20_52.jpg",
-      "images/wangla/Foto_22.06.16_10_01_10.jpg"
+      "images/wangla/Foto_22.06.16_10_01_10.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Honupatta",
@@ -664,9 +664,9 @@ var cities = [
     images: [
       "images/honupatta/Foto_22.06.16_07_14_54.jpg",
       "images/honupatta/Foto_22.06.16_07_37_51.jpg",
-      "images/honupatta/Foto_22.06.16_07_59_46.jpg"
+      "images/honupatta/Foto_22.06.16_07_59_46.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Alchi",
@@ -677,9 +677,9 @@ var cities = [
       "images/alchi/Foto_22.06.16_10_33_39.jpg",
       "images/alchi/Foto_22.06.16_10_35_26.jpg",
       "images/alchi/Foto_22.06.16_11_02_31.jpg",
-      "images/alchi/Foto_22.06.16_13_11_02.jpg"
+      "images/alchi/Foto_22.06.16_13_11_02.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Leh",
@@ -691,9 +691,9 @@ var cities = [
       "images/leh/Foto_01.07.16_14_13_06.jpg",
       "images/leh/Foto_03.07.16_20_34_07.jpg",
       "images/leh/Foto_22.06.16_14_17_36.jpg",
-      "images/leh/Foto_28.06.16_10_20_09.jpg"
+      "images/leh/Foto_28.06.16_10_20_09.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Diskit",
@@ -710,9 +710,9 @@ var cities = [
       "images/diskit/Foto_28.06.16_09_29_14.jpg",
       "images/diskit/Foto_28.06.16_09_29_24.jpg",
       "images/diskit/Foto_28.06.16_09_36_36.jpg",
-      "images/diskit/Foto_28.06.16_09_37_02.jpg"
+      "images/diskit/Foto_28.06.16_09_37_02.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Turtuk",
@@ -722,9 +722,9 @@ var cities = [
     images: [
       "images/turtuk/Foto_27.06.16_13_45_52.jpg",
       "images/turtuk/Foto_28.06.16_09_36_36.jpg",
-      "images/turtuk/Foto_28.06.16_10_03_51.jpg"
+      "images/turtuk/Foto_28.06.16_10_03_51.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Spangmtk",
@@ -736,9 +736,9 @@ var cities = [
       "images/spangmtk/Foto_29.06.16_11_48_11.jpg",
       "images/spangmtk/Foto_29.06.16_12_00_36.jpg",
       "images/spangmtk/Foto_29.06.16_17_14_57.jpg",
-      "images/spangmtk/Foto_29.06.16_19_22_33.jpg"
+      "images/spangmtk/Foto_29.06.16_19_22_33.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Chemre",
@@ -749,9 +749,9 @@ var cities = [
       "images/chemre/Foto_30.06.16_09_48_04.jpg",
       "images/chemre/Foto_30.06.16_11_00_40.jpg",
       "images/chemre/Foto_30.06.16_11_20_46.jpg",
-      "images/chemre/Foto_30.06.16_11_21_41.jpg"
+      "images/chemre/Foto_30.06.16_11_21_41.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Thiske",
@@ -760,9 +760,9 @@ var cities = [
     country: "India",
     images: [
       "images/thikse/Foto_30.06.16_12_09_00.jpg",
-      "images/thikse/Foto_30.06.16_13_13_53.jpg"
+      "images/thikse/Foto_30.06.16_13_13_53.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Chilling",
@@ -771,9 +771,9 @@ var cities = [
     country: "India",
     images: [
       "images/chilling/Foto_25.06.16_19_06_44.jpg",
-      "images/chilling/Foto_25.06.16_19_26_04.jpg"
+      "images/chilling/Foto_25.06.16_19_26_04.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Varansi",
@@ -801,9 +801,9 @@ var cities = [
       "images/varanasi/Foto_11.07.16_15_48_52.jpg",
       "images/varanasi/Foto_11.07.16_17_07_09.jpg",
       "images/varanasi/Foto_11.07.16_17_07_38.jpg",
-      "images/varanasi/Foto_12.07.16_14_28_41.jpg"
+      "images/varanasi/Foto_12.07.16_14_28_41.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Colombo",
@@ -828,9 +828,9 @@ var cities = [
       "images/colombo/Foto_17.07.16_15_28_57.jpg",
       "images/colombo/Foto_17.07.16_15_30_06.jpg",
       "images/colombo/Foto_17.07.16_15_43_02.jpg",
-      "images/colombo/Foto_17.07.16_18_31_33.jpg"
+      "images/colombo/Foto_17.07.16_18_31_33.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "hikkaduw",
@@ -849,9 +849,9 @@ var cities = [
       "images/hikkaduw/Foto_18.07.16_13_10_12.jpg",
       "images/hikkaduw/Foto_18.07.16_13_16_21.jpg",
       "images/hikkaduw/Foto_18.07.16_13_17_29.jpg",
-      "images/hikkaduw/Foto_18.07.16_14_01_29.jpg"
+      "images/hikkaduw/Foto_18.07.16_14_01_29.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "galle",
@@ -865,9 +865,9 @@ var cities = [
       "images/galle/Foto_18.07.16_18_11_22.jpg",
       "images/galle/Foto_18.07.16_18_23_58.jpg",
       "images/galle/Foto_19.07.16_11_56_04.jpg",
-      "images/galle/Foto_19.07.16_17_30_52.jpg"
+      "images/galle/Foto_19.07.16_17_30_52.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Mirissa",
@@ -878,9 +878,9 @@ var cities = [
       "images/mirissa/Foto_20.07.16_12_41_17.jpg",
       "images/mirissa/Foto_20.07.16_13_18_25.jpg",
       "images/mirissa/Foto_20.07.16_15_41_45.jpg",
-      "images/mirissa/Foto_21.07.16_09_17_00.jpg"
+      "images/mirissa/Foto_21.07.16_09_17_00.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Tangalle",
@@ -902,9 +902,9 @@ var cities = [
       "images/tangalle/Foto_22.07.16_15_59_51.jpg",
       "images/tangalle/Foto_22.07.16_17_31_44.jpg",
       "images/tangalle/Foto_22.07.16_17_34_16.jpg",
-      "images/tangalle/Foto_22.07.16_18_34_05.jpg"
+      "images/tangalle/Foto_22.07.16_18_34_05.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Arugam",
@@ -922,9 +922,9 @@ var cities = [
       "images/arugam/Foto_08.08.16_21_50_47.jpg",
       "images/arugam/Foto_09.08.16_10_08_42.jpg",
       "images/arugam/Foto_24.07.16_13_48_39.jpg",
-      "images/arugam/Foto_25.07.16_09_19_02.jpg"
+      "images/arugam/Foto_25.07.16_09_19_02.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ella",
@@ -950,9 +950,9 @@ var cities = [
       "images/ella/Foto_29.07.16_10_26_59.jpg",
       "images/ella/Foto_29.07.16_10_39_21.jpg",
       "images/ella/Foto_29.07.16_11_42_50.jpg",
-      "images/ella/Foto_29.07.16_11_47_12.jpg"
+      "images/ella/Foto_29.07.16_11_47_12.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Negombo",
@@ -962,9 +962,9 @@ var cities = [
     images: [
       "images/negombo/Foto_10.08.16_06_43_49.jpg",
       "images/negombo/Foto_10.08.16_06_51_53.jpg",
-      "images/negombo/Foto_10.08.16_07_03_36.jpg"
+      "images/negombo/Foto_10.08.16_07_03_36.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kuala Lumpur",
@@ -984,9 +984,9 @@ var cities = [
       "images/kualaLumpur/Foto_11.08.16,_09_35_51.jpg",
       "images/kualaLumpur/Foto_11.08.16,_11_02_34.jpg",
       "images/kualaLumpur/Foto_11.08.16,_11_30_56.jpg",
-      "images/kualaLumpur/Foto_11.08.16,_11_36_21.jpg"
+      "images/kualaLumpur/Foto_11.08.16,_11_36_21.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Yangon",
@@ -1005,9 +1005,9 @@ var cities = [
       "images/yangon/Photo_12-08-16_11_10_32.jpg",
       "images/yangon/Photo_12-08-16_11_10_41.jpg",
       "images/yangon/Photo_12-08-16_11_26_33.jpg",
-      "images/yangon/Photo_12-08-16_14_20_20.jpg"
+      "images/yangon/Photo_12-08-16_14_20_20.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Bago",
@@ -1021,9 +1021,9 @@ var cities = [
       "images/bago/Photo_12-08-16_17_57_06.jpg",
       "images/bago/Photo_12-08-16_18_03_27.jpg",
       "images/bago/Photo_12-08-16_18_07_59.jpg",
-      "images/bago/Photo_12-08-16_18_26_45.jpg"
+      "images/bago/Photo_12-08-16_18_26_45.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kalaw",
@@ -1035,9 +1035,9 @@ var cities = [
       "images/kalaw/Photo_14-08-16_13_24_39.jpg",
       "images/kalaw/Photo_14-08-16_14_00_17.jpg",
       "images/kalaw/Photo_14-08-16_15_14_53.jpg",
-      "images/kalaw/Photo_15-08-16_12_42_38.jpg"
+      "images/kalaw/Photo_15-08-16_12_42_38.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Nyaung Shwe",
@@ -1064,9 +1064,9 @@ var cities = [
       "images/nyaungShwe/Photo_17-08-16_15_34_38.jpg",
       "images/nyaungShwe/Photo_17-08-16_15_45_50.jpg",
       "images/nyaungShwe/Photo_17-08-16_15_54_23.jpg",
-      "images/nyaungShwe/Photo_17-08-16_17_53_37.jpg"
+      "images/nyaungShwe/Photo_17-08-16_17_53_37.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Nyaung U",
@@ -1093,9 +1093,9 @@ var cities = [
       "images/nyaungU/Photo_19-08-16_18_23_09.jpg",
       "images/nyaungU/Photo_19-08-16_18_23_34.jpg",
       "images/nyaungU/Photo_19-08-16_18_23_42.jpg",
-      "images/nyaungU/Photo_19-08-16_18_35_15.jpg"
+      "images/nyaungU/Photo_19-08-16_18_35_15.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Hsipaw",
@@ -1108,9 +1108,9 @@ var cities = [
       "images/hsipaw/Photo_23-08-16_17_48_15.jpg",
       "images/hsipaw/Photo_24-08-16_11_44_40.jpg",
       "images/hsipaw/Photo_24-08-16_13_17_28.jpg",
-      "images/hsipaw/Photo_24-08-16_13_20_41.jpg"
+      "images/hsipaw/Photo_24-08-16_13_20_41.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Mandalay",
@@ -1121,9 +1121,9 @@ var cities = [
       "images/mandalay/Photo_25-08-16_13_15_32.jpg",
       "images/mandalay/Photo_25-08-16_14_02_51.jpg",
       "images/mandalay/Photo_25-08-16_14_22_08.jpg",
-      "images/mandalay/Photo_25-08-16_15_47_14.jpg"
+      "images/mandalay/Photo_25-08-16_15_47_14.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Phuket",
@@ -1132,9 +1132,9 @@ var cities = [
     country: "Thailand",
     images: [
       "images/phuket/Photo_26-08-16_23_02_15.jpg",
-      "images/phuket/Photo_26-08-16_23_27_47.jpg"
+      "images/phuket/Photo_26-08-16_23_27_47.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ko Phi Phi",
@@ -1149,9 +1149,9 @@ var cities = [
       "images/kophiphi/Photo_27-08-16_22_18_38.jpg",
       "images/kophiphi/Photo_27-08-16_23_03_40.jpg",
       "images/kophiphi/Photo_27-08-16_23_49_43.jpg",
-      "images/kophiphi/Photo_28-08-16_21_32_11.jpg"
+      "images/kophiphi/Photo_28-08-16_21_32_11.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ranong",
@@ -1159,7 +1159,7 @@ var cities = [
     id: "ranong",
     country: "Thailand",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Krabi",
@@ -1167,7 +1167,7 @@ var cities = [
     id: "krabi",
     country: "Thailand",
     images: ["images/krabi/Photo_29-08-16_17_54_58.jpg"],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ko Phayam",
@@ -1184,9 +1184,9 @@ var cities = [
       "images/kophayam/Photo_31-08-16_16_13_12.jpg",
       "images/kophayam/Photo_31-08-16_16_15_35.jpg",
       "images/kophayam/Photo_31-08-16_16_15_43.jpg",
-      "images/kophayam/Photo_31-08-16_18_35_19.jpg"
+      "images/kophayam/Photo_31-08-16_18_35_19.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Bangkok",
@@ -1210,9 +1210,9 @@ var cities = [
       "images/bangkok/Photo_10-09-16_19_12_47.jpg",
       "images/bangkok/Photo_10-09-16_21_16_49.jpg",
       "images/bangkok/Photo_10-09-16_21_23_51.jpg",
-      "images/bangkok/Photo_10-09-16_21_24_08.jpg"
+      "images/bangkok/Photo_10-09-16_21_24_08.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ho Chi Minh",
@@ -1227,9 +1227,9 @@ var cities = [
       "images/hoChiMinh/Photo_13-09-16_16_50_56.jpg",
       "images/hoChiMinh/Photo_13-09-16_17_14_27.jpg",
       "images/hoChiMinh/Photo_13-09-16_17_14_55.jpg",
-      "images/hoChiMinh/Photo_13-09-16_17_16_09.jpg"
+      "images/hoChiMinh/Photo_13-09-16_17_16_09.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Mui Ne",
@@ -1245,9 +1245,9 @@ var cities = [
       "images/muine/Photo_16-09-16_11_55_26.jpg",
       "images/muine/Photo_16-09-16_12_46_48.jpg",
       "images/muine/Photo_16-09-16_13_47_32.jpg",
-      "images/muine/Photo_16-09-16_16_14_41.jpg"
+      "images/muine/Photo_16-09-16_16_14_41.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Dalat",
@@ -1267,9 +1267,9 @@ var cities = [
       "images/dalat/Photo_18-09-16_16_26_05.jpg",
       "images/dalat/Photo_18-09-16_16_39_01.jpg",
       "images/dalat/Photo_18-09-16_17_21_55_(1).jpg",
-      "images/dalat/Photo_18-09-16_17_21_55.jpg"
+      "images/dalat/Photo_18-09-16_17_21_55.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Nha Trang",
@@ -1279,9 +1279,9 @@ var cities = [
     images: [
       "images/nhaTrang/Photo_19-09-16_15_00_44.jpg",
       "images/nhaTrang/Photo_19-09-16_15_35_26.jpg",
-      "images/nhaTrang/Photo_24-09-16_11_58_10.jpg"
+      "images/nhaTrang/Photo_24-09-16_11_58_10.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kon Tum",
@@ -1297,9 +1297,9 @@ var cities = [
       "images/kontum/Photo_21-09-16_12_29_15.jpg",
       "images/kontum/Photo_21-09-16_12_31_45.jpg",
       "images/kontum/Photo_21-09-16_12_33_51.jpg",
-      "images/kontum/Photo_21-09-16_13_38_30.jpg"
+      "images/kontum/Photo_21-09-16_13_38_30.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Hoi An",
@@ -1318,9 +1318,9 @@ var cities = [
       "images/hoian/Photo_23-09-16_18_44_30.jpg",
       "images/hoian/Photo_23-09-16_19_03_38.jpg",
       "images/hoian/Photo_23-09-16_19_08_17.jpg",
-      "images/hoian/Photo_23-09-16_19_22_31.jpg"
+      "images/hoian/Photo_23-09-16_19_22_31.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Hue",
@@ -1338,9 +1338,9 @@ var cities = [
       "images/hue/Photo_25-09-2016,_15_11_10.jpg",
       "images/hue/Photo_25-09-2016,_15_13_30.jpg",
       "images/hue/Photo_25-09-2016,_17_53_34.jpg",
-      "images/hue/Photo_26-09-2016,_15_25_21.jpg"
+      "images/hue/Photo_26-09-2016,_15_25_21.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Khe Sanh",
@@ -1348,7 +1348,7 @@ var cities = [
     id: "khesanh",
     country: "Vietnam",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Phong Nha",
@@ -1364,9 +1364,9 @@ var cities = [
       "images/phongNha/Photo_27-09-2016,_15_08_36.jpg",
       "images/phongNha/Photo_27-09-2016,_17_14_18.jpg",
       "images/phongNha/Photo_27-09-2016,_22_18_43.jpg",
-      "images/phongNha/Photo_28-09-2016,_17_39_50.jpg"
+      "images/phongNha/Photo_28-09-2016,_17_39_50.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Tam Coc",
@@ -1381,9 +1381,9 @@ var cities = [
       "images/tamCoc/Photo_30-09-2016,_15_12_12.jpg",
       "images/tamCoc/Photo_30-09-2016,_15_33_34.jpg",
       "images/tamCoc/Photo_30-09-2016,_15_35_03.jpg",
-      "images/tamCoc/Photo_30-09-2016,_15_39_17.jpg"
+      "images/tamCoc/Photo_30-09-2016,_15_39_17.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Hanoi",
@@ -1395,9 +1395,9 @@ var cities = [
       "images/hanoi/Photo_01-10-2016,_11_25_50.jpg",
       "images/hanoi/Photo_01-10-2016,_11_52_51.jpg",
       "images/hanoi/Photo_01-10-2016,_13_09_56.jpg",
-      "images/hanoi/Photo_01-10-2016,_23_41_53.jpg"
+      "images/hanoi/Photo_01-10-2016,_23_41_53.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Cat Ba",
@@ -1410,9 +1410,9 @@ var cities = [
       "images/catBa/Photo_03-10-2016,_10_25_21.jpg",
       "images/catBa/Photo_03-10-2016,_10_25_32.jpg",
       "images/catBa/Photo_03-10-2016,_17_13_44.jpg",
-      "images/catBa/Photo_04-10-2016,_08_38_10.jpg"
+      "images/catBa/Photo_04-10-2016,_08_38_10.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "That Khe",
@@ -1420,7 +1420,7 @@ var cities = [
     id: "thatkhe",
     country: "Vietnam",
     images: ["images/thatKhe/Photo_04-10-2016,_17_32_35.jpg"],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Cao Bang",
@@ -1431,9 +1431,9 @@ var cities = [
       "images/caoBang/Photo_05-10-2016,_10_50_02.jpg",
       "images/caoBang/Photo_05-10-2016,_11_16_56.jpg",
       "images/caoBang/Photo_05-10-2016,_15_13_40.jpg",
-      "images/caoBang/Photo_05-10-2016,_15_16_05.jpg"
+      "images/caoBang/Photo_05-10-2016,_15_16_05.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Meo Vac",
@@ -1447,9 +1447,9 @@ var cities = [
       "images/meoVac/Photo_05-10-2016,_17_03_38.jpg",
       "images/meoVac/Photo_05-10-2016,_17_04_12.jpg",
       "images/meoVac/Photo_05-10-2016,_17_15_47.jpg",
-      "images/meoVac/Photo_05-10-2016,_17_19_38.jpg"
+      "images/meoVac/Photo_05-10-2016,_17_19_38.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Dong Van",
@@ -1457,7 +1457,7 @@ var cities = [
     id: "dongVan",
     country: "Vietnam",
     images: ["images/dongVan/Photo_06-10-2016,_08_34_39.jpg"],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Bac Ha",
@@ -1466,9 +1466,9 @@ var cities = [
     country: "Vietnam",
     images: [
       "images/bacHa/Photo_06-10-2016,_17_49_20.jpg",
-      "images/bacHa/Photo_07-10-2016,_11_46_10.jpg"
+      "images/bacHa/Photo_07-10-2016,_11_46_10.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Muong Khuong",
@@ -1478,9 +1478,9 @@ var cities = [
     images: [
       "images/muongKhuong/Photo_07-10-2016,_11_46_15.jpg",
       "images/muongKhuong/Photo_07-10-2016,_12_18_45.jpg",
-      "images/muongKhuong/Photo_07-10-2016,_14_31_05.jpg"
+      "images/muongKhuong/Photo_07-10-2016,_14_31_05.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Sa Pa",
@@ -1500,9 +1500,9 @@ var cities = [
       "images/sapa/Photo_08-10-2016,_15_32_27.jpg",
       "images/sapa/Photo_08-10-2016,_15_32_39.jpg",
       "images/sapa/Photo_08-10-2016,_15_33_01.jpg",
-      "images/sapa/Photo_09-10-2016,_18_52_29.jpg"
+      "images/sapa/Photo_09-10-2016,_18_52_29.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Mai Chau",
@@ -1511,9 +1511,9 @@ var cities = [
     country: "Vietnam",
     images: [
       "images/maiChau/Photo_10-10-2016,_16_46_02.jpg",
-      "images/maiChau/Photo_10-10-2016,_16_51_02.jpg"
+      "images/maiChau/Photo_10-10-2016,_16_51_02.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Viangxay",
@@ -1522,9 +1522,9 @@ var cities = [
     country: "Laos",
     images: [
       "images/viengxay/Photo_11-10-2016,_17_17_37.jpg",
-      "images/viengxay/Photo_12-10-2016,_16_07_09.jpg"
+      "images/viengxay/Photo_12-10-2016,_16_07_09.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Phonsavan",
@@ -1539,9 +1539,9 @@ var cities = [
       "images/phonsavan/Photo_13-10-2016,_13_32_27.jpg",
       "images/phonsavan/Photo_14-10-2016,_11_47_41.jpg",
       "images/phonsavan/Photo_14-10-2016,_17_33_47.jpg",
-      "images/phonsavan/Photo_14-10-2016,_17_35_01.jpg"
+      "images/phonsavan/Photo_14-10-2016,_17_35_01.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Luang Prabang",
@@ -1564,9 +1564,9 @@ var cities = [
       "images/luangPrabang/Photo_17-10-2016,_20_02_52.jpg",
       "images/luangPrabang/Photo_18-10-2016,_12_34_02.jpg",
       "images/luangPrabang/Photo_18-10-2016,_12_40_41.jpg",
-      "images/luangPrabang/Photo_18-10-2016,_14_56_37.jpg"
+      "images/luangPrabang/Photo_18-10-2016,_14_56_37.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Vang Vieng",
@@ -1577,9 +1577,9 @@ var cities = [
       "images/vangvieng/Photo_18-10-2016,_16_44_52.jpg",
       "images/vangvieng/Photo_18-10-2016,_17_11_41.jpg",
       "images/vangvieng/Photo_19-10-2016,_16_22_11.jpg",
-      "images/vangvieng/Photo_19-10-2016,_17_23_37.jpg"
+      "images/vangvieng/Photo_19-10-2016,_17_23_37.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Vientiane",
@@ -1594,9 +1594,9 @@ var cities = [
       "images/vientiane/Photo_25-10-2016,_11_57_51.jpg",
       "images/vientiane/Photo_25-10-2016,_11_58_20.jpg",
       "images/vientiane/Photo_25-10-2016,_11_59_44.jpg",
-      "images/vientiane/Photo_25-10-2016,_12_05_49.jpg"
+      "images/vientiane/Photo_25-10-2016,_12_05_49.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Pakxan",
@@ -1604,7 +1604,7 @@ var cities = [
     id: "pakxan",
     country: "Laos",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kong Lor",
@@ -1616,9 +1616,9 @@ var cities = [
       "images/kongLor/Photo_26-10-2016,_13_52_09.jpg",
       "images/kongLor/Photo_26-10-2016,_14_57_07.jpg",
       "images/kongLor/Photo_26-10-2016,_15_49_07.jpg",
-      "images/kongLor/Photo_26-10-2016,_15_51_29.jpg"
+      "images/kongLor/Photo_26-10-2016,_15_51_29.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Thalang",
@@ -1626,7 +1626,7 @@ var cities = [
     id: "thalang",
     country: "Laos",
     images: ["images/thalang/Photo_27-10-2016,_14_02_43.jpg"],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Thakhek",
@@ -1634,7 +1634,7 @@ var cities = [
     id: "thakhek",
     country: "Laos",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Pakse",
@@ -1642,7 +1642,7 @@ var cities = [
     id: "pakse",
     country: "Laos",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Don Det",
@@ -1656,9 +1656,9 @@ var cities = [
       "images/donDet/Photo_03-11-2016,_12_03_17.jpg",
       "images/donDet/Photo_30-10-2016,_11_17_34.jpg",
       "images/donDet/Photo_30-10-2016,_17_07_16.jpg",
-      "images/donDet/Photo_31-10-2016,_15_19_28.jpg"
+      "images/donDet/Photo_31-10-2016,_15_19_28.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ban Lung",
@@ -1667,9 +1667,9 @@ var cities = [
     country: "Cambodia",
     images: [
       "images/banlung/Photo_05-11-2016,_13_04_49.jpg",
-      "images/banlung/Photo_05-11-2016,_17_39_08.jpg"
+      "images/banlung/Photo_05-11-2016,_17_39_08.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Preah Vihear",
@@ -1677,7 +1677,7 @@ var cities = [
     id: "preahVihear",
     country: "Cambodia",
     images: [],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Siam Reap",
@@ -1702,9 +1702,9 @@ var cities = [
       "images/siamReap/Photo_08-11-2016,_15_24_06.jpg",
       "images/siamReap/Photo_08-11-2016,_15_32_11.jpg",
       "images/siamReap/Photo_08-11-2016,_15_58_47.jpg",
-      "images/siamReap/Photo_08-11-2016,_16_02_42.jpg"
+      "images/siamReap/Photo_08-11-2016,_16_02_42.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Battambang",
@@ -1717,9 +1717,9 @@ var cities = [
       "images/battambang/Photo_10-11-2016,_13_51_25.jpg",
       "images/battambang/Photo_10-11-2016,_14_05_52.jpg",
       "images/battambang/Photo_10-11-2016,_14_19_06.jpg",
-      "images/battambang/Photo_10-11-2016,_14_24_13.jpg"
+      "images/battambang/Photo_10-11-2016,_14_24_13.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Phnom Penh",
@@ -1730,9 +1730,9 @@ var cities = [
       "images/phnomPenh/Photo_11-11-2016,_14_11_19.jpg",
       "images/phnomPenh/Photo_11-11-2016,_16_46_22.jpg",
       "images/phnomPenh/Photo_11-11-2016,_17_31_04.jpg",
-      "images/phnomPenh/Photo_11-11-2016,_18_32_44.jpg"
+      "images/phnomPenh/Photo_11-11-2016,_18_32_44.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kampot",
@@ -1745,9 +1745,9 @@ var cities = [
       "images/kampot/Photo_15-11-2016,_13_15_50.jpg",
       "images/kampot/Photo_15-11-2016,_13_55_24.jpg",
       "images/kampot/Photo_15-11-2016,_14_03_06.jpg",
-      "images/kampot/Photo_15-11-2016,_18_45_45.jpg"
+      "images/kampot/Photo_15-11-2016,_18_45_45.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ream",
@@ -1758,9 +1758,9 @@ var cities = [
       "images/ream/Photo_16-11-2016,_17_07_51.jpg",
       "images/ream/Photo_16-11-2016,_17_08_04_(1).jpg",
       "images/ream/Photo_16-11-2016,_17_08_04.jpg",
-      "images/ream/Photo_18-11-2016,_11_07_34.jpg"
+      "images/ream/Photo_18-11-2016,_11_07_34.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Sihanoukville",
@@ -1768,7 +1768,7 @@ var cities = [
     id: "sihanoukville",
     country: "Cambodia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Koh Rong",
@@ -1784,9 +1784,9 @@ var cities = [
       "images/kohRong/Photo_20-11-2016,_14_04_20.jpg",
       "images/kohRong/Photo_21-11-2016,_15_43_23.jpg",
       "images/kohRong/Photo_21-11-2016,_22_43_02.jpg",
-      "images/kohRong/Photo_22-11-2016,_12_20_40.jpg"
+      "images/kohRong/Photo_22-11-2016,_12_20_40.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Dubai",
@@ -1800,9 +1800,9 @@ var cities = [
       "images/dubai/Photo_25-11-2016,_15_05_30.jpg",
       "images/dubai/Photo_25-11-2016,_15_12_46_(1).jpg",
       "images/dubai/Photo_25-11-2016,_15_53_30.jpg",
-      "images/dubai/Photo_25-11-2016,_16_15_33.jpg"
+      "images/dubai/Photo_25-11-2016,_16_15_33.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Berlin",
@@ -1810,7 +1810,7 @@ var cities = [
     id: "berlin",
     country: "Germany",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Leipzig",
@@ -1818,7 +1818,7 @@ var cities = [
     id: "leipzig",
     country: "Germany",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Mayrhofen",
@@ -1826,7 +1826,7 @@ var cities = [
     id: "mayrhofen",
     country: "Austria",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Zürich",
@@ -1834,7 +1834,7 @@ var cities = [
     id: "zuerich",
     country: "Switzerland",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Val disere",
@@ -1842,7 +1842,7 @@ var cities = [
     id: "valdisere",
     country: "France",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Frankfurt",
@@ -1850,7 +1850,7 @@ var cities = [
     id: "frankfurt",
     country: "Germany",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Arambol",
@@ -1861,9 +1861,9 @@ var cities = [
       "images/arambol/Photo_06-03-2017,_16_57_16.jpg",
       "images/arambol/Photo_12-02-2017,_16_07_37.jpg",
       "images/arambol/Photo_13-02-2017,_17_29_55.jpg",
-      "images/arambol/Photo_21-02-2017,_16_00_27.jpg"
+      "images/arambol/Photo_21-02-2017,_16_00_27.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Hampi",
@@ -1892,9 +1892,9 @@ var cities = [
       "images/hampi/DSC00109.jpg",
       "images/hampi/DSC00115.jpg",
       "images/hampi/DSC00117.jpg",
-      "images/hampi/DSC00119.jpg"
+      "images/hampi/DSC00119.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Gokarna",
@@ -1908,9 +1908,9 @@ var cities = [
       "images/gokarna/Photo_05-03-2017,_13_05_58.jpg",
       "images/gokarna/Photo_05-03-2017,_13_17_37.jpg",
       "images/gokarna/Photo_05-03-2017,_15_05_18.jpg",
-      "images/gokarna/Photo_05-03-2017,_15_49_34.jpg"
+      "images/gokarna/Photo_05-03-2017,_15_49_34.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Madikeri",
@@ -1918,7 +1918,7 @@ var cities = [
     id: "madikeri",
     country: "India",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Mysore",
@@ -1935,9 +1935,9 @@ var cities = [
       "images/mysore/DSC00136.jpg",
       "images/mysore/DSC00137.jpg",
       "images/mysore/DSC00138.jpg",
-      "images/mysore/DSC00139.jpg"
+      "images/mysore/DSC00139.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Pondicherry",
@@ -1948,9 +1948,9 @@ var cities = [
       "images/pondicherry/DSC00145.jpg",
       "images/pondicherry/DSC00146.jpg",
       "images/pondicherry/DSC00147.jpg",
-      "images/pondicherry/DSC00148.jpg"
+      "images/pondicherry/DSC00148.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Auroville",
@@ -1961,9 +1961,9 @@ var cities = [
       "images/auroville/DSC00140.jpg",
       "images/auroville/DSC00143.jpg",
       "images/auroville/DSC00144.jpg",
-      "images/auroville/DSC00150.jpg"
+      "images/auroville/DSC00150.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Chennai",
@@ -1973,9 +1973,9 @@ var cities = [
     images: [
       "images/chennai/IMG_20170316_214711.jpg",
       "images/chennai/IMG_20170330_172111.jpg",
-      "images/chennai/IMG_20170331_103644.jpg"
+      "images/chennai/IMG_20170331_103644.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Port Blair",
@@ -1996,9 +1996,9 @@ var cities = [
       "images/portBlair/IMG_20170318_140138.jpg",
       "images/portBlair/IMG_20170318_164728.jpg",
       "images/portBlair/IMG_20170318_164740.jpg",
-      "images/portBlair/IMG_20170318_175205.jpg"
+      "images/portBlair/IMG_20170318_175205.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Havelock",
@@ -2019,9 +2019,9 @@ var cities = [
       "images/havelock/IMG_20170324_173218.jpg",
       "images/havelock/IMG_20170326_112040.jpg",
       "images/havelock/IMG_20170326_120904.jpg",
-      "images/havelock/IMG_20170326_121133.jpg"
+      "images/havelock/IMG_20170326_121133.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Little Andamann",
@@ -2045,9 +2045,9 @@ var cities = [
       "images/littleAndamann/DSC00168.jpg",
       "images/littleAndamann/DSC00169.jpg",
       "images/littleAndamann/DSC00170.jpg",
-      "images/littleAndamann/DSC00171.jpg"
+      "images/littleAndamann/DSC00171.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Mahabalipuram",
@@ -2055,7 +2055,7 @@ var cities = [
     id: "mahabalipuram",
     country: "India",
     images: ["images/mahabalipuram/IMG_20170331_173005.jpg"],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Tiruvannamali",
@@ -2065,9 +2065,9 @@ var cities = [
     images: [
       "images/tiruvannamali/IMG_20170401_195750.jpg",
       "images/tiruvannamali/IMG_20170402_101614.jpg",
-      "images/tiruvannamali/IMG_20170402_114001.jpg"
+      "images/tiruvannamali/IMG_20170402_114001.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Tharangambadi",
@@ -2075,7 +2075,7 @@ var cities = [
     id: "tharangambadi",
     country: "India",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Thanjavur",
@@ -2083,7 +2083,7 @@ var cities = [
     id: "thanjavur",
     country: "India",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Rameswaram",
@@ -2091,7 +2091,7 @@ var cities = [
     id: "rameswaram",
     country: "India",
     images: ["images/rameswaram/20170408_124838.jpg"],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Kanyakumari",
@@ -2099,7 +2099,7 @@ var cities = [
     id: "kanyakumari",
     country: "India",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Varkala",
@@ -2107,7 +2107,7 @@ var cities = [
     id: "varkala",
     country: "India",
     images: ["images/varkala/IMG_20170415_140008.jpg"],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Alappuzha",
@@ -2120,9 +2120,9 @@ var cities = [
       "images/alappuzha/IMG_20170417_104022.jpg",
       "images/alappuzha/IMG_20170417_104246.jpg",
       "images/alappuzha/IMG_20170417_113250.jpg",
-      "images/alappuzha/IMG_20170417_134637.jpg"
+      "images/alappuzha/IMG_20170417_134637.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kochi",
@@ -2135,9 +2135,9 @@ var cities = [
       "images/kochi/IMG_20170419_171417.jpg",
       "images/kochi/IMG_20170419_171803.jpg",
       "images/kochi/IMG_20170419_175719.jpg",
-      "images/kochi/IMG_20170420_173255.jpg"
+      "images/kochi/IMG_20170420_173255.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Munnar",
@@ -2156,9 +2156,9 @@ var cities = [
       "images/munnar/IMG_20170426_173346.jpg",
       "images/munnar/IMG_20170427_123319.jpg",
       "images/munnar/IMG_20170427_123351.jpg",
-      "images/munnar/IMG_20170427_134709.jpg"
+      "images/munnar/IMG_20170427_134709.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kodaikanal",
@@ -2166,7 +2166,7 @@ var cities = [
     id: "kodaikanal",
     country: "India",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Vattakanal",
@@ -2178,9 +2178,9 @@ var cities = [
       "images/vattakanal/IMG_20170423_110811.jpg",
       "images/vattakanal/IMG_20170423_110831.jpg",
       "images/vattakanal/IMG_20170423_201140.jpg",
-      "images/vattakanal/IMG_20170425_115603.jpg"
+      "images/vattakanal/IMG_20170425_115603.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kotagiri",
@@ -2188,7 +2188,7 @@ var cities = [
     id: "kotagiri",
     country: "India",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kannur",
@@ -2196,7 +2196,7 @@ var cities = [
     id: "kannur",
     country: "India",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Lucknow",
@@ -2206,9 +2206,9 @@ var cities = [
     images: [
       "images/lucknow/IMG_20170512_093914.jpg",
       "images/lucknow/IMG_20170512_094107.jpg",
-      "images/lucknow/IMG_20170512_100351.jpg"
+      "images/lucknow/IMG_20170512_100351.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kushinagar",
@@ -2219,9 +2219,9 @@ var cities = [
       "images/kushinagar/IMG_20170512_173431.jpg",
       "images/kushinagar/IMG_20170512_173822.jpg",
       "images/kushinagar/IMG_20170512_180103.jpg",
-      "images/kushinagar/IMG_20170513_082324.jpg"
+      "images/kushinagar/IMG_20170513_082324.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kathmandu",
@@ -2237,9 +2237,9 @@ var cities = [
       "images/kathmandu/IMG_20170517_133757.jpg",
       "images/kathmandu/IMG_20170517_135407.jpg",
       "images/kathmandu/IMG_20170517_135519.jpg",
-      "images/kathmandu/IMG_20170517_141236.jpg"
+      "images/kathmandu/IMG_20170517_141236.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Pokhara",
@@ -2248,9 +2248,9 @@ var cities = [
     country: "Nepal",
     images: [
       "images/pokhara/IMG_20170518_183152.jpg",
-      "images/pokhara/IMG_20170518_183207.jpg"
+      "images/pokhara/IMG_20170518_183207.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Beshisahar",
@@ -2336,9 +2336,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Bhulbhule",
@@ -2424,9 +2424,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Chamje",
@@ -2512,9 +2512,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Timang",
@@ -2600,9 +2600,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Lower Pisang",
@@ -2688,9 +2688,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Manang",
@@ -2776,9 +2776,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Yak Khagar",
@@ -2864,9 +2864,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Thorung Phedi",
@@ -2952,9 +2952,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ranipauwa",
@@ -3040,9 +3040,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Marpha",
@@ -3128,9 +3128,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Tatopani",
@@ -3216,9 +3216,9 @@ var cities = [
       "images/annapurna/DSC00223.jpg",
       "images/annapurna/DSC00224.jpg",
       "images/annapurna/DSC00225.jpg",
-      "images/annapurna/DSC00226.jpg"
+      "images/annapurna/DSC00226.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Chiang Mai",
@@ -3226,7 +3226,7 @@ var cities = [
     id: "chiangMai",
     country: "Thailand",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Pai",
@@ -3252,9 +3252,9 @@ var cities = [
       "images/pai/IMG_20170629_140716.jpg",
       "images/pai/IMG_20170630_183501.jpg",
       "images/pai/IMG_20170630_183512.jpg",
-      "images/pai/IMG_20170630_183525.jpg"
+      "images/pai/IMG_20170630_183525.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Jakarta",
@@ -3264,9 +3264,9 @@ var cities = [
     images: [
       "images/jakarta/IMG_20170705_135211.jpg",
       "images/jakarta/IMG_20170706_143058.jpg",
-      "images/jakarta/IMG_20170706_144832.jpg"
+      "images/jakarta/IMG_20170706_144832.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Lubuan Bajo",
@@ -3285,9 +3285,9 @@ var cities = [
       "images/lubuanBajo/IMG_20170710_113540_1.jpg",
       "images/lubuanBajo/IMG_20170710_121502.jpg",
       "images/lubuanBajo/IMG_20170710_121634.jpg",
-      "images/lubuanBajo/IMG_20170710_122721.jpg"
+      "images/lubuanBajo/IMG_20170710_122721.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ferry Point 1",
@@ -3295,7 +3295,7 @@ var cities = [
     id: "ferryPoint1",
     country: "Indonesia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ferry Point 2",
@@ -3303,7 +3303,7 @@ var cities = [
     id: "ferryPoint2",
     country: "Indonesia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ferry Point 3",
@@ -3311,7 +3311,7 @@ var cities = [
     id: "ferryPoint3",
     country: "Indonesia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ferry Point 4",
@@ -3319,7 +3319,7 @@ var cities = [
     id: "ferryPoint4",
     country: "Indonesia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Gilli T",
@@ -3330,9 +3330,9 @@ var cities = [
       "images/gilliT/IMG_20170713_180830.jpg",
       "images/gilliT/IMG_20170713_181610.jpg",
       "images/gilliT/IMG_20170714_175748.jpg",
-      "images/gilliT/IMG_20170714_183144.jpg"
+      "images/gilliT/IMG_20170714_183144.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kuta Lombok",
@@ -3343,9 +3343,9 @@ var cities = [
       "images/kutaLombok/IMG_20170715_175055.jpg",
       "images/kutaLombok/IMG_20170721_135658.jpg",
       "images/kutaLombok/IMG_20170728_143925.jpg",
-      "images/kutaLombok/IMG_20170728_173415.jpg"
+      "images/kutaLombok/IMG_20170728_173415.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Beijing",
@@ -3362,9 +3362,9 @@ var cities = [
       "images/beijing/IMG_20170801_143127.jpg",
       "images/beijing/IMG_20170801_143915.jpg",
       "images/beijing/IMG_20170801_143956.jpg",
-      "images/beijing/IMG_20170801_152504.jpg"
+      "images/beijing/IMG_20170801_152504.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Ulaanbaatar",
@@ -3379,9 +3379,9 @@ var cities = [
       "images/ulaanbaatar/IMG_20170803_173520.jpg",
       "images/ulaanbaatar/IMG_20170804_160315.jpg",
       "images/ulaanbaatar/IMG_20170805_145109.jpg",
-      "images/ulaanbaatar/IMG_20170805_145113.jpg"
+      "images/ulaanbaatar/IMG_20170805_145113.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Khatgal",
@@ -3409,9 +3409,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 1",
@@ -3439,9 +3439,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 2",
@@ -3469,9 +3469,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 3",
@@ -3499,9 +3499,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 4",
@@ -3529,9 +3529,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 5",
@@ -3559,9 +3559,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 6",
@@ -3589,9 +3589,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 7",
@@ -3619,9 +3619,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 8",
@@ -3649,9 +3649,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 9",
@@ -3679,9 +3679,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 10",
@@ -3709,9 +3709,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 11",
@@ -3739,9 +3739,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 12",
@@ -3769,9 +3769,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 13",
@@ -3799,9 +3799,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 14",
@@ -3829,9 +3829,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 15",
@@ -3859,9 +3859,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 16",
@@ -3889,9 +3889,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 17",
@@ -3919,9 +3919,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 18",
@@ -3949,9 +3949,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Camp spot 19",
@@ -3979,9 +3979,9 @@ var cities = [
       "images/horsetrack/21322678_10212228696699819_190673709_n.jpg",
       "images/horsetrack/21322778_10212228690779671_1744486994_n.jpg",
       "images/horsetrack/21322872_10212228690419662_882128054_n.jpg",
-      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg"
+      "images/horsetrack/21325578_10212228698779871_431370423_n.jpg",
     ],
-    geotagged: 0
+    geotagged: 0,
   },
   {
     name: "Moron",
@@ -3989,7 +3989,7 @@ var cities = [
     id: "moron",
     country: "Mongolia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Moscow",
@@ -4013,9 +4013,9 @@ var cities = [
       "images/moscow/IMG_0128.jpg",
       "images/moscow/IMG_0129.jpg",
       "images/moscow/IMG_0130.jpg",
-      "images/moscow/IMG_0131.jpg"
+      "images/moscow/IMG_0131.jpg",
     ],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Sophia",
@@ -4023,7 +4023,7 @@ var cities = [
     id: "sophia",
     country: "Bulgaria",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Amsterdam",
@@ -4031,7 +4031,7 @@ var cities = [
     id: "amsterdam",
     country: "Netherlands",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Perth",
@@ -4039,7 +4039,7 @@ var cities = [
     id: "perth",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Fremantle",
@@ -4047,7 +4047,7 @@ var cities = [
     id: "frementle",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Margaret River",
@@ -4055,7 +4055,7 @@ var cities = [
     id: "margaretRiver",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Yallingup",
@@ -4063,7 +4063,7 @@ var cities = [
     id: "yallingup",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Prevelly",
@@ -4071,7 +4071,7 @@ var cities = [
     id: "prevelly",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Augusta",
@@ -4079,7 +4079,7 @@ var cities = [
     id: "augusta",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Nannup",
@@ -4087,7 +4087,7 @@ var cities = [
     id: "nannup",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Bridgetown",
@@ -4095,7 +4095,7 @@ var cities = [
     id: "bridgetown",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Manjimup",
@@ -4103,7 +4103,7 @@ var cities = [
     id: "manjimup",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Denmark",
@@ -4111,7 +4111,7 @@ var cities = [
     id: "denmark",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Albany",
@@ -4119,7 +4119,7 @@ var cities = [
     id: "albany",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Melbourne",
@@ -4127,7 +4127,7 @@ var cities = [
     id: "melbourne",
     country: "Australia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Cologne",
@@ -4135,7 +4135,7 @@ var cities = [
     id: "cologne",
     country: "Germany",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Chimay",
@@ -4143,7 +4143,7 @@ var cities = [
     id: "chimay",
     country: "Belgium",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Dune du Pilat",
@@ -4151,7 +4151,7 @@ var cities = [
     id: "duneduPilat",
     country: "France",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Valladolid",
@@ -4159,7 +4159,7 @@ var cities = [
     id: "valladolid",
     country: "Spain",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Idanha a Nova",
@@ -4167,7 +4167,7 @@ var cities = [
     id: "idanhaANova",
     country: "Portugal",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Porto",
@@ -4175,7 +4175,7 @@ var cities = [
     id: "porto",
     country: "Portugal",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "London",
@@ -4183,7 +4183,7 @@ var cities = [
     id: "london",
     country: "United Kingdom",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Dublin",
@@ -4191,7 +4191,7 @@ var cities = [
     id: "dublin",
     country: "Ireland",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Tokyo",
@@ -4199,7 +4199,7 @@ var cities = [
     id: "tokyo",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Fujikawaguchiko",
@@ -4207,7 +4207,7 @@ var cities = [
     id: "fujikawaguchiko",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Tsumago",
@@ -4215,7 +4215,7 @@ var cities = [
     id: "tsumago",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Magome",
@@ -4223,7 +4223,7 @@ var cities = [
     id: "Magome",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kyoto",
@@ -4231,7 +4231,7 @@ var cities = [
     id: "kyoto",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Nara",
@@ -4239,7 +4239,7 @@ var cities = [
     id: "nara",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Osaka",
@@ -4247,7 +4247,7 @@ var cities = [
     id: "osaka",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kobe",
@@ -4255,7 +4255,7 @@ var cities = [
     id: "kobe",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Himeji",
@@ -4263,7 +4263,7 @@ var cities = [
     id: "himeji",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Okayama",
@@ -4271,7 +4271,7 @@ var cities = [
     id: "okayama",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Naoshima",
@@ -4279,7 +4279,7 @@ var cities = [
     id: "naoshima",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Hiroshima",
@@ -4287,7 +4287,7 @@ var cities = [
     id: "hiroshima",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Miyajima",
@@ -4295,7 +4295,7 @@ var cities = [
     id: "miyajima",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kagoshima",
@@ -4303,7 +4303,7 @@ var cities = [
     id: "kagoshima",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Yakushima",
@@ -4311,7 +4311,7 @@ var cities = [
     id: "yakushima",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kanazawa",
@@ -4319,7 +4319,7 @@ var cities = [
     id: "kanazawa",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Takayama",
@@ -4327,7 +4327,7 @@ var cities = [
     id: "takayama",
     country: "Japan",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Cape Town",
@@ -4335,7 +4335,7 @@ var cities = [
     id: "capeTown",
     country: "South Africa",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Kopenhagen",
@@ -4343,7 +4343,7 @@ var cities = [
     id: "kopenhagen",
     country: "Denmark",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Athens",
@@ -4351,7 +4351,7 @@ var cities = [
     id: "athens",
     country: "Greece",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Pula",
@@ -4359,7 +4359,7 @@ var cities = [
     id: "pula",
     country: "Croatia",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Istanbul",
@@ -4367,7 +4367,7 @@ var cities = [
     id: "istanbul",
     country: "Turkey",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "TelAviv",
@@ -4375,7 +4375,7 @@ var cities = [
     id: "telAviv",
     country: "Israel",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Milano",
@@ -4383,7 +4383,7 @@ var cities = [
     id: "milano",
     country: "Italy",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Budapest",
@@ -4391,7 +4391,7 @@ var cities = [
     id: "budapest",
     country: "Hungary",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Prag",
@@ -4399,7 +4399,7 @@ var cities = [
     id: "prag",
     country: "CzechRepublic",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Gdansk",
@@ -4407,7 +4407,7 @@ var cities = [
     id: "Gdansk",
     country: "Poland",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Toronto",
@@ -4415,7 +4415,7 @@ var cities = [
     id: "toronto",
     country: "Canada",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Cancun",
@@ -4423,7 +4423,7 @@ var cities = [
     id: "cancun",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Playa del Carmen",
@@ -4431,7 +4431,7 @@ var cities = [
     id: "playaDelCarmen",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Holbox",
@@ -4439,7 +4439,7 @@ var cities = [
     id: "holbox",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Merida",
@@ -4447,7 +4447,7 @@ var cities = [
     id: "merdia",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Valladolid",
@@ -4455,7 +4455,7 @@ var cities = [
     id: "valladolid",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Coba",
@@ -4463,7 +4463,7 @@ var cities = [
     id: "coba",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Tullum",
@@ -4471,7 +4471,7 @@ var cities = [
     id: "tullum",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Bacalar",
@@ -4479,7 +4479,7 @@ var cities = [
     id: "bacalar",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Palenque",
@@ -4487,7 +4487,7 @@ var cities = [
     id: "palenque",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "San Christobal",
@@ -4495,7 +4495,7 @@ var cities = [
     id: "San Christobal",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Puerto Escondido",
@@ -4503,7 +4503,7 @@ var cities = [
     id: "purtoEscondido",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Oaxaca",
@@ -4511,7 +4511,7 @@ var cities = [
     id: "oaxaca",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Mexico City",
@@ -4519,7 +4519,7 @@ var cities = [
     id: "mexicoCity",
     country: "Mexico",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Lisbon",
@@ -4527,7 +4527,7 @@ var cities = [
     id: "lisbon",
     country: "Portugal",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Crato",
@@ -4535,7 +4535,7 @@ var cities = [
     id: "crato",
     country: "Portugal",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Peniche",
@@ -4543,7 +4543,7 @@ var cities = [
     id: "peniche",
     country: "Portugal",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Lagos",
@@ -4551,7 +4551,7 @@ var cities = [
     id: "lagos",
     country: "Portugal",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Faro",
@@ -4559,7 +4559,7 @@ var cities = [
     id: "faro",
     country: "Portugal",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Sagres",
@@ -4567,7 +4567,7 @@ var cities = [
     id: "sagres",
     country: "Portugal",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Thessaloniki",
@@ -4575,7 +4575,7 @@ var cities = [
     id: "thessaloniki",
     country: "Greece",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Litochoro",
@@ -4583,7 +4583,7 @@ var cities = [
     id: "litochoro",
     country: "Greece",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Argalasti",
@@ -4591,7 +4591,7 @@ var cities = [
     id: "argalasti",
     country: "Greece",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Platania",
@@ -4599,7 +4599,7 @@ var cities = [
     id: "platania",
     country: "Greece",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Nea Mesangle",
@@ -4607,7 +4607,7 @@ var cities = [
     id: "neaMesangle",
     country: "Greece",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Rome",
@@ -4615,7 +4615,7 @@ var cities = [
     id: "rome",
     country: "Italy",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Vatican City",
@@ -4623,7 +4623,7 @@ var cities = [
     id: "vaticanCity",
     country: "Vatican City",
     images: [],
-    geotagged: 1
+    geotagged: 1,
   },
   {
     name: "Stockholm",
@@ -4631,6 +4631,86 @@ var cities = [
     id: "stockholm",
     country: "Sweden",
     images: [],
-    geotagged: 1
-  }
+    geotagged: 1,
+  },
+  {
+    name: "Grevesmühlen",
+    latlng: [53.861614, 11.190339],
+    id: "grevesmuehlen",
+    country: "Germany",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Brno",
+    latlng: [49.196848, 16.60105],
+    id: "brno",
+    country: "CzechRepublic",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Vienna",
+    latlng: [48.191735, 16.374054],
+    id: "vienna",
+    country: "Austria",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Ledenitzen",
+    latlng: [46.567597, 13.963458],
+    id: "ledenitzen",
+    country: "Austria",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Trieste",
+    latlng: [45.637076, 13.776865],
+    id: "trieste",
+    country: "Italy",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Koper",
+    latlng: [45.548033, 13.730468],
+    id: "koper",
+    country: "Slovenia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Izola",
+    latlng: [45.536626, 13.660361],
+    id: "izola",
+    country: "Slovenia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Piran",
+    latlng: [45.528283, 13.568404],
+    id: "piran",
+    country: "Slovenia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Ljubljana",
+    latlng: [46.052392, 14.510209],
+    id: "ljublana",
+    country: "Slovenia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Bled",
+    latlng: [46.368066, 14.113505],
+    id: "bled",
+    country: "Slovenia",
+    images: [],
+    geotagged: 1,
+  },
 ];
