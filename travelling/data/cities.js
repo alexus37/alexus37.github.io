@@ -4713,4 +4713,20 @@ var cities = [
     images: [],
     geotagged: 1,
   },
+  {
+    name: "Dervio",
+    latlng: [46.075882, 9.307482],
+    id: "dervio",
+    country: "Italy",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Finale",
+    latlng: [44.168622, 8.341013],
+    id: "finale",
+    country: "Italy",
+    images: [],
+    geotagged: 1,
+  }
 ];
