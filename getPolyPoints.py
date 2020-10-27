@@ -55,7 +55,7 @@ def requestData(origin, destination, key, mode = 'driving'):
 
 if __name__ == "__main__":
     if(len(sys.argv) < 4):
-       print("usage getPolyPoints.py <key> <origin> <destination> ")
+        print("usage getPolyPoints.py <key> <origin> <destination> ")
     else:
         requestData(sys.argv[1], sys.argv[2], sys.argv[3])
 
