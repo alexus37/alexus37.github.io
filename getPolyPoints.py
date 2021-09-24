@@ -46,6 +46,8 @@ def requestData(origin, destination, key, mode = 'driving'):
     if (j['status'] == 'ZERO_RESULTS'):
         print('No routes found!')
         return  
+    elif len(j['routes']) == 0:
+        print(j) 
     else:
         coordinates = decode_polyline(j['routes'][0]['overview_polyline']['points'])
         print(coordinates)
