@@ -4785,4 +4785,20 @@ var cities = [
     images: [],
     geotagged: 1,
   },
+  {
+    name: "Sharm El-Sheikh",
+    latlng: [27.97126191852382, 34.368164659320236],
+    id: "sharmElSheikh",
+    country: "Egypt",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Dahab",
+    latlng: [28.500361193903345, 34.49506317555162],
+    id: "dahab",
+    country: "Egypt",
+    images: [],
+    geotagged: 1,
+  },
 ];
