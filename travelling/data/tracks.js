@@ -1932,5 +1932,19 @@ var tracks = [
         "to": "dahab",
         "type": "car"
     },
+    {
+        "fromLatLng": [52.520645, 13.409779],
+        "toLatLng": [39.570205, 2.650320],
+        "from": "pontaDelgada",
+        "to": "palma",
+        "type": "flight"
+    },
+    {
+        "fromLatLng": [39.570205, 2.650320],
+        "toLatLng": [52.520645, 13.409779],
+        "from": "palma",
+        "to": "frankfurt",
+        "type": "flight"
+    },
 ];
 

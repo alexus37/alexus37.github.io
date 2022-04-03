@@ -4801,4 +4801,12 @@ var cities = [
     images: [],
     geotagged: 1,
   },
+  {
+    name: "Palma",
+    latlng: [39.570205, 2.650320],
+    id: "palma",
+    country: "Spain",
+    images: [],
+    geotagged: 1,
+  },
 ];
