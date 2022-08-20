@@ -17,15 +17,6 @@
         background-color: #232227;
       }
 
-      #container {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
-        height: 100%;
-        width: 100%;
-      }
-
       #viewDiv {
         padding: 0;
         margin: 0;
@@ -45,12 +36,14 @@
       }
       #travelDist svg {
         height: 400px;
-        width: 600px;
+        width: 100%;
       }
 
       #countries {
-        height: 400px;
-        width: 600px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
 
       }
       svg text {
@@ -62,6 +55,49 @@
       }
       .nv-bar text {
         fill: white !important;
+      }
+      .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      /* Style the buttons that are used to open the tab content */
+      .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+      }
+
+      /* Change background color of buttons on hover */
+      .tab button:hover {
+        background-color: #ddd;
+      }
+
+      /* Create an active/current tablink class */
+      .tab button.active {
+        background-color: #ccc;
+      }
+
+      /* Style the tab content */
+      .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
       }
 
     </style>
@@ -84,17 +120,49 @@
     <script type="text/javascript" src="data/tracks.js"></script>
     <script type="text/javascript" src="data/latlng.js"></script>
     <script src="js/travelling_v2.js"></script>
+    <script >
+      function openTab(evt, tabname) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(`${tabname}Container`).style.display = "flex";
+        evt.currentTarget.className += " active";
+      }
+    </script>
   </head>
 
   <body>
-    <div id="container">
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'map')">Map</button>
+      <button class="tablinks" onclick="openTab(event, 'distance')">Travel Distance</button>
+      <button class="tablinks" onclick="openTab(event, 'country')">Countries</button>
+    </div>
+    
+    <div id="mapContainer" class="tabcontent">
       <div id="viewDiv"></div>
-      <div id="statsContainer">
+    </div>
+
+    <div id="distanceContainer" class="tabcontent">
         <div id="travelDist">
           <svg></svg>
         </div>
-        <div id="countries"></div>
-      </div>
+    </div>
+
+    <div id="countryContainer" class="tabcontent">
+      <div id="countries"></div>
     </div>
   </body>
 </html>
