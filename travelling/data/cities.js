@@ -4849,4 +4849,12 @@ var cities = [
     images: [],
     geotagged: 1,
   },
+  {
+    name: "Barcelona",
+    latlng: [41.375476, 2.148108],
+    id: "barcelona",
+    country: "Spain",
+    images: [],
+    geotagged: 1,
+  },
 ];

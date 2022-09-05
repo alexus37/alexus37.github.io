@@ -2012,5 +2012,19 @@ var tracks = [
         "to": "glasgow",
         "type": "train"
     },
+    {
+        "fromLatLng": [52.52437, 13.41053],
+        "toLatLng": [41.375476, 2.148108],
+        "from": "berlin",
+        "to": "barcelona",
+        "type": "flight"
+    },
+    {
+        "fromLatLng": [41.375476, 2.148108],
+        "toLatLng": [52.52437, 13.41053],
+        "from": "barcelona",
+        "to": "berlin",
+        "type": "flight"
+    },
 ];
 
