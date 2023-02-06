@@ -4913,4 +4913,20 @@ var cities = [
     images: [],
     geotagged: 1,
   },
+  {
+    name: "Bruges",
+    latlng: [51.207298, 3.22648],
+    id: "bruges",
+    country: "Belgium",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Brussels",
+    latlng: [50.850791, 4.350554],
+    id: "brussels",
+    country: "Belgium",
+    images: [],
+    geotagged: 1,
+  },
 ];
