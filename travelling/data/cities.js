@@ -4929,4 +4929,70 @@ var cities = [
     images: [],
     geotagged: 1,
   },
+  {
+    name: "Copenhagen",
+    latlng: [55.682042673, 12.5830209198],
+    id: "copenhagen",
+    country: "Denmark",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Alversjö",
+    latlng: [57.621377, 14.92629],
+    id: "alversjoe",
+    country: "Sweden",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Tbilisi",
+    latlng: [
+      41.716667, 44.783333
+    ],
+    id: "tbilisi",
+    country: "Georgia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Kutaisi",
+    latlng: [
+      42.25, 42.716667
+    ],
+    id: "kutaisi",
+    country: "Georgia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Mestia",
+    latlng: [
+      43.045278, 42.729167
+    ],
+    id: "mestia",
+    country: "Georgia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Batumi",
+    latlng: [
+      41.641667, 41.633333
+    ],
+    id: "batumi",
+    country: "Georgia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Stepantsminda",
+    latlng: [
+      42.6575, 44.641667
+    ],
+    id: "stepantsminda",
+    country: "Georgia",
+    images: [],
+    geotagged: 1,
+  },
 ];
