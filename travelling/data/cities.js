@@ -4995,4 +4995,64 @@ var cities = [
     images: [],
     geotagged: 1,
   },
+  {
+    name: "Rio de Janerio",
+    latlng: [
+      -22.8991930, -43.209410
+    ],
+    id: "rioDeJanerio",
+    country: "Brazil",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Angra dos Reis",
+    latlng: [
+      -23.00184200758879, -44.29913514307441
+    ],
+    id: "AngraDosReis",
+    country: "Brazil",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Sao Paulo",
+    latlng: [
+      -23.55459463823299, -46.66129348945041
+    ],
+    id: "saoPaulo",
+    country: "Brazil",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Paraty",
+    latlng: [
+      -23.219357469339844, -44.71675828105096
+    ],
+    id: "paraty",
+    country: "Brazil",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Fortaleza",
+    latlng: [
+      -3.7314497539400175, -38.53084612194982
+    ],
+    id: "fortaleza",
+    country: "Brazil",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Buenos Aires",
+    latlng: [
+      -34.603708062788876, -58.381580378885516
+    ],
+    id: "buenosAires",
+    country: "Argentina",
+    images: [],
+    geotagged: 1,
+  },
 ];
