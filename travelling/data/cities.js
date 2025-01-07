@@ -5055,4 +5055,34 @@ var cities = [
     images: [],
     geotagged: 1,
   },
+  {
+    name: "San Francisco",
+    latlng: [
+      37.774929, -122.419418
+    ],
+    id: "sanFrancisco",
+    country: "United States of America",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "fallon",
+    latlng: [
+      39.474531, -118.777433
+    ],
+    id: "fallon",
+    country: "United States of America",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "blackRockCity",
+    latlng: [
+      40.788, -119.203
+    ],
+    id: "blackRockCity",
+    country: "United States of America",
+    images: [],
+    geotagged: 1,
+  },
 ];
