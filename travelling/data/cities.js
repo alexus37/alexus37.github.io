@@ -5085,4 +5085,124 @@ var cities = [
     images: [],
     geotagged: 1,
   },
+  {
+    name: "vancouver",
+    latlng: [
+      49.282729, -123.120738
+    ],
+    id: "vancouver",
+    country: "Canada",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "bellaCoola",
+    latlng: [
+      52.000000, -126.000000
+    ],
+    id: "bellaCoola",
+    country: "Canada",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "bogota",
+    latlng: [
+      4.611, -74.08175
+    ],
+    id: "bogota",
+    country: "Colombia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "salento",
+    latlng: [
+      4.623, -75.200
+    ],
+    id: "salento",
+    country: "Colombia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "medellin",
+    latlng: [
+      6.2442, -75.5812
+    ],
+    id: "medellin",
+    country: "Colombia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "sanAndres",
+    latlng: [
+      12.584722, -81.710278
+    ],
+    id: "sanAndres",
+    country: "Colombia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "baranquilla",
+    latlng: [
+      10.963889, -74.796944
+    ],
+    id: "baranquilla",
+    country: "Colombia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "santaMarta",
+    latlng: [
+      11.2408, -74.1990
+    ],
+    id: "santaMarta",
+    country: "Colombia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "palomino",
+    latlng: [
+      10.983333, -74.166667
+    ],
+    id: "palomino",
+    country: "Colombia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "santaVeronica",
+    latlng: [
+      10.880937374770422, -75.08043178897321
+    ],
+    id: "santaVeronica",
+    country: "Colombia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "Cartagena",
+    latlng: [
+      10.391049, -75.479426
+    ],
+    id: "cartagena",
+    country: "Colombia",
+    images: [],
+    geotagged: 1,
+  },
+  {
+    name: "lasVegas",
+    latlng: [
+      36.169941, -115.13983
+    ],
+    id: "lasVegas",
+    country: "United States of America",
+    images: [],
+    geotagged: 1,
+  },
 ];
